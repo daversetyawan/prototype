@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
@@ -8,12 +8,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="css/metro-bootstrap.css">
-<link rel="stylesheet" href="css/metro-bootstrap-responsive.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/jquery/jquery.min.js"></script>
-<script src="js/jquery/jquery.widget.min.js"></script>
-<script src="js/metro/metro.min.js"></script>
+<link rel="stylesheet" href="../css/metro-bootstrap.css">
+<link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery/jquery.min.js"></script>
+<script src="../js/jquery/jquery.widget.min.js"></script>
+<script src="../js/metro/metro.min.js"></script>
 
 <title>Employee</title>
 </head>
@@ -31,28 +31,27 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th colspan=3 class="text-center">Employee List</th>
+								<th class="text-center text-bold"><h2>Employee List</h2></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Search by</td>
-								<td>:</td>
-								<td><div class="input-control select size2">
-									<select id="search">
-										<option value=""></option>
-										<option value="">All</option>
-										<option value="employeeDomain">Employee Domain</option>
-										<option value="employeeCode">Employee Code</option>
-										<option value="employeeName">Employee Name</option>
-										<option value="employeeAddress">Employee Address</option>
-									</select>
-									</div> &nbsp;&nbsp;&nbsp;
-									<div class="input-control text size3">
-										<input type="text"/>
+								<td class="text-center"><div
+										class="input-control select size3">
+										<select id="search">
+											<option value="">All</option>
+											<option value="employeeDomain">Employee Domain</option>
+											<option value="employeeCode">Employee Code</option>
+											<option value="employeeName">Employee Name</option>
+											<option value="employeeAddress">Employee Address</option>
+										</select>
+									</div>
+									<div class="input-control text size7">
+										<input type="text" placeholder="Keyword of Employee" />
 										<button class="btn-search"></button>
 									</div>
-								</td>
+									<img alt="" src="../images/add_employee.png">
+									</td>
 							</tr>
 						</tbody>
 					</table>
@@ -60,13 +59,13 @@
 					<table class="table striped bordered hovered">
 						<thead>
 							<tr>
-								<th class="text-center">Domain </th>
-								<th class="text-center">Code </th>
-								<th class="text-center">NIK </th>
-								<th class="text-center">Name </th>
-								<th class="text-center">Address </th>
-								<th class="text-center">Edit </th>
-								<th class="text-center">Delete </th>
+								<th class="text-center">Domain</th>
+								<th class="text-center">Code</th>
+								<th class="text-center">NIK</th>
+								<th class="text-center">Name</th>
+								<th class="text-center">Address</th>
+								<th class="text-center">Edit</th>
+								<th class="text-center">Delete</th>
 							</tr>
 						</thead>
 						<tbody>
