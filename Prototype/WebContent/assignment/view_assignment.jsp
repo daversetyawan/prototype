@@ -24,7 +24,7 @@
 	});
 </script>
 
-<title>Aprroval Assignment</title>
+<title>Assignment</title>
 </head>
 <body class="metro">
 	<%@ include file="../frame/header.jsp"%>
@@ -38,8 +38,7 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<td colspan=3 class="text-center text-bold">Approval
-									Assignment</td>
+								<td colspan=3 class="text-center text-bold">View Assignment</td>
 							</tr>
 						</thead>
 						<tbody>
@@ -86,61 +85,7 @@
 												<td class="text-center">2013-11-15</td>
 												<td><textarea rows="2" class="input-control textarea">inwan</textarea>
 												</td>
-												<td class="text-center"><div
-														class="input-control select size-mh">
-														<select>
-															<option>00:30</option>
-															<option>01:00</option>
-															<option>01:30</option>
-															<option>02:00</option>
-															<option>02:30</option>
-															<option>03:00</option>
-															<option>03:30</option>
-															<option>04:00</option>
-															<option>04:30</option>
-															<option>05:00</option>
-															<option>05:30</option>
-															<option>06:00</option>
-															<option>06:30</option>
-															<option>07:00</option>
-															<option>07:30</option>
-															<option>08:00</option>
-															<option>08:30</option>
-															<option>09:00</option>
-															<option>09:30</option>
-															<option>10:00</option>
-															<option>10:30</option>
-															<option>11:00</option>
-															<option>11:30</option>
-															<option>12:00</option>
-															<option>12:30</option>
-															<option>13:00</option>
-															<option>13:30</option>
-															<option>14:00</option>
-															<option>14:30</option>
-															<option>15:00</option>
-															<option>15:30</option>
-															<option>16:00</option>
-															<option>16:30</option>
-															<option>17:00</option>
-															<option>17:30</option>
-															<option>18:00</option>
-															<option>18:30</option>
-															<option>19:00</option>
-															<option>19:30</option>
-															<option>20:00</option>
-															<option>20:30</option>
-															<option>21:00</option>
-															<option>21:30</option>
-															<option>22:00</option>
-															<option>22:30</option>
-															<option>22:00</option>
-															<option>22:30</option>
-															<option>23:00</option>
-															<option>23:30</option>
-															<option>24:00</option>
-														</select>
-													</div></td>
+												<td class="text-center">02:00</td>
 											</tr>
 											<tr>
 												<td colspan=2 class="text-right">Total</td>
@@ -174,9 +119,7 @@
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">
-									<button class="button success">Approve</button>
-									<button class="button warning">Correction</button>
-									<button class="button danger">Reject</button>
+									<button class="button success">Update Star</button>
 									<button class="button info">Cancel</button>
 								</td>
 							</tr>

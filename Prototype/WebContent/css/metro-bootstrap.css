@@ -1278,6 +1278,12 @@ a {
 .metro .size1 {
   width: 60px !important;
 }
+
+.metro .span-mh,
+.metro .size-mh {
+  width: 80px !important;
+}
+
 .metro .span2,
 .metro .size2 {
   width: 140px !important;
