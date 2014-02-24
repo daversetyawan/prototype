@@ -8,6 +8,14 @@
 <link href="css/metro-bootstrap.css" rel="stylesheet">
 <link href="css/metro-bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style-login.css" rel="stylesheet">
+<script type="text/javascript">
+function hover(element) {
+    element.setAttribute('src', 'images/LOGIN_ENABLE.png');
+}
+function unhover(element) {
+    element.setAttribute('src', 'images/LOGIN_DISABLE.png');
+}
+</script>
 </head>
 <body class="metro">
 	<div class="panel-taps">
@@ -18,14 +26,13 @@
 				placeholder="Username" /> <br /> <input type="password"
 				class="textbox-taps" name="password" id="password"
 				placeholder="Password" /> <br /> <br />
-			<div class="input-control checkbox left">
+			<div class="input-control checkbox align-left">
 				<label class="check-label"> <input type="checkbox" /> <span
 					class="check"></span> Keep me signed in
 				</label>
 			</div>
-			<br /> <a href="index.jsp" class="login-taps"> <i
-				class="icon-arrow-right-3"></i>
-			</a>
+			<br />
+			<input type="image" class="login-taps" src="images/LOGIN_DISABLE.png" onmouseover="hover(this);" onmouseout="unhover(this);">
 		</form>
 
 	</div>

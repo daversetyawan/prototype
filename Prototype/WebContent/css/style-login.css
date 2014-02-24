@@ -43,8 +43,9 @@ h1.title-taps {
 	font-size: 1.3em;
 }
 
-.left {
+.align-left {
 	text-align: left;
+	margin-left: -150px;
 }
 
 label.check-label {
@@ -55,8 +56,11 @@ label.check-label {
 .login-taps {
 	font-size: 2em;
 	position: absolute;
-	bottom: 114px;
-	right: 30px;
+	bottom: 47px;
+	right: 40px;
+	width: 40px;
+	height: 40px;
+	z-index: 10;
 }
 
 .footer-taps {
