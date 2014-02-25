@@ -48,8 +48,9 @@
 									<div class="input-control text size7">
 										<input type="text" placeholder="Keyword of Organization" />
 										<button class="btn-search"></button>
-									</div>
-									<button onclick="" class="primary">Add</button></td>
+									</div> <a href="#" data-hint="Add Organization"
+									data-hint-position="bottom"><img alt=""
+										src="../images/ADD_ORGANIZATIONS.png"></a>
 							</tr>
 						</tbody>
 					</table>
@@ -119,7 +120,8 @@
 						</tbody>
 					</table>
 
-				</div> <!-- end div content -->
+				</div>
+				<!-- end div content -->
 			</div>
 		</div>
 	</div>
