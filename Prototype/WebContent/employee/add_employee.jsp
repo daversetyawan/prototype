@@ -13,8 +13,6 @@
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
-<script src="../js/metro/metro-calendar.min.js"></script>
-<script src="../js/metro/metro-datepicker.min.js"></script>
 
 <title>Employee</title>
 </head>
