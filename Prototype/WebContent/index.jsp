@@ -16,13 +16,13 @@
 </head>
 <body class="metro">
 	<jsp:include page="frame/header.jsp" />
-	<div class="grid dashboard">
+	<div class="grid">
 		<div class="row">
-			<div class="span3" name="menu">
+			<div class="span4" id="menu">
 				<jsp:include page="frame/menu.jsp" />
 			</div>
 
-			<div class="span14" name="content">
+			<div class="span13" id="content">
 				<div class="span6">
 					<h2 class="fg-white">To-do List</h2>
 					<div class="tile bg-cyan">
@@ -52,8 +52,7 @@
 					</div>
 				</div>
 
-
-				<div class="span8">
+				<div class="span7">
 					<h2 class="fg-white">Employee Ranking</h2>
 					<table class="table striped bordered hovered">
 						<thead>
