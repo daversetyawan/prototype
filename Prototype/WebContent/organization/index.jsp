@@ -71,33 +71,57 @@
 								<td class="text-center">MAN</td>
 								<td class="text-center">Manajemen</td>
 								<td>Guntur Gozali</td>
-								<td class="text-center">Member</td>
-								<td class="text-center"><a href="#">Edit</a></td>
-								<td class="text-center"><a href="#">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Member Organization" data-hint-position="bottom"><img
+										alt="" src="../images/MEMBER.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Organization" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Organization" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td class="text-center">CSD</td>
 								<td class="text-center">Custom Solution Division</td>
 								<td>Ricky Suryo Utomo</td>
-								<td class="text-center">Member</td>
-								<td class="text-center"><a href="#">Edit</a></td>
-								<td class="text-center"><a href="#">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Member Organization" data-hint-position="bottom"><img
+										alt="" src="../images/MEMBER.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Organization" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Organization" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td class="text-center">CDD</td>
 								<td class="text-center">Custom Development Department</td>
 								<td>Toto Hugo</td>
-								<td class="text-center">Member</td>
-								<td class="text-center"><a href="#">Edit</a></td>
-								<td class="text-center"><a href="#">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Member Organization" data-hint-position="bottom"><img
+										alt="" src="../images/MEMBER.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Organization" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Organization" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td class="text-center">MAD</td>
 								<td class="text-center">Mobile Application Department</td>
 								<td>Rolensa Mandeno</td>
-								<td class="text-center">Member</td>
-								<td class="text-center"><a href="#">Edit</a></td>
-								<td class="text-center"><a href="#">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Member Organization" data-hint-position="bottom"><img
+										alt="" src="../images/MEMBER.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Organization" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Organization" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td colspan=7 class="text-center">

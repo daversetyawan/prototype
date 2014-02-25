@@ -81,9 +81,15 @@
 								<td>01/11/2013</td>
 								<td>31/12/2013</td>
 								<td>20</td>
-								<td><a href="">Structure</a></td>
-								<td><a href="">Edit</a></td>
-								<td><a href="">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Member Project" data-hint-position="bottom"><img
+										alt="" src="../images/MEMBER.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Project" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Project" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td>POPA</td>
@@ -94,9 +100,15 @@
 								<td>01/11/2013</td>
 								<td>30/12/2013</td>
 								<td>20</td>
-								<td><a href="">Structure</a></td>
-								<td><a href="">Edit</a></td>
-								<td><a href="">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Member Project" data-hint-position="bottom"><img
+										alt="" src="../images/MEMBER.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Project" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Project" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td colspan=9 class="text-center">

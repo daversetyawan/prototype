@@ -76,8 +76,12 @@
 								<td class="text-center">555</td>
 								<td>Devri</td>
 								<td class="text-center">senen</td>
-								<td class="text-center"><a href="#">Edit</a></td>
-								<td class="text-center"><a href="#">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Employee" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Employee" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td class="text-center">wirya.jaya</td>
@@ -85,8 +89,12 @@
 								<td class="text-center">555</td>
 								<td>Wirya</td>
 								<td class="text-center">kebon</td>
-								<td class="text-center"><a href="#">Edit</a></td>
-								<td class="text-center"><a href="#">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Employee" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Employee" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td class="text-center">vinsen.surya</td>
@@ -94,8 +102,12 @@
 								<td class="text-center">555</td>
 								<td>Vinsen</td>
 								<td class="text-center">meruya</td>
-								<td class="text-center"><a href="#">Edit</a></td>
-								<td class="text-center"><a href="#">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Employee" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Employee" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td colspan=7 class="text-center">
