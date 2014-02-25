@@ -22,14 +22,15 @@
 				<jsp:include page="frame/menu.jsp" />
 			</div>
 
+
 			<div class="span13">
 				<div class="content-taps">
 					<div class="span6">
 						<h2 class="fg-white">To-do List</h2>
 						<div class="tile bg-cyan">
 							<div class="tile-content icon">
-								<a href="assignment/list_assignment.jsp"><img
-									src="images/taps.png"></a>
+								<a href="#" data-hint="Approval Assignment" data-hint-position="left"><img
+									alt="" src="images/APPROVAL_ASSIGNMENT.png"></a>
 							</div>
 							<div class="brand">
 								<div class="badge bg-red">10</div>
@@ -37,7 +38,8 @@
 						</div>
 						<div class="tile bg-cyan">
 							<div class="tile-content icon">
-								Claim <img src="images/taps.png">
+								<a href="#" data-hint="Approval Self Assignment" data-hint-position="left"><img
+									alt="" src="images/APPROVAL_NEW_ASSIGNMENT.png"></a>
 							</div>
 							<div class="brand">
 								<div class="badge bg-red">10</div>
@@ -45,7 +47,35 @@
 						</div>
 						<div class="tile bg-cyan">
 							<div class="tile-content icon">
-								Claim <img src="images/taps.png">
+								<a href="#" data-hint="Claim Assignment" data-hint-position="left"><img
+									alt="" src="images/CLAIM_ASSIGNMENT.png"></a>
+							</div>
+							<div class="brand">
+								<div class="badge bg-red">10</div>
+							</div>
+						</div>
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								<a href="#" data-hint="Claim Self Assignment" data-hint-position="left"><img
+									alt="" src="images/CLAIM_NEW_ASSIGNMENT.png"></a>
+							</div>
+							<div class="brand">
+								<div class="badge bg-red">10</div>
+							</div>
+						</div>
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								<a href="#" data-hint="Correction Assignment" data-hint-position="left"><img
+									alt="" src="images/CORRECTION_ASSIGNMENT.png"></a>
+							</div>
+							<div class="brand">
+								<div class="badge bg-red">10</div>
+							</div>
+						</div>
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								<a href="#" data-hint="Correction Self Assignment" data-hint-position="left"><img
+									alt="" src="images/CORRECTION_NEW_ASSIGNMENT.png"></a>
 							</div>
 							<div class="brand">
 								<div class="badge bg-red">10</div>
