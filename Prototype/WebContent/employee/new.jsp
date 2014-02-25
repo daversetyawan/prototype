@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -38,11 +38,14 @@
 							<tr>
 								<td>Employee Domain</td>
 								<td>:</td>
-								<td>
-									<input type="text" />
-									<button onclick="">AD List</button>
-								</td>
-								<td rowspan="5">foto employee</td>
+								<td><input type="text" />
+									<button onclick="">AD List</button></td>
+								<td rowspan="5" class="text-center"><img
+									src="../images/user.png" class="cycle avatar"><br>
+									<div class="input-control file size3">
+										<input type="file" />
+										<button class="btn-file"></button>
+									</div></td>
 							</tr>
 							<tr>
 								<td>Employee Code</td>
@@ -62,18 +65,15 @@
 							<tr>
 								<td>Employee Gender</td>
 								<td>:</td>
-								<td>
-									<input type="radio" name="gender" id="gender" value="Male">Male
-									<input type="radio" name="gender" id="gender" value="Female">Female
-								</td>
+								<td><input type="radio" name="gender" id="gender"
+									value="Male">Male <input type="radio" name="gender"
+									id="gender" value="Female">Female</td>
 							</tr>
 							<tr>
 								<td>Business Unit</td>
 								<td>:</td>
-								<td colspan="2">
-									<input type="text" />
-									<button onclick="">...</button>
-								</td>
+								<td colspan="2"><input type="text" />
+									<button onclick="">...</button></td>
 							</tr>
 							<tr>
 								<td>Address</td>
@@ -98,16 +98,14 @@
 							<tr>
 								<td>Golongan</td>
 								<td>:</td>
-								<td colspan="2">
-									<select id="golongan">
+								<td colspan="2"><select id="golongan">
 										<option value=""></option>
 										<option value="2">2</option>
 										<option value="3">3</option>
 										<option value="4">4</option>
 										<option value="5">5</option>
 										<option value="6">6</option>
-									</select>
-									<select id="golongan2">
+								</select> <select id="golongan2">
 										<option value=""></option>
 										<option value="A">A</option>
 										<option value="B">B</option>
@@ -115,12 +113,11 @@
 										<option value="D">D</option>
 										<option value="E">E</option>
 										<option value="F">F</option>
-									</select>
-								</td>
+								</select></td>
 							</tr>
 							<tr>
-								<td colspan="4">
-									<button onclick="">Save</button>
+								<td colspan="4" class="text-right">
+									<button onclick="" class="button success">Save</button>
 									<button onclick="">Cancel</button>
 								</td>
 							</tr>
@@ -134,5 +131,5 @@
 
 	<%@ include file="../frame/footer.jsp"%>
 </body>
-	
+
 </html>
