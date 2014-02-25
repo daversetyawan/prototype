@@ -27,75 +27,128 @@
 			<div class="span13" id="content">
 				<div class="content-taps">
 					<div class="row">
-						<h2 class="fg-white">Special Appraisal</h2>
+						<table class="table">
+							<thead>
+								<tr>
+									<th colspan=7 class="text-center">Special Appraisal</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+										<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+								</tr>
+								<tr>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+										<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+									<td class="text-center"><div class="tile bg-cyan">
+											<div class="tile-content icon">
+												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+													src="../images/taps.png"></a>
+											</div>
+										</div></td>
+								</tr>
+								<tr>
+									<td colspan=6>
+										<div class="pagination">
+											<ul>
+												<li class="first"><a><i class="icon-first-2"></i></a></li>
+												<li class="prev"><a><i class="icon-previous"></i></a></li>
+												<li><a>1</a></li>
+												<li><a>2</a></li>
+												<li class="active"><a>3</a></li>
+												<li class="spaces"><a>...</a></li>
+												<li class="disabled"><a>4</a></li>
+												<li><a>500</a></li>
+												<li class="next"><a><i class="icon-next"></i></a></li>
+												<li class="last"><a><i class="icon-last-2"></i></a></li>
+												<li></li>
+											</ul>
+										</div>
+									</td>
+									<td colspan=1 class="text-center"><a href="#"
+										data-hint="Add Special Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/ADD_STAR.png"></a></td>
+								</tr>
+							</tbody>
+						</table>
 
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								25/02/2014 Devri <a href="view_appraisal.jsp"><img
-									src="../images/taps.png"></a>
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								25/02/2014 Kartiko <img src="../images/taps.png">
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								25/02/2014 Budi <img src="../images/taps.png">
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								24/02/2014 Yusac <img src="../images/taps.png">
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								24/02/2014 Wirya <img src="../images/taps.png">
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								24/02/2014 Vinsen <img src="../images/taps.png">
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
 					</div>
-					<div class="pagination">
-						<ul>
-							<li class="first"><a><i class="icon-first-2"></i></a></li>
-							<li class="prev"><a><i class="icon-previous"></i></a></li>
-							<li><a>1</a></li>
-							<li><a>2</a></li>
-							<li class="active"><a>3</a></li>
-							<li class="spaces"><a>...</a></li>
-							<li class="disabled"><a>4</a></li>
-							<li><a>500</a></li>
-							<li class="next"><a><i class="icon-next"></i></a></li>
-							<li class="last"><a><i class="icon-last-2"></i></a></li>
-						</ul>
-					</div>
-					<div>
-						<button class="success">Add Special Apprisal</button>
-					</div>
+
 				</div>
 				<!-- end div content -->
 			</div>
