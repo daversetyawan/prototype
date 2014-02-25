@@ -22,60 +22,61 @@
 				<jsp:include page="frame/menu.jsp" />
 			</div>
 
-			<div class="span13" id="content">
-				<div class="span6">
-					<h2 class="fg-white">To-do List</h2>
-					<div class="tile bg-cyan">
-						<div class="tile-content icon">
-							<a href="assignment/list_assignment.jsp"><img
-								src="images/taps.png"></a>
+			<div class="span13">
+				<div class="content-taps">
+					<div class="span6">
+						<h2 class="fg-white">To-do List</h2>
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								<a href="assignment/list_assignment.jsp"><img
+									src="images/taps.png"></a>
+							</div>
+							<div class="brand">
+								<div class="badge bg-red">10</div>
+							</div>
 						</div>
-						<div class="brand">
-							<div class="badge bg-red">10</div>
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								Claim <img src="images/taps.png">
+							</div>
+							<div class="brand">
+								<div class="badge bg-red">10</div>
+							</div>
+						</div>
+						<div class="tile bg-cyan">
+							<div class="tile-content icon">
+								Claim <img src="images/taps.png">
+							</div>
+							<div class="brand">
+								<div class="badge bg-red">10</div>
+							</div>
 						</div>
 					</div>
-					<div class="tile bg-cyan">
-						<div class="tile-content icon">
-							Claim <img src="images/taps.png">
-						</div>
-						<div class="brand">
-							<div class="badge bg-red">10</div>
-						</div>
-					</div>
-					<div class="tile bg-cyan">
-						<div class="tile-content icon">
-							Claim <img src="images/taps.png">
-						</div>
-						<div class="brand">
-							<div class="badge bg-red">10</div>
-						</div>
-					</div>
-				</div>
 
-				<div class="span7">
-					<h2 class="fg-white">Employee Ranking</h2>
-					<table class="table striped bordered hovered">
-						<thead>
-							<tr>
-								<td>#</td>
-								<td>Initial</td>
-								<td>Name</td>
-								<td>Star</td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>1</td>
-								<td>DRS</td>
-								<td>Kamashwanee</td>
-								<td>77</td>
-							</tr>
-						</tbody>
-					</table>
+					<div class="span6">
+						<h2 class="fg-white">Employee Ranking</h2>
+						<table class="table striped bordered hovered">
+							<thead>
+								<tr>
+									<td>#</td>
+									<td>Initial</td>
+									<td>Name</td>
+									<td>Star</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>DRS</td>
+									<td>Kamashwanee</td>
+									<td>77</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
+				<!-- end div content -->
 			</div>
-			<!-- end div content -->
-
 		</div>
 	</div>
 	<jsp:include page="frame/footer.jsp" />

@@ -22,14 +22,16 @@
 <title>Assignment</title>
 </head>
 <body class="metro">
-	<jsp:include page="../frame/header.jsp"/>
-	<div class="container">
-		<div class="grid fluid">
-			<div class="row">
-				<div class="span3 dashboard">
-					<jsp:include page="../frame/menu.jsp"/>
-				</div>
-				<div class="span9 dashboard">
+
+	<jsp:include page="../frame/header.jsp" />
+	<div class="grid">
+		<div class="row">
+			<div class="span4">
+				<jsp:include page="../frame/menu.jsp" />
+			</div>
+			
+			<div class="span13">
+				<div class="content-taps">
 					<table class="table">
 						<thead>
 							<tr>
@@ -71,20 +73,13 @@
 					<table class="table striped bordered hovered">
 						<thead>
 							<tr>
-								<th class="text-center">Assignment Date
-								</td>
-								<th class="text-center">Assignment Code
-								</td>
-								<th class="text-center">Assignment Type
-								</td>
-								<th class="text-center">Employee Name
-								</td>
-								<th class="text-center">Deadline
-								</td>
-								<th class="text-center">Data Created
-								</td>
-								<th class="text-center">Status
-								</td>
+								<th class="text-center">Assignment Date</th>
+								<th class="text-center">Assignment Code</th>
+								<th class="text-center">Assignment Type</th>
+								<th class="text-center">Employee Name</th>
+								<th class="text-center">Deadline</th>
+								<th class="text-center">Data Created</th>
+								<th class="text-center">Status</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -135,7 +130,7 @@
 							</tr>
 						</tbody>
 					</table>
-				</div>
+				</div> <!-- end div content -->
 			</div>
 		</div>
 	</div>

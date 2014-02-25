@@ -25,19 +25,20 @@
 <title>Aprroval Assignment</title>
 </head>
 <body class="metro">
-	<jsp:include page="../frame/header.jsp"/>
-	<div class="container">
-		<div class="grid fluid">
-			<div class="row">
-				<div class="span3 dashboard">
-					<jsp:include page="../frame/menu.jsp"/>
-				</div>
-				<div class="span9 dashboard">
+	<jsp:include page="../frame/header.jsp" />
+	<div class="grid">
+		<div class="row">
+			<div class="span4">
+				<jsp:include page="../frame/menu.jsp" />
+			</div>
+			
+			<div class="span13">
+				<div class="content-taps">
 					<table class="table">
 						<thead>
 							<tr>
 								<td colspan=3 class="text-center text-bold">Approval Self
-										Assignment</td>
+									Assignment</td>
 							</tr>
 						</thead>
 						<tbody>
@@ -132,7 +133,8 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
+								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home
+								</td>
 							</tr>
 							<tr>
 								<td>Assignment Star</td>
@@ -195,11 +197,12 @@
 							</tr>
 						</tbody>
 					</table>
-				</div>
+				</div> <!--  end div content -->
 			</div>
 		</div>
 	</div>
 	
 	<jsp:include page="../frame/footer.jsp"/>
+
 </body>
 </html>

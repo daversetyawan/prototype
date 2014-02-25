@@ -20,14 +20,15 @@
 </head>
 
 <body class="metro">
-	<jsp:include page="../frame/header.jsp"/>
-	<div class="container">
-		<div class="grid fluid">
-			<div class="row">
-				<div class="span3 dashboard">
-					<jsp:include page="../frame/menu.jsp"/>
-				</div>
-				<div class="span9 dashboard">
+	<jsp:include page="../frame/header.jsp" />
+	<div class="grid">
+		<div class="row">
+			<div class="span4">
+				<jsp:include page="../frame/menu.jsp" />
+			</div>
+
+			<div class="span13" id="content">
+				<div class="content-taps">
 					<table class="table">
 						<thead>
 							<tr>
@@ -109,7 +110,7 @@
 					</table>
 					<button onclick="">Add</button>
 					<button onclick="">Back</button>
-				</div>
+				</div> <!-- end div content -->
 			</div>
 		</div>
 	</div>
