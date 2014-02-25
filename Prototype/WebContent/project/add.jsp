@@ -36,12 +36,12 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>Role</td>
+								<td class="size3">Role</td>
 								<td>:</td>
 								<td><input type="text" /></td>
 							</tr>
 							<tr>
-								<td>Assignee</td>
+								<td class="size3">Assignee</td>
 								<td>:</td>
 								<td>
 									<input type="text" />
@@ -49,7 +49,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td>Direct Report</td>
+								<td class="size3">Direct Report</td>
 								<td>:</td>
 								<td>
 									<input type="text" />

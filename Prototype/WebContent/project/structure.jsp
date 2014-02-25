@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -7,14 +7,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="css/metro-bootstrap.css">
-<link rel="stylesheet" href="css/metro-bootstrap-responsive.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/jquery/jquery.min.js"></script>
-<script src="js/jquery/jquery.widget.min.js"></script>
-<script src="js/metro/metro.min.js"></script>
-<script src="js/metro/metro-calendar.min.js"></script>
-<script src="js/metro/metro-datepicker.min.js"></script>
+<link rel="stylesheet" href="../css/metro-bootstrap.css">
+<link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery/jquery.min.js"></script>
+<script src="../js/jquery/jquery.widget.min.js"></script>
+<script src="../js/metro/metro.min.js"></script>
+<script src="../js/metro/metro-calendar.min.js"></script>
+<script src="../js/metro/metro-datepicker.min.js"></script>
 
 <title>Project Structure</title>
 </head>
@@ -32,17 +32,17 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<td colspan=3 class="text-center">Projects Structure</td>
+								<th colspan=3 class="text-center">Projects Structure</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Business Unit</td>
+								<td class="size3">Business Unit</td>
 								<td>:</td>
 								<td>Custom Development Department</td>
 							</tr>
 							<tr>
-								<td>Project</td>
+								<td class="size3">Project</td>
 								<td>:</td>
 								<td>Timesheet and Performance Sheet</td>
 							</tr>
@@ -89,7 +89,7 @@
 								<td><a href="">Delete</a></td>
 							</tr>
 							<tr>
-								<td colspan=7 class="text-center">
+								<td colspan=5 class="text-center">
 									<div class="pagination">
 										<ul>
 											<li class="first"><a><i class="icon-first-2"></i></a></li>
@@ -106,16 +106,22 @@
 									</div>
 								</td>
 							</tr>
+							<tr>
+								<td colspan=5 class="text-right">
+									<button onclick="" class="success">Add</button>
+									<button onclick="">Back</button>
+								</td>
+							</tr>
 						</tbody>
 					</table>
-					<button onclick="">Add</button>
-					<button onclick="">Back</button>
-				</div> <!-- end div content -->
+
+				</div>
+				<!-- end div content -->
 			</div>
 		</div>
 	</div>
 
-	<jsp:include page="../frame/footer.jsp"/>
+	<jsp:include page="../frame/footer.jsp" />
 </body>
 
 </html>
