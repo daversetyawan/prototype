@@ -22,7 +22,6 @@
 				<jsp:include page="frame/menu.jsp" />
 			</div>
 
-
 			<div class="span13" id="content">
 				<div class="content-taps">
 					<!--  ISI CONTENT DISINI -->

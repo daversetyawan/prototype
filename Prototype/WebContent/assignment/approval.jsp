@@ -25,14 +25,15 @@
 <title>Aprroval Assignment</title>
 </head>
 <body class="metro">
-	<%@ include file="../frame/header.jsp"%>
-	<div class="container">
-		<div class="grid fluid">
-			<div class="row">
-				<div class="span3 dashboard">
-					<%@ include file="../frame/menu.jsp"%>
-				</div>
-				<div class="span9 dashboard">
+	<jsp:include page="../frame/header.jsp" />
+	<div class="grid">
+		<div class="row">
+			<div class="span4">
+				<jsp:include page="../frame/menu.jsp" />
+			</div>
+
+			<div class="span13">
+				<div class="content-taps">
 					<table class="table">
 						<thead>
 							<tr>
@@ -65,7 +66,8 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
+								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home
+								</td>
 							</tr>
 							<tr>
 								<td>Detail Claim</td>
@@ -208,11 +210,11 @@
 							</tr>
 						</tbody>
 					</table>
-				</div>
+				</div> <!-- end div content -->
 			</div>
 		</div>
 	</div>
 
-	<%@ include file="../frame/footer.jsp"%>
+	<jsp:include page="../frame/footer.jsp" />
 </body>
 </html>
