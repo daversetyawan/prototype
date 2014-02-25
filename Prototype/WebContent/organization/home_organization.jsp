@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
@@ -8,12 +8,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="../css/metro-bootstrap.css">
-<link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
-<link rel="stylesheet" href="../css/style.css">
-<script src="../js/jquery/jquery.min.js"></script>
-<script src="../js/jquery/jquery.widget.min.js"></script>
-<script src="../js/metro/metro.min.js"></script>
+<link rel="stylesheet" href="css/metro-bootstrap.css">
+<link rel="stylesheet" href="css/metro-bootstrap-responsive.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery/jquery.min.js"></script>
+<script src="js/jquery/jquery.widget.min.js"></script>
+<script src="js/metro/metro.min.js"></script>
 
 <title>Employee</title>
 </head>
@@ -31,27 +31,27 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th class="text-center text-bold"><h2>Employee List</h2></th>
+								<th colspan=3 class="text-center">Organization</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="text-center"><div
-										class="input-control select size3">
-										<select id="search">
-											<option value="">All</option>
-											<option value="employeeDomain">Employee Domain</option>
-											<option value="employeeCode">Employee Code</option>
-											<option value="employeeName">Employee Name</option>
-											<option value="employeeAddress">Employee Address</option>
-										</select>
-									</div>
-									<div class="input-control text size7">
-										<input type="text" placeholder="Keyword of Employee" />
+								<td>Search by</td>
+								<td>:</td>
+								<td><div class="input-control select size2">
+									<select id="search">
+										<option value=""></option>
+										<option value="">All</option>
+										<option value="organizationCode">Organization Code</option>
+										<option value="organizationName">Organization Name</option>
+										<option value="headName">Head Name</option>
+									</select>
+									</div> &nbsp;&nbsp;&nbsp;
+									<div class="input-control text size3">
+										<input type="text"/>
 										<button class="btn-search"></button>
 									</div>
-									<img alt="" src="../images/add_employee.png">
-									</td>
+								</td>
 							</tr>
 						</tbody>
 					</table>
@@ -59,40 +59,44 @@
 					<table class="table striped bordered hovered">
 						<thead>
 							<tr>
-								<th class="text-center">Domain</th>
-								<th class="text-center">Code</th>
-								<th class="text-center">NIK</th>
-								<th class="text-center">Name</th>
-								<th class="text-center">Address</th>
+								<th class="text-center">Organization Code</th>
+								<th class="text-center">Organization Name</th>
+								<th class="text-center">Head Name</th>
+								<th class="text-center">Member</th>
 								<th class="text-center">Edit</th>
 								<th class="text-center">Delete</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="text-center">devri.rs</td>
-								<td class="text-center">drs</td>
-								<td class="text-center">555</td>
-								<td>Devri</td>
-								<td class="text-center">senen</td>
+								<td class="text-center">MAN</td>
+								<td class="text-center">Manajemen</td>
+								<td>Guntur Gozali</td>
+								<td class="text-center">Member</td>
 								<td class="text-center"><a href="#">Edit</a></td>
 								<td class="text-center"><a href="#">Delete</a></td>
 							</tr>
 							<tr>
-								<td class="text-center">wirya.jaya</td>
-								<td class="text-center">wjy</td>
-								<td class="text-center">555</td>
-								<td>Wirya</td>
-								<td class="text-center">kebon</td>
+								<td class="text-center">CSD</td>
+								<td class="text-center">Custom Solution Division</td>
+								<td>Ricky Suryo Utomo</td>
+								<td class="text-center">Member</td>
 								<td class="text-center"><a href="#">Edit</a></td>
 								<td class="text-center"><a href="#">Delete</a></td>
 							</tr>
 							<tr>
-								<td class="text-center">vinsen.surya</td>
-								<td class="text-center">vsy</td>
-								<td class="text-center">555</td>
-								<td>Vinsen</td>
-								<td class="text-center">meruya</td>
+								<td class="text-center">CDD</td>
+								<td class="text-center">Custom Development Department</td>
+								<td>Toto Hugo</td>
+								<td class="text-center">Member</td>
+								<td class="text-center"><a href="#">Edit</a></td>
+								<td class="text-center"><a href="#">Delete</a></td>
+							</tr>
+							<tr>
+								<td class="text-center">MAD</td>
+								<td class="text-center">Mobile Application Department</td>
+								<td>Rolensa Mandeno</td>
+								<td class="text-center">Member</td>
 								<td class="text-center"><a href="#">Edit</a></td>
 								<td class="text-center"><a href="#">Delete</a></td>
 							</tr>
@@ -116,6 +120,7 @@
 							</tr>
 						</tbody>
 					</table>
+					<button onclick="">Add</button>
 				</div>
 			</div>
 		</div>
