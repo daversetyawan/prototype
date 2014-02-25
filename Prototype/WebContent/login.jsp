@@ -36,7 +36,7 @@ function unhover(element) {
 		</form>
 
 	</div>
-	<div class="footer-taps">Copyright &copy; 2014 ACE Batch 18. All
+	<div class="footer-taps">Copyright &copy; 2014 ACE Batch-18. All
 		rights reserved.</div>
 </body>
 </html>
