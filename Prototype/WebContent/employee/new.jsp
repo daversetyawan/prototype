@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<jsp:page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -20,12 +20,12 @@
 </head>
 
 <body class="metro">
-	<%@ include file="../frame/header.jsp"%>
+	<jsp:include page="../frame/header.jsp"/>
 	<div class="container">
 		<div class="grid fluid">
 			<div class="row">
 				<div class="span3 dashboard">
-					<%@ include file="../frame/menu.jsp"%>
+					<jsp:include page="../frame/menu.jsp"/>
 				</div>
 				<div class="span9 dashboard">
 					<table class="table">
@@ -129,7 +129,7 @@
 		</div>
 	</div>
 
-	<%@ include file="../frame/footer.jsp"%>
+	<jsp:include page="../frame/footer.jsp"/>
 </body>
 
 </html>

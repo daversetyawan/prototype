@@ -19,12 +19,12 @@
 </head>
 
 <body class="metro">
-	<%@ include file="../frame/header.jsp"%>
+	<jsp:include page="../frame/header.jsp"/>
 	<div class="container">
 		<div class="grid fluid">
 			<div class="row">
 				<div class="span3 dashboard">
-					<%@ include file="../frame/menu.jsp"%>
+					<jsp:include page="../frame/menu.jsp"/>
 				</div>
 				<div class="span9 dashboard">
 					<table class="table">
@@ -68,7 +68,7 @@
 		</div>
 	</div>
 
-	<%@ include file="../frame/footer.jsp"%>
+	<jsp:include page="../frame/footer.jsp"/>
 </body>
 
 </html>
