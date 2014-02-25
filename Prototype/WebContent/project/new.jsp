@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -43,78 +43,68 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>Project Code</td>
-								<td>:</td>
-								<td>
-									<input type="text" />
-								</td>
-							</tr>
-							<tr>
-								<td>Project Name</td>
+								<td class="size3">Project Code</td>
 								<td>:</td>
 								<td><input type="text" /></td>
 							</tr>
 							<tr>
-								<td>Client</td>
+								<td class="size3">Project Name</td>
 								<td>:</td>
 								<td><input type="text" /></td>
 							</tr>
 							<tr>
-								<td>Phase</td>
+								<td class="size3">Client</td>
 								<td>:</td>
-								<td>
-									<select>
+								<td><input type="text" /></td>
+							</tr>
+							<tr>
+								<td class="size3">Phase</td>
+								<td>:</td>
+								<td><select>
 										<option value="requirement">Requirement</option>
 										<option value="development">Development</option>
 										<option value="UAT">UAT</option>
 										<option value="live">Live</option>
-									</select>
-								</td>
+								</select></td>
 							</tr>
 							<tr>
-								<td>Business Unit</td>
+								<td class="size3">Business Unit</td>
 								<td>:</td>
-								<td>
-									<input type="text" />
-									<button  onclick="">...</button>
-								</td>
+								<td><input type="text" />
+									<button onclick="">...</button></td>
 							</tr>
 							<tr>
-								<td>Start Date</td>
+								<td class="size3">Start Date</td>
 								<td>:</td>
 								<td>
-									<div class="input-control text size2"
-										id="datepicker-begin">
+									<div class="input-control text size2" id="datepicker-begin">
 										<input type="text">
 										<button class="btn-date"></button>
-									</div> 
+									</div>
 								</td>
 							</tr>
 							<tr>
-								<td>Estimate Finish Date</td>
+								<td class="size3">Estimate Finish Date</td>
 								<td>:</td>
 								<td>
-									<div class="input-control text size2"
-										id="datepicker-end">
+									<div class="input-control text size2" id="datepicker-end">
 										<input type="text">
 										<button class="btn-date"></button>
-									</div> 
+									</div>
 								</td>
 							</tr>
 							<tr>
-								<td colspan="3">
-									<button onclick="">Save</button>
+								<td colspan="3" class="size3 text-right">
+									<button onclick="" class="success">Save</button>
 									<button onclick="">Cancel</button>
 								</td>
 							</tr>
 						</tbody>
 					</table>
-				</div> <!-- end div content -->
+				</div>
 			</div>
 		</div>
 	</div>
-
-	<jsp:include page="../frame/footer.jsp"/>
+	<jsp:include page="../frame/footer.jsp" />
 </body>
-
 </html>

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -7,14 +7,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="css/metro-bootstrap.css">
-<link rel="stylesheet" href="css/metro-bootstrap-responsive.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/jquery/jquery.min.js"></script>
-<script src="js/jquery/jquery.widget.min.js"></script>
-<script src="js/metro/metro.min.js"></script>
-<script src="js/metro/metro-calendar.min.js"></script>
-<script src="js/metro/metro-datepicker.min.js"></script>
+<link rel="stylesheet" href="../css/metro-bootstrap.css">
+<link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery/jquery.min.js"></script>
+<script src="../js/jquery/jquery.widget.min.js"></script>
+<script src="../js/metro/metro.min.js"></script>
+<script src="../js/metro/metro-calendar.min.js"></script>
+<script src="../js/metro/metro-datepicker.min.js"></script>
 
 <title>Project</title>
 </head>
@@ -32,16 +32,13 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<td colspan=3 class="text-center">Project</td>
+								<th class="text-center">Project</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Search By</td>
-								<td>:</td>
-								<td><div class="input-control select size2">
+								<td><div class="input-control select size3">
 										<select>
-											<option value=""></option>
 											<option value="">All</option>
 											<option value="projectCode">Project Code</option>
 											<option value="projectName">Project Name</option>
@@ -50,11 +47,10 @@
 											<option value="organization">Organization</option>
 										</select>
 									</div> &nbsp;&nbsp;&nbsp;
-									<div class="input-control text size3">
-										<input type="text" />
+									<div class="input-control text size8">
+										<input type="text" placeholder="Keyword of Projects" />
 										<button class="btn-search"></button>
-									</div>
-								</td>
+									</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -103,7 +99,7 @@
 								<td><a href="">Delete</a></td>
 							</tr>
 							<tr>
-								<td colspan=7 class="text-center">
+								<td colspan=8 class="text-center">
 									<div class="pagination">
 										<ul>
 											<li class="first"><a><i class="icon-first-2"></i></a></li>
@@ -119,16 +115,19 @@
 										</ul>
 									</div>
 								</td>
+
+								<td colspan=3 class="text-right">
+									<button onclick="" class="primary">Add Project</button>
+								</td>
 							</tr>
 						</tbody>
 					</table>
-					<button onclick="">Add</button>
-				</div> <!-- end div content -->
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<jsp:include page="../frame/footer.jsp"/>
+	<jsp:include page="../frame/footer.jsp" />
 </body>
 
 </html>
