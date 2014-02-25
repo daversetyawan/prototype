@@ -14,13 +14,13 @@
 <script src="../js/metro/metro.min.js"></script>
 <script>
 	$(document).ready(function() {
-		$("#datepicker-begin").datepicker()({
+		$("#datepicker-begin").datepicker({
 			date : "2014-01-01",
 			format : "dd/mm/yyyy",
 			effect : "none",
 			position : "bottom"
 		});
-		$("#datepicker-end").datepicker()({
+		$("#datepicker-end").datepicker({
 			date : "2014-01-01",
 			format : "dd/mm/yyyy",
 			effect : "none",
@@ -39,18 +39,18 @@
 			<div class="span4">
 				<jsp:include page="../frame/menu.jsp" />
 			</div>
-			
+
 			<div class="span13">
 				<div class="content-taps">
 					<table class="table">
 						<thead>
 							<tr>
-								<td colspan=3 class="text-center">Employee Report</td>
+								<th colspan=3 class="text-center">Employee Report</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Assignment Due Date</td>
+								<td class="size3">Assignment Due Date</td>
 								<td>:</td>
 								<td><div class="input-control text size2"
 										id="datepicker-begin">
@@ -63,7 +63,7 @@
 									</div></td>
 							</tr>
 							<tr>
-								<td>Search By</td>
+								<td class="size3">Search By</td>
 								<td>:</td>
 								<td><div class="input-control select size2">
 										<select>
@@ -121,7 +121,7 @@
 								<td class="text-center"><a href="approval_assignment.jsp">RFA</a></td>
 							</tr>
 							<tr>
-								<td colspan=7 class="text-center">
+								<td colspan=5 class="text-center">
 									<div class="pagination">
 										<ul>
 											<li class="first"><a><i class="icon-first-2"></i></a></li>
@@ -137,14 +137,17 @@
 										</ul>
 									</div>
 								</td>
+								<td colspan=2 class="text-right"><a href="#"
+									data-hint="New Assignment" data-hint-position="bottom"><img
+										alt="" src="../images/ADD_ASSIGNMENTT.png"></a></td>
 							</tr>
 						</tbody>
 					</table>
-				</div> <!-- end div content -->
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<jsp:include page="../frame/footer.jsp"/>
+	<jsp:include page="../frame/footer.jsp" />
 </body>
 </html>
