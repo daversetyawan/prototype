@@ -8,13 +8,35 @@
 <link href="css/metro-bootstrap.css" rel="stylesheet">
 <link href="css/metro-bootstrap-responsive.css" rel="stylesheet">
 <link href="css/style-login.css" rel="stylesheet">
+<script src="js/jquery/jquery.min.js"></script>
 <script type="text/javascript">
-function hover(element) {
-    element.setAttribute('src', 'images/LOGIN_ENABLE.png');
+function enablingLogin() {
+	$("#login-btn").removeAttr('disabled');
+	$("#login-btn").attr('style', 'cursor: pointer;');
+	$("#login-btn").attr('src', 'images/LOGIN_ENABLE.png');
 }
-function unhover(element) {
-    element.setAttribute('src', 'images/LOGIN_DISABLE.png');
+function disablingLogin() {
+	$("#login-btn").attr('disabled', 'disabled');
+	$("#login-btn").attr('style', 'cursor: default;');
+	$("#login-btn").attr('src', 'images/LOGIN_DISABLE.png');
 }
+$(document).ready(function() {
+	disablingLogin();
+	$("#username").keyup(function(){
+		if ($("#username").val().length > 0 && $("#password").val().length > 0)
+			enablingLogin();
+		else
+			disablingLogin();
+		});
+	
+	$("#password").keyup(function(){
+		if ($("#username").val().length > 0 && $("#password").val().length > 0)
+			enablingLogin();
+		else
+			disablingLogin();
+		});
+});
+
 </script>
 </head>
 <body class="metro">
@@ -32,7 +54,7 @@ function unhover(element) {
 				</label>
 			</div>
 			<br />
-			<input type="image" class="login-taps" src="images/LOGIN_DISABLE.png" onmouseover="hover(this);" onmouseout="unhover(this);">
+			<input type="image" class="login-taps" id="login-btn" src="images/LOGIN_ENABLE.png">
 		</form>
 
 	</div>
