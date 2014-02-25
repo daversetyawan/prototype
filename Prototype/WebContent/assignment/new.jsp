@@ -12,7 +12,12 @@
 <script src="../js/metro/metro.min.js"></script>
 <script>
 	$(document).ready(function() {
-		$("#datepicker").datepicker();
+		$("#datepicker").datepicker()({
+			date : "2014-01-01",
+			format : "dd/mm/yyyy",
+			effect : "none",
+			position : "bottom"
+		});
 		$("#pr").hide();
 		$("input[name='assignment_type']").change(function() {
 			if ($(this).val() == "Project") {

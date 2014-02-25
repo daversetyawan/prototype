@@ -17,7 +17,7 @@
 <script>
 	$(document).ready(function() {
 		$("#datepicker-begin").datepicker({
-			date : "2013-01-01",
+			date : "2014-01-01",
 			format : "dd/mm/yyyy",
 			effect : "none",
 			position : "bottom"
@@ -69,7 +69,7 @@
 							<tr>
 								<td class="size3">Appraisal Description</td>
 								<td>:</td>
-								<td><textarea rows="3" cols="80">Mey pilih Inwan</textarea></td>
+								<td><textarea rows="3" cols="80">Devri Cemburu</textarea></td>
 							</tr>
 							<tr>
 								<td class="size3">Appraisal Star</td>
