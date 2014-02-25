@@ -1,23 +1,29 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="css/metro-bootstrap.css">
-<link rel="stylesheet" href="css/metro-bootstrap-responsive.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/jquery/jquery.min.js"></script>
-<script src="js/jquery/jquery.widget.min.js"></script>
-<script src="js/metro/metro.min.js"></script>
-<script src="js/metro/metro-calendar.min.js"></script>
-<script src="js/metro/metro-datepicker.min.js"></script>
+<link rel="stylesheet" href="../css/metro-bootstrap.css">
+<link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery/jquery.min.js"></script>
+<script src="../js/jquery/jquery.widget.min.js"></script>
+<script src="../js/metro/metro.min.js"></script>
+<script src="../js/metro/metro-calendar.min.js"></script>
+<script src="../js/metro/metro-datepicker.min.js"></script>
 <script>
 	$(document).ready(function() {
-		$("#datepicker-begin").datepicker();
+		$("#datepicker-begin").datepicker({
+			date : "2013-01-01",
+			format : "dd/mm/yyyy",
+			effect : "none",
+			position : "bottom"
+		});
 		$("#rating").rating({
+			stars : 10,
 			click : function(value, rating) {
 				rating.rate(value);
 			}
@@ -25,7 +31,7 @@
 	});
 </script>
 
-<title>Insert title here</title>
+<title>New Special Appraisal</title>
 </head>
 
 <body class="metro">
@@ -41,37 +47,32 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th colspan=3 class="text-center">Appraisal</th>
+								<th colspan=3 class="text-center">Special Appraisal</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Appraisal Date</td>
+								<td class="size3">Appraisal Date</td>
 								<td>:</td>
 								<td><div class="input-control text size2"
 										id="datepicker-begin">
 										<input type="text">
 										<button class="btn-date"></button>
-									</div>
-								</td>
+									</div></td>
 							</tr>
 							<tr>
-								<td>Appraisal To</td>
+								<td class="size3">Appraisal To</td>
 								<td>:</td>
-								<td>
-									<input type="text" />
-									<button  onclick="">...</button>
-								</td>
+								<td><input type="text" />
+									<button onclick="">...</button></td>
 							</tr>
 							<tr>
-								<td>Appraisal Description</td>
+								<td class="size3">Appraisal Description</td>
 								<td>:</td>
-								<td>
-									<textarea rows="5" cols=""></textarea>
-								</td>
+								<td><textarea rows="3" cols="80">Mey pilih Inwan</textarea></td>
 							</tr>
 							<tr>
-								<td>Appraisal Star</td>
+								<td class="size3">Appraisal Star</td>
 								<td>:</td>
 								<td>
 									<div class="rating" id="rating">
@@ -87,19 +88,20 @@
 								</td>
 							</tr>
 							<tr>
-								<td colspan="3">
-									<button onclick="">Appraisal</button>
+								<td colspan="3" class="text-right">
+									<button onclick="" class="success">Appraisal</button>
 									<button onclick="">Cancel</button>
 								</td>
 							</tr>
 						</tbody>
 					</table>
-				</div> <!-- end div content -->
+				</div>
+				<!-- end div content -->
 			</div>
 		</div>
 	</div>
 
-	<jsp:include page="../frame/footer.jsp"/>
+	<jsp:include page="../frame/footer.jsp" />
 </body>
 
 </html>

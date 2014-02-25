@@ -28,11 +28,11 @@
 				<div class="content-taps">
 					<div class="row">
 						<h2 class="fg-white">Special Appraisal</h2>
-						<div><button>Add</button></div>
+
 						<div class="tile bg-cyan">
 							<div class="tile-content icon">
 								25/02/2014 Devri <a href="view_appraisal.jsp"><img
-									src="images/taps.png"></a>
+									src="../images/taps.png"></a>
 							</div>
 							<div class="brand">
 								<div class="badge bg-red">10</div>
@@ -40,7 +40,7 @@
 						</div>
 						<div class="tile bg-cyan">
 							<div class="tile-content icon">
-								25/02/2014 Kartiko <img src="images/taps.png">
+								25/02/2014 Kartiko <img src="../images/taps.png">
 							</div>
 							<div class="brand">
 								<div class="badge bg-red">10</div>
@@ -48,7 +48,7 @@
 						</div>
 						<div class="tile bg-cyan">
 							<div class="tile-content icon">
-								25/02/2014 Budi <img src="images/taps.png">
+								25/02/2014 Budi <img src="../images/taps.png">
 							</div>
 							<div class="brand">
 								<div class="badge bg-red">10</div>
@@ -56,7 +56,7 @@
 						</div>
 						<div class="tile bg-cyan">
 							<div class="tile-content icon">
-								24/02/2014 Yusac <img src="images/taps.png">
+								24/02/2014 Yusac <img src="../images/taps.png">
 							</div>
 							<div class="brand">
 								<div class="badge bg-red">10</div>
@@ -64,7 +64,7 @@
 						</div>
 						<div class="tile bg-cyan">
 							<div class="tile-content icon">
-								24/02/2014 Wirya <img src="images/taps.png">
+								24/02/2014 Wirya <img src="../images/taps.png">
 							</div>
 							<div class="brand">
 								<div class="badge bg-red">10</div>
@@ -72,7 +72,7 @@
 						</div>
 						<div class="tile bg-cyan">
 							<div class="tile-content icon">
-								24/02/2014 Vinsen <img src="images/taps.png">
+								24/02/2014 Vinsen <img src="../images/taps.png">
 							</div>
 							<div class="brand">
 								<div class="badge bg-red">10</div>
@@ -93,12 +93,16 @@
 							<li class="last"><a><i class="icon-last-2"></i></a></li>
 						</ul>
 					</div>
-				</div> <!-- end div content -->
+					<div>
+						<button class="success">Add Special Apprisal</button>
+					</div>
+				</div>
+				<!-- end div content -->
 			</div>
 		</div>
 	</div>
 
-	<jsp:include page="../frame/footer.jsp"/>
+	<jsp:include page="../frame/footer.jsp" />
 </body>
 
 </html>
