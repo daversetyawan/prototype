@@ -6,12 +6,12 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="css/metro-bootstrap.css">
-<link rel="stylesheet" href="css/metro-bootstrap-responsive.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/jquery/jquery.min.js"></script>
-<script src="js/jquery/jquery.widget.min.js"></script>
-<script src="js/metro/metro.min.js"></script>
+<link rel="stylesheet" href="../css/metro-bootstrap.css">
+<link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/jquery/jquery.min.js"></script>
+<script src="../js/jquery/jquery.widget.min.js"></script>
+<script src="../js/metro/metro.min.js"></script>
 
 <title>Taps</title>
 </head>
@@ -28,11 +28,11 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<td colspan="5" class="text-center">Budi Santoso</td>
-								<td colspan="4" rowspan="2" class="text-center">jmlh star</td>
+								<th colspan="5" class="text-center">Budi Santoso</th>
+								<th colspan="4" rowspan="2" class="text-center">Star : 100</th>
 							</tr>
 							<tr>
-								<td colspan="5" class="text-center">Divisi ACE 18</td>
+								<th colspan="5" class="text-center">Divisi ACE 18</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -48,70 +48,70 @@
 								<th class="text-center">Assignment Due Date</th>
 							</tr>
 							<tr>
-								<td>1</td>
+								<td class="text-center">1</td>
 								<td>Self Assignment</td>
 								<td>Business Unit</td>
 								<td>Coding</td>
-								<td>Wirya</td>
-								<td>10</td>
-								<td>02.30</td>
-								<td></td>
-								<td>15/11/2014</td>
+								<td class="text-center">Wirya</td>
+								<td class="text-center">10</td>
+								<td class="text-center">02.30</td>
+								<td class="text-center"></td>
+								<td class="text-center">15/11/2014</td>
 							</tr>
 							<tr>
-								<td>2</td>
+								<td class="text-center">2</td>
 								<td>Self Assignment</td>
 								<td>Project</td>
 								<td>Active Directory</td>
-								<td>Lukas</td>
-								<td>9</td>
-								<td>02.30</td>
-								<td>TAPS</td>
-								<td>16/11/2014</td>
+								<td class="text-center">Lukas</td>
+								<td class="text-center">9</td>
+								<td class="text-center">02.30</td>
+								<td class="text-center">TAPS</td>
+								<td class="text-center">16/11/2014</td>
 							</tr>
 							<tr>
-								<td>3</td>
+								<td class="text-center">3</td>
 								<td>Assignment</td>
 								<td>Project</td>
 								<td>Coding</td>
-								<td>Wirya</td>
-								<td>10</td>
-								<td>02.30</td>
-								<td>TAPS</td>
-								<td>15/11/2014</td>
+								<td class="text-center">Wirya</td>
+								<td class="text-center">10</td>
+								<td class="text-center">02.30</td>
+								<td class="text-center">TAPS</td>
+								<td class="text-center">15/11/2014</td>
 							</tr>
 							<tr>
-								<td>4</td>
+								<td class="text-center">4</td>
 								<td>Assignment</td>
 								<td>Project</td>
 								<td>Active Directory</td>
-								<td>Lukas</td>
-								<td>9</td>
-								<td>02.30</td>
-								<td>TAPS</td>
-								<td>16/11/2014</td>
+								<td class="text-center">Lukas</td>
+								<td class="text-center">9</td>
+								<td class="text-center">02.30</td>
+								<td class="text-center">TAPS</td>
+								<td class="text-center">16/11/2014</td>
 							</tr>
 							<tr>
-								<td>5</td>
+								<td class="text-center">5</td>
 								<td>Assignment</td>
 								<td>Business Unit</td>
 								<td>Coding</td>
-								<td>Wirya</td>
-								<td>10</td>
-								<td>02.30</td>
-								<td></td>
-								<td>15/11/2014</td>
+								<td class="text-center">Wirya</td>
+								<td class="text-center">10</td>
+								<td class="text-center">02.30</td>
+								<td class="text-center"></td>
+								<td class="text-center">15/11/2014</td>
 							</tr>
 							<tr>
-								<td>6</td>
+								<td class="text-center">6</td>
 								<td>Assignment</td>
 								<td>Business Unit</td>
 								<td>Active Directory</td>
-								<td>Lukas</td>
-								<td>9</td>
-								<td>02.30</td>
-								<td></td>
-								<td>16/11/2014</td>
+								<td class="text-center">Lukas</td>
+								<td class="text-center">9</td>
+								<td class="text-center">02.30</td>
+								<td class="text-center"></td>
+								<td class="text-center">16/11/2014</td>
 							</tr>
 							<tr>
 								<td colspan=7 class="text-center">
