@@ -18,19 +18,17 @@
 	<jsp:include page="frame/header.jsp" />
 	<div class="grid">
 		<div class="row">
-			<div class="span4" id="menu">
+			<div class="span4">
 				<jsp:include page="frame/menu.jsp" />
 			</div>
-			<!--  end div menu -->
-			
-			
+
+
 			<div class="span13" id="content">
-			
-				<!--  ISI CONTENT DISINI -->
+				<div class="content-taps">
+					<!--  ISI CONTENT DISINI -->
+				</div> <!-- end div content -->
 				
 			</div>
-			<!-- end div content -->
-
 		</div>
 	</div>
 	<jsp:include page="frame/footer.jsp" />
