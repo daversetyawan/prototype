@@ -31,7 +31,7 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th class="text-center text-bold"><h2>Employee List</h2></th>
+								<th class="text-center text-bold">Employee List</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -49,13 +49,11 @@
 									<div class="input-control text size7">
 										<input type="text" placeholder="Keyword of Employee" />
 										<button class="btn-search"></button>
-									</div>
-									<img alt="" src="../images/add_employee.png">
-									</td>
+									</div> <img src="../images/add_employee.png" alt=""></td>
 							</tr>
 						</tbody>
 					</table>
-
+					
 					<table class="table striped bordered hovered">
 						<thead>
 							<tr>
