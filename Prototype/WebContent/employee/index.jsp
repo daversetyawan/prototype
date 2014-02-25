@@ -50,11 +50,13 @@
 									<div class="input-control text size7">
 										<input type="text" placeholder="Keyword of Employee" />
 										<button class="btn-search"></button>
-									</div> <img src="../images/add_employee.png" alt=""></td>
+									</div> <a href="#" data-hint="Add Employee"
+									data-hint-position="bottom"><img alt=""
+										src="../images/ADD_EMPLOYEE.png"></a></td>
 							</tr>
 						</tbody>
 					</table>
-					
+
 					<table class="table striped bordered hovered">
 						<thead>
 							<tr>
@@ -115,12 +117,13 @@
 							</tr>
 						</tbody>
 					</table>
-				</div> <!-- end div content -->
+				</div>
+				<!-- end div content -->
 			</div>
 		</div>
 	</div>
 
-	<jsp:include page="../frame/footer.jsp"/>
+	<jsp:include page="../frame/footer.jsp" />
 
 </body>
 

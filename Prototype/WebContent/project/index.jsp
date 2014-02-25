@@ -99,7 +99,7 @@
 								<td><a href="">Delete</a></td>
 							</tr>
 							<tr>
-								<td colspan=8 class="text-center">
+								<td colspan=9 class="text-center">
 									<div class="pagination">
 										<ul>
 											<li class="first"><a><i class="icon-first-2"></i></a></li>
@@ -116,9 +116,9 @@
 									</div>
 								</td>
 
-								<td colspan=3 class="text-right">
-									<button onclick="" class="primary">Add Project</button>
-								</td>
+								<td colspan=2 class="text-right"><a href="#"
+									data-hint="Add Project" data-hint-position="bottom"><img
+										alt="" src="../images/ADD_PROJECT.png"></a></td>
 							</tr>
 						</tbody>
 					</table>
