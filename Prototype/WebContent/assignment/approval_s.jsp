@@ -12,8 +12,6 @@
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
-<script src="../js/metro/metro-calendar.js"></script>
-<script src="../js/metro/metro-datepicker.js"></script>
 <script>
 	$(document).ready(function() {
 		$("#rating").rating({
