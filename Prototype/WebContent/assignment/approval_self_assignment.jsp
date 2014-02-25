@@ -12,8 +12,8 @@
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
-<script src="../js/metro/metro-calendar.min.js"></script>
-<script src="../js/metro/metro-datepicker.min.js"></script>
+<script src="../js/metro/metro-calendar.js"></script>
+<script src="../js/metro/metro-datepicker.js"></script>
 <script>
 	$(document).ready(function() {
 		$("#rating").rating({
@@ -134,7 +134,7 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task - Membuat Tampilan Home</td>
+								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
 							</tr>
 							<tr>
 								<td>Assignment Star</td>
