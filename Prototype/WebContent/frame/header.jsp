@@ -1,6 +1,6 @@
-<div class="bg-dark">
+<div class="bg-dark header-taps">
 	<div class="navigation-bar dark">
-		<div class="navigation-bar-content container">
+		<div class="navigation-bar-content">
 			<a href="#" class="element"> <img alt="logo" class="logo"
 				src="../images/taps.png"></a> <a class="element1 pull-menu" href="#"></a><span
 				class="element-divider"></span>
@@ -9,9 +9,9 @@
 						Lho</a></li>
 			</ul>
 			<ul class="element-menu float-right">
-				<li><a href="#" class="element place-right">Minggu, 30
+				<li><a href="#" class="element float-right">Minggu, 30
 						Februari 2012</a></li>
-				<li><a title="Logout" href="#" class="element place-right"><span
+				<li><a title="Logout" href="#" class="element float-right"><span
 						class="icon-exit"></span></a></li>
 			</ul>
 		</div>

@@ -5792,7 +5792,7 @@ a {
   color: #555555;
 }
 .metro .sidebar > ul li.active a {
-  background-color: #9a1616;
+  background-color: gray;
   color: #ffffff;
 }
 .metro .sidebar > ul ul {
