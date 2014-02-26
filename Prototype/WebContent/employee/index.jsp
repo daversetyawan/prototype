@@ -47,12 +47,10 @@
 											<option value="employeeAddress">Employee Address</option>
 										</select>
 									</div>
-									<div class="input-control text size7">
+									<div class="input-control text size9">
 										<input type="text" placeholder="Keyword of Employee" />
 										<button class="btn-search"></button>
-									</div> <a href="#" data-hint="Add Employee"
-									data-hint-position="bottom"><img alt=""
-										src="../images/ADD_EMPLOYEE.png"></a></td>
+									</div></td>
 							</tr>
 						</tbody>
 					</table>
@@ -110,7 +108,7 @@
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
-								<td colspan=7 class="text-center">
+								<td colspan=6 class="text-center">
 									<div class="pagination">
 										<ul>
 											<li class="first"><a><i class="icon-first-2"></i></a></li>
@@ -126,6 +124,9 @@
 										</ul>
 									</div>
 								</td>
+								<td class="text-center"><a href="#"
+									data-hint="Add Employee" data-hint-position="bottom"><img
+										alt="" src="../images/ADD_EMPLOYEE.png"></a></td>
 							</tr>
 						</tbody>
 					</table>

@@ -12,16 +12,6 @@
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
-<script>
-	$(document).ready(function() {
-		$("#rating").rating({
-			stars : 10,
-			click : function(value, rating) {
-				rating.rate(value);
-			}
-		});
-	});
-</script>
 
 <title>Assignment</title>
 </head>
@@ -54,9 +44,9 @@
 								<td>Business Unit</td>
 							</tr>
 							<tr>
-								<td>Assign By</td>
+								<td>Assign To</td>
 								<td>:</td>
-								<td>TAPS <b>Report to </b> : Toto hugo
+								<td>Devri <b>Assignment From </b> : Kartiko
 								</td>
 							</tr>
 							<tr>
@@ -67,7 +57,7 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task - Membuat Tampilan Home</td>
+								<td>- Membuat tampilan Task<br> - Membuat Tampilan Home</td>
 							</tr>
 							<tr>
 								<td>Detail Claim</td>
@@ -86,7 +76,60 @@
 												<td class="text-center">2013-11-15</td>
 												<td><textarea rows="2" class="input-control textarea">inwan</textarea>
 												</td>
-												<td class="text-center">02:00</td>
+												<td class="text-center"><div class="input-control select size-mh">
+														<select>
+															<option>00:30</option>
+															<option>01:00</option>
+															<option>01:30</option>
+															<option>02:00</option>
+															<option>02:30</option>
+															<option>03:00</option>
+															<option>03:30</option>
+															<option>04:00</option>
+															<option>04:30</option>
+															<option>05:00</option>
+															<option>05:30</option>
+															<option>06:00</option>
+															<option>06:30</option>
+															<option>07:00</option>
+															<option>07:30</option>
+															<option>08:00</option>
+															<option>08:30</option>
+															<option>09:00</option>
+															<option>09:30</option>
+															<option>10:00</option>
+															<option>10:30</option>
+															<option>11:00</option>
+															<option>11:30</option>
+															<option>12:00</option>
+															<option>12:30</option>
+															<option>13:00</option>
+															<option>13:30</option>
+															<option>14:00</option>
+															<option>14:30</option>
+															<option>15:00</option>
+															<option>15:30</option>
+															<option>16:00</option>
+															<option>16:30</option>
+															<option>17:00</option>
+															<option>17:30</option>
+															<option>18:00</option>
+															<option>18:30</option>
+															<option>19:00</option>
+															<option>19:30</option>
+															<option>20:00</option>
+															<option>20:30</option>
+															<option>21:00</option>
+															<option>21:30</option>
+															<option>22:00</option>
+															<option>22:30</option>
+															<option>22:00</option>
+															<option>22:30</option>
+															<option>23:00</option>
+															<option>23:30</option>
+															<option>24:00</option>
+														</select>
+													</div></td>
 											</tr>
 											<tr>
 												<td colspan=2 class="text-right">Total</td>
@@ -96,23 +139,6 @@
 									</table>
 								</td>
 							</tr>
-
-							<tr>
-								<td>Assignment Star</td>
-								<td>:</td>
-								<td>
-									<div class="rating" id="rating">
-										<ul>
-											<li class="rated"></li>
-											<li class="rated"></li>
-											<li></li>
-											<li></li>
-											<li></li>
-										</ul>
-										<span class="score-hint"></span>
-									</div>
-								</td>
-							</tr>
 							<tr>
 								<td>Comment</td>
 								<td>:</td>
@@ -120,7 +146,8 @@
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">
-									<button class="button success">Update Star</button>
+									<button class="button success">Claim</button>
+									<button class="button success">Claim &amp; Close</button>
 									<button class="button info">Cancel</button>
 								</td>
 							</tr>
@@ -154,12 +181,11 @@
 							</tr>
 						</tbody>
 					</table>
-				</div>
-				<!-- end div content -->
+				</div> <!-- end div content -->
 			</div>
 		</div>
 	</div>
 
-	<jsp:include page="../frame/footer.jsp" />
+	<jsp:include page="../frame/footer.jsp"/>
 </body>
 </html>

@@ -1,9 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!doctype html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
@@ -18,91 +20,63 @@
 			effect : "none",
 			position : "bottom"
 		});
-		$("#pr").hide();
-		$("#bu").show();
-		$("#adhoc").hide();
-		$("input[name='assignment_type']").change(function() {
-			if ($(this).val() == "Project") {
-				$("#pr").show();
-				$("#bu").hide();
-			} else {
-				$("#pr").hide();
-				$("#bu").show();
-			}
-		});
-		$("input[name='activity_type']").change(function() {
-			if ($(this).val() == "AdHoc") {
-				$("#adhoc").show();
-			} else {
-				$("#adhoc").hide();
-			}
-		});
 	});
 </script>
-<title>New Assignment</title>
+
+<title>Claim Assignment</title>
 </head>
 <body class="metro">
+
 	<jsp:include page="../frame/header.jsp" />
 	<div class="grid">
 		<div class="row">
 			<div class="span4">
 				<jsp:include page="../frame/menu.jsp" />
 			</div>
-			
+
 			<div class="span13">
 				<div class="content-taps">
 					<table class="table">
 						<thead>
 							<tr>
-								<th colspan=3 class="text-center">New Assignment</th>
+								<td colspan=3 class="text-center text-bold">Claim
+									Assignment</td>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="size3">Assignment Due Date</td>
+								<td>Assignment Date</td>
+								<td>:</td>
+								<td>15-11-2013</td>
+							</tr>
+							<tr>
+								<td>Assignment Type</td>
+								<td>:</td>
+								<td>Business Unit</td>
+							</tr>
+							<tr>
+								<td>Assign To</td>
+								<td>:</td>
+								<td>Devri <b>Assignment From </b> : Kartiko
+								</td>
+							</tr>
+							<tr>
+								<td>Reff Assignment</td>
+								<td>:</td>
+								<td>PRJ131100002</td>
+							</tr>
+							<tr>
+								<td>Description</td>
+								<td>:</td>
+								<td>- Membuat tampilan Task - Membuat Tampilan Home</td>
+							</tr>
+							<tr>
+								<td class="size3">Assignment Date</td>
 								<td>:</td>
 								<td><div class="input-control text size2" id="datepicker">
 										<input type="text">
 										<button class="btn-date"></button>
 									</div></td>
-							</tr>
-							<tr>
-								<td class="size3">Assignment Type</td>
-								<td>:</td>
-								<td><input type="radio" name="assignment_type"
-									value="Bussiness Unit" checked="checked">&nbsp;&nbsp;
-									Bussiness Unit &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"
-									name="assignment_type" value="Project">&nbsp;&nbsp;
-									Project</td>
-							</tr>
-							<tr>
-								<td class="size3">Assign By</td>
-								<td>:</td>
-								<td><span id="bu"> Customer Development Department
-										&nbsp;&nbsp; <b>Report to </b> : Toto Hugo
-								</span> <span id="pr"><input type="text" value="Taps Project" />
-										<button onclick="">...</button> &nbsp;&nbsp; <b>Report to
-									</b> : Ricky Suryo Utomo
-										<button onclick="">...</button> </span></td>
-							</tr>
-							<tr>
-								<td class="size3">Activity Type</td>
-								<td>:</td>
-								<td><input type="radio" name="activity_type"
-									value="Routine" checked="checked">&nbsp;&nbsp; Routine
-									&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"
-									name="activity_type" value="Initiative">&nbsp;&nbsp;
-									Initiative &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"
-									name="activity_type" value="AdHoc">&nbsp;&nbsp; Ad Hoc
-									&nbsp;&nbsp; <span id="adhoc"><input type="text"
-										value="Hizkia Purba" /> &nbsp;&nbsp;
-										<button onclick="">...</button></span></td>
-							</tr>
-							<tr>
-								<td class="size3">Reff Task Code</td>
-								<td>:</td>
-								<td><input type="text" value="PRJ131100002" />
-									<button onclick="">...</button></td>
 							</tr>
 							<tr>
 								<td class="size3">Manhours</td>
@@ -163,22 +137,25 @@
 									</div></td>
 							</tr>
 							<tr>
-								<td class="size3">Description</td>
+								<td>Description</td>
 								<td>:</td>
-								<td><textarea rows="3" class="input-control textarea">inwan mey pacaran</textarea></td>
+								<td><textarea rows="3" class="input-control textarea">- Membuat tampilan Task dan Tampilan Home</textarea></td>
 							</tr>
 							<tr>
-								<td colspan=3 class="text-right"><button
-										class="button success">Save</button>
-									<button class="button success">Assign</button>
-									<button class="button info">Cancel</button></td>
+								<td colspan=3 class="text-right">
+									<button class="button success">Claim</button>
+									<button class="button success">Claim &amp; Close</button>
+									<button class="button info">Cancel</button>
+								</td>
 							</tr>
 						</tbody>
 					</table>
-				</div> <!-- end div content -->
+
+				</div>
 			</div>
 		</div>
 	</div>
-	<jsp:include page="../frame/footer.jsp" /></body>
+
+	<jsp:include page="../frame/footer.jsp" />
 </body>
 </html>
