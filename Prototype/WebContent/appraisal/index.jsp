@@ -37,7 +37,7 @@
 								<tr>
 									<td class="text-center"><div class="tile bg-cyan">
 											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view_appraisal.jsp"><img
+												25/02/2014 Devri S<a href="view_appraisal.jsp"><img
 													src="../images/taps.png"></a>
 											</div>
 										</div></td>
