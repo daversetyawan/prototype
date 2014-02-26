@@ -12,13 +12,26 @@
 <script src="js/jquery/jquery.min.js"></script>
 <script src="js/jquery/jquery.widget.min.js"></script>
 <script src="js/metro/metro.min.js"></script>
+<script type="text/javascript" src="js/rumble/jquery.jrumble.1.3.min.js"></script>
+
 <title>Taps</title>
+<script type="text/javascript">
+	$(function() {
+		$('#shake').jrumble({
+			x: 0,
+			y: 0,
+			rotation: 1,
+			speed: 50
+		});
+		$('#shake').trigger('startRumble');
+	});
+</script>
 </head>
 <body class="metro">
 	<jsp:include page="frame/header.jsp" />
 	<div class="grid">
 		<div class="row">
-			<div class="span4" id="menu">
+			<div class="span4 menu" id="menu">
 				<jsp:include page="frame/menu.jsp" />
 			</div>
 
@@ -26,72 +39,56 @@
 			<div class="span13">
 				<div class="content-taps">
 					<div class="span6">
-						<h2 class="fg-white">To-do List</h2>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								<a href="#" data-hint="Approval Assignment" data-hint-position="left"><img
-									alt="" src="images/APPROVAL_ASSIGNMENT.png"></a>
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								<a href="#" data-hint="Approval Self Assignment" data-hint-position="left"><img
-									alt="" src="images/APPROVAL_NEW_ASSIGNMENT.png"></a>
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								<a href="#" data-hint="Claim Assignment" data-hint-position="left"><img
-									alt="" src="images/CLAIM_ASSIGNMENT.png"></a>
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								<a href="#" data-hint="Claim Self Assignment" data-hint-position="left"><img
-									alt="" src="images/CLAIM_NEW_ASSIGNMENT.png"></a>
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								<a href="#" data-hint="Correction Assignment" data-hint-position="left"><img
-									alt="" src="images/CORRECTION_ASSIGNMENT.png"></a>
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
-						<div class="tile bg-cyan">
-							<div class="tile-content icon">
-								<a href="#" data-hint="Correction Self Assignment" data-hint-position="left"><img
-									alt="" src="images/CORRECTION_NEW_ASSIGNMENT.png"></a>
-							</div>
-							<div class="brand">
-								<div class="badge bg-red">10</div>
-							</div>
-						</div>
+						<h2 class="fg-black">To-do List</h2>
+
+						<a href="#" id="shake" data-hint="Approval Assignment"
+							data-hint-position="left" class="tile bg-cyan"> <span
+							class="tile-content icon"> <img alt=""
+								src="images/APPROVAL_ASSIGNMENT.png">
+						</span> <span class="brand"> <span class="badge bg-red">10</span>
+						</span>
+						</a> <a href="#" data-hint="Approval Self Assignment"
+							data-hint-position="left" class="tile bg-cyan"> <span
+							class="tile-content icon"> <img alt=""
+								src="images/APPROVAL_NEW_ASSIGNMENT.png">
+						</span> <span class="brand"> <span class="badge bg-red">10</span>
+						</span>
+						</a> <a href="#" data-hint="Claim Assignment"
+							data-hint-position="left" class="tile bg-cyan"> <span
+							class="tile-content icon"> <img alt=""
+								src="images/CLAIM_ASSIGNMENT.png">
+						</span> <span class="brand"> <span class="badge bg-red">10</span>
+						</span>
+						</a> <a href="#" data-hint="Claim Self Assignment"
+							data-hint-position="left" class="tile bg-cyan"> <span
+							class="tile-content icon"> <img alt=""
+								src="images/CLAIM_NEW_ASSIGNMENT.png">
+						</span> <span class="brand"> <span class="badge bg-red">10</span>
+						</span>
+						</a> <a href="#" data-hint="Correction Assignment"
+							data-hint-position="left" class="tile bg-cyan"> <span
+							class="tile-content icon"> <img alt=""
+								src="images/CORRECTION_ASSIGNMENT.png">
+						</span> <span class="brand"> <span class="badge bg-red">10</span>
+						</span>
+						</a> <a href="#" data-hint="Correction Self Assignment"
+							data-hint-position="left" class="tile bg-cyan"> <span
+							class="tile-content icon"> <img alt=""
+								src="images/CORRECTION_NEW_ASSIGNMENT.png">
+						</span> <span class="brand"> <span class="badge bg-red">10</span>
+						</span>
+						</a>
 					</div>
 
 					<div class="span6">
-						<h2 class="fg-white">Employee Ranking</h2>
+						<h2 class="fg-black">Employee Ranking</h2>
 						<table class="table striped bordered hovered">
 							<thead>
 								<tr>
-									<td>#</td>
-									<td>Initial</td>
-									<td>Name</td>
-									<td>Star</td>
+									<th>#</th>
+									<th>Initial</th>
+									<th>Name</th>
+									<th>Star</th>
 								</tr>
 							</thead>
 							<tbody>

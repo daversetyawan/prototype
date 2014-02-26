@@ -30,3 +30,12 @@ body {
 	width: 160px;
 	margin-bottom: 10px;
 }
+
+.float-right {
+	float: right;
+}
+
+.menu {
+	margin-top: -20px;
+	height: 100%;
+}

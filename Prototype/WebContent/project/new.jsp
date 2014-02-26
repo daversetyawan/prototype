@@ -17,13 +17,13 @@
 <script src="../js/metro/metro-datepicker.js"></script>
 <script>
 	$(document).ready(function() {
-		$("#datepicker-begin").datepicker()({
+		$("#datepicker-begin").datepicker({
 			date : "2014-01-01",
 			format : "dd/mm/yyyy",
 			effect : "none",
 			position : "bottom"
 		});
-		$("#datepicker-end").datepicker()({
+		$("#datepicker-end").datepicker({
 			date : "2014-01-01",
 			format : "dd/mm/yyyy",
 			effect : "none",
