@@ -15,8 +15,14 @@
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
-
+<script>
+	$(document).ready(function() {
+		$("#__input_file_wrapper__").attr('placeholder', 'Browse File');
+	});
+</script>
 <title>Employee</title>
+
+
 </head>
 
 <body class="metro">
@@ -42,10 +48,10 @@
 								<td>:</td>
 								<td><input type="text" />
 									<button onclick="">AD List</button></td>
-								<td rowspan="5" class="text-center"><img
+								<td rowspan="6" class="text-center"><img
 									src="../images/user.png" class="cycle avatar"><br>
 									<div class="input-control file size3">
-										<input type="file" />
+										<input type="file" accept="image/*" />
 										<button class="btn-file"></button>
 									</div></td>
 							</tr>
@@ -60,7 +66,12 @@
 								<td><input type="text" /></td>
 							</tr>
 							<tr>
-								<td>Employee Name</td>
+								<td>Employee First Name</td>
+								<td>:</td>
+								<td><input type="text" /></td>
+							</tr>
+							<tr>
+								<td>Employee Last Name</td>
 								<td>:</td>
 								<td><input type="text" /></td>
 							</tr>
@@ -68,8 +79,8 @@
 								<td>Employee Gender</td>
 								<td>:</td>
 								<td><input type="radio" name="gender" id="gender"
-									value="Male">Male <input type="radio" name="gender"
-									id="gender" value="Female">Female</td>
+									value="Male">&nbsp;&nbsp;Male &nbsp;&nbsp;&nbsp;&nbsp;<input
+									type="radio" name="gender" id="gender" value="Female">&nbsp;&nbsp;Female</td>
 							</tr>
 							<tr>
 								<td>Business Unit</td>
@@ -100,15 +111,13 @@
 							<tr>
 								<td>Golongan</td>
 								<td>:</td>
-								<td colspan="2"><select id="golongan">
-										<option value=""></option>
+								<td colspan="2"><select id="golongan" class="size1">
 										<option value="2">2</option>
 										<option value="3">3</option>
 										<option value="4">4</option>
 										<option value="5">5</option>
 										<option value="6">6</option>
-								</select> <select id="golongan2">
-										<option value=""></option>
+								</select> <select id="golongan-tingkat" class="size1">
 										<option value="A">A</option>
 										<option value="B">B</option>
 										<option value="C">C</option>
@@ -126,12 +135,13 @@
 						</tbody>
 					</table>
 
-				</div> <!-- end div content -->
+				</div>
+				<!-- end div content -->
 			</div>
 		</div>
 	</div>
 
-	<jsp:include page="../frame/footer.jsp"/>
+	<jsp:include page="../frame/footer.jsp" />
 </body>
 
 </html>
