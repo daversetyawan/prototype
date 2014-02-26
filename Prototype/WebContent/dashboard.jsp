@@ -26,7 +26,7 @@
 			<div class="span13">
 				<div class="content-taps">
 					<div class="span6">
-						<h2 class="fg-white">To-do List</h2>
+						<h2 class="fg-black">To-do List</h2>
 						<div class="tile bg-cyan">
 							<div class="tile-content icon">
 								<a href="#" data-hint="Approval Assignment" data-hint-position="left"><img
@@ -84,7 +84,7 @@
 					</div>
 
 					<div class="span6">
-						<h2 class="fg-white">Employee Ranking</h2>
+						<h2 class="fg-black">Employee Ranking</h2>
 						<table class="table striped bordered hovered">
 							<thead>
 								<tr>
