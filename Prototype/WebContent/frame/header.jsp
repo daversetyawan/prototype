@@ -7,6 +7,8 @@
 			<ul class="element-menu">
 				<li><a href="#" class="element">Welcome iPhone 5 Wirya Gitu
 						Lho</a></li>
+			</ul>
+			<ul class="element-menu float-right">
 				<li><a href="#" class="element place-right">Minggu, 30
 						Februari 2012</a></li>
 				<li><a title="Logout" href="#" class="element place-right"><span
