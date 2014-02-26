@@ -15,6 +15,7 @@
 <script>
 	$(document).ready(function() {
 		$("#rating").rating({
+			stars : 10,
 			click : function(value, rating) {
 				rating.rate(value);
 			}
@@ -153,11 +154,12 @@
 							</tr>
 						</tbody>
 					</table>
-				</div> <!-- end div content -->
+				</div>
+				<!-- end div content -->
 			</div>
 		</div>
 	</div>
 
-	<jsp:include page="../frame/footer.jsp"/>
+	<jsp:include page="../frame/footer.jsp" />
 </body>
 </html>
