@@ -85,10 +85,10 @@
 						<table class="table striped bordered hovered">
 							<thead>
 								<tr>
-									<td>#</td>
-									<td>Initial</td>
-									<td>Name</td>
-									<td>Star</td>
+									<th>#</th>
+									<th>Initial</th>
+									<th>Name</th>
+									<th>Star</th>
 								</tr>
 							</thead>
 							<tbody>
