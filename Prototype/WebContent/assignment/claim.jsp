@@ -14,7 +14,7 @@
 <script src="../js/metro/metro.min.js"></script>
 <script>
 	$(document).ready(function() {
-		$("#datepicker").datepicker()({
+		$("#datepicker").datepicker({
 			date : "2014-01-01",
 			format : "dd/mm/yyyy",
 			effect : "none",
@@ -23,7 +23,7 @@
 	});
 </script>
 	
-<title>Self Assignment</title>
+<title>Claim Assignment</title>
 </head>
 <body class="metro">
 
@@ -143,41 +143,15 @@
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">
-									<button class="button success">Update Star</button>
+									<button class="button success">Claim</button>
+									<button class="button info">Claim & Close</button>
 									<button class="button info">Cancel</button>
 								</td>
 							</tr>
 						</tbody>
 					</table>
 
-					<table class="table striped bordered hovered">
-						<thead>
-							<tr>
-								<th colspan=4 class="text-center text-bold">History Comment</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="text-center text-bold">Date</td>
-								<td class="text-center text-bold">Comment</td>
-								<td class="text-center text-bold">From</td>
-								<td class="text-center text-bold">Status</td>
-							</tr>
-							<tr>
-								<td class="text-center">2013-11-15</td>
-								<td class="text-center">Ganti sesuatu</td>
-								<td class="text-center">Ricky Suryo Utomo</td>
-								<td class="text-center">Correction</td>
-							</tr>
-							<tr>
-								<td class="text-center">2013-11-15</td>
-								<td class="text-center">done bro</td>
-								<td class="text-center">Hizkia Purba</td>
-								<td class="text-center">Claim</td>
-							</tr>
-						</tbody>
-					</table>
-				</div> <!-- end div content -->
+				</div>
 			</div>
 		</div>
 	</div>
