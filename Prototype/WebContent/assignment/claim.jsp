@@ -57,7 +57,7 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task - Membuat Tampilan Home</td>
+								<td>- Membuat tampilan Task<br> - Membuat Tampilan Home</td>
 							</tr>
 							<tr>
 								<td>Detail Claim</td>
@@ -76,7 +76,7 @@
 												<td class="text-center">2013-11-15</td>
 												<td><textarea rows="2" class="input-control textarea">inwan</textarea>
 												</td>
-												<td><div class="input-control select size-mh">
+												<td class="text-center"><div class="input-control select size-mh">
 														<select>
 															<option>00:30</option>
 															<option>01:00</option>
@@ -147,7 +147,7 @@
 							<tr>
 								<td colspan=3 class="text-right">
 									<button class="button success">Claim</button>
-									<button class="button success">Claim & Close</button>
+									<button class="button success">Claim &amp; Close</button>
 									<button class="button info">Cancel</button>
 								</td>
 							</tr>

@@ -22,7 +22,7 @@
 		});
 	});
 </script>
-	
+
 <title>Claim Assignment</title>
 </head>
 <body class="metro">
@@ -33,14 +33,14 @@
 			<div class="span4">
 				<jsp:include page="../frame/menu.jsp" />
 			</div>
-			
+
 			<div class="span13">
 				<div class="content-taps">
 					<table class="table">
 						<thead>
 							<tr>
 								<td colspan=3 class="text-center text-bold">Claim
-										Assignment</td>
+									Assignment</td>
 							</tr>
 						</thead>
 						<tbody>
@@ -139,12 +139,12 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task - Membuat Tampilan Home</td>
+								<td><textarea rows="3" class="input-control textarea">- Membuat tampilan Task dan Tampilan Home</textarea></td>
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">
 									<button class="button success">Claim</button>
-									<button class="button info">Claim & Close</button>
+									<button class="button success">Claim &amp; Close</button>
 									<button class="button info">Cancel</button>
 								</td>
 							</tr>
@@ -155,7 +155,7 @@
 			</div>
 		</div>
 	</div>
-	
-	<jsp:include page="../frame/footer.jsp"/>
+
+	<jsp:include page="../frame/footer.jsp" />
 </body>
 </html>
