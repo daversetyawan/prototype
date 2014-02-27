@@ -19,6 +19,7 @@ body {
 	position: relative;
 	left: 300px;
 	width: 1000px;
+	min-height: 660px;
 }
 
 .logo {
