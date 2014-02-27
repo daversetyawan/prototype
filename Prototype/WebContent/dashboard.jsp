@@ -31,7 +31,7 @@
 	<jsp:include page="frame/header.jsp" />
 	<div class="grid dashboard">
 		<div class="row">
-			<div class="span4 menu-taps" id="menu">
+			<div class="span4" id="menu">
 				<jsp:include page="frame/menu.jsp" />
 			</div>
 
