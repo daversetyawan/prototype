@@ -35,7 +35,7 @@
 				<jsp:include page="frame/menu.jsp" />
 			</div>
 
-			<div class="span10">
+			<div class="span13">
 				<div class="content-taps">
 				<div class="row">
 				<div class="span10">
@@ -104,6 +104,12 @@
 									<td>Kamashwanee</td>
 									<td>77</td>
 								</tr>
+								<tr>
+									<td>10</td>
+									<td>DRS</td>
+									<td>Kamashwanee</td>
+									<td>77</td>
+								</tr>
 							</tbody>
 						</table>
 					</div>
@@ -155,8 +161,7 @@
 				<!-- end div content -->
 			</div>
 		</div>
-		<jsp:include page="frame/footer.jsp" />
 	</div>
-	
+	<jsp:include page="frame/footer.jsp" />
 </body>
 </html>
