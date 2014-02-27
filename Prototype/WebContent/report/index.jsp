@@ -32,7 +32,7 @@ $(document).ready(function() {
 </head>
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
-	<div class="grid">
+	<div class="grid dashboard">
 		<div class="row">
 			<div class="span4">
 				<jsp:include page="../frame/menu.jsp" />
