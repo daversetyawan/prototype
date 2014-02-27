@@ -458,13 +458,15 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+	display: inline-block;
 }
 
 .auto-complete:last-child {
 	border-bottom: 0 none;
 }
 
-.auto-complete select,.auto-complete input,.auto-complete .selectize-control {
+.auto-complete select,.auto-complete input,.auto-complete .selectize-control
+	{
 	width: 100%;
 }
 

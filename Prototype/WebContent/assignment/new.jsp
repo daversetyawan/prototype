@@ -7,9 +7,13 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
+
+<script src="../js/selectize/selectize.js"></script>
+<script src="../js/selectize/index.js"></script>
 <script>
 	$(document).ready(function() {
 		$("#datepicker").datepicker({
@@ -26,6 +30,12 @@
 				$("#pr").hide();
 			}
 		});
+		$('#select-emp, #select-project').selectize({
+			sortField : {
+				field : 'text',
+				direction : 'asc'
+			}
+		});
 	});
 </script>
 <title>New Assignment</title>
@@ -33,7 +43,7 @@
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
+
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
@@ -65,11 +75,29 @@
 							<tr>
 								<td class="size3">Assign To</td>
 								<td>:</td>
-								<td><span id="pr"><input type="text"
-										value="Taps Project" />
-										<button onclick="">...</button></span> <input type="text"
-									value="Hizkia Purba" />
-									<button onclick="">...</button></td>
+								<td><div class="auto-complete" id="pr">
+										<div class="control-group">
+											<select id="select-project" required
+												class="demo-default size3">
+												<option value="">Project</option>
+												<option value="4">Front End</option>
+												<option value="1">Back End</option>
+												<option value="3">Taps</option>
+												<option value="5">Dota Taps</option>
+											</select>
+										</div>
+									</div>
+									<div class="auto-complete">
+										<div class="control-group">
+											<select id="select-emp" required class="demo-default size3">
+												<option value="">Employee</option>
+												<option value="4">Wirya Jaya</option>
+												<option value="1">Farisa Adelia</option>
+												<option value="3">Yusac Bazanolo</option>
+												<option value="5">Vinsen Surya</option>
+											</select>
+										</div>
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Reff Task Code</td>
@@ -90,7 +118,8 @@
 							</tr>
 						</tbody>
 					</table>
-				</div> <!-- end div content -->
+				</div>
+				<!-- end div content -->
 			</div>
 		</div>
 	</div>
