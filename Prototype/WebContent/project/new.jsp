@@ -10,24 +10,27 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/metro/metro-calendar.js"></script>
 <script src="../js/metro/metro-datepicker.js"></script>
+<script src="../js/selectize/selectize.js"></script>
+<script src="../js/selectize/index.js"></script>
 <script>
 	$(document).ready(function() {
-		$("#datepicker-begin").datepicker({
+		$("#datepicker-begin, #datepicker-end").datepicker({
 			date : "2014-01-01",
 			format : "dd/mm/yyyy",
 			effect : "none",
 			position : "bottom"
 		});
-		$("#datepicker-end").datepicker({
-			date : "2014-01-01",
-			format : "dd/mm/yyyy",
-			effect : "none",
-			position : "bottom"
+		$('#select-bu, #select-phase').selectize({
+			sortField : {
+				field : 'text',
+				direction : 'asc'
+			}
 		});
 	});
 </script>
@@ -38,7 +41,7 @@
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
+
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
@@ -68,18 +71,34 @@
 							<tr>
 								<td class="size3">Phase</td>
 								<td>:</td>
-								<td><select>
-										<option value="requirement">Requirement</option>
-										<option value="development">Development</option>
-										<option value="UAT">UAT</option>
-										<option value="live">Live</option>
-								</select></td>
+								<td><div class="auto-complete">
+										<div class="control-group">
+											<select id="select-phase" required class="demo-default size3">
+												<option value="">Phase</option>
+												<option value="requirement">Requirement</option>
+												<option value="development">Development</option>
+												<option value="UAT">UAT</option>
+												<option value="live">Live</option>
+											</select>
+										</div>
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Business Unit</td>
 								<td>:</td>
-								<td><input type="text" />
-									<button onclick="">...</button></td>
+								<td><div class="auto-complete">
+										<div class="control-group">
+											<select id="select-bu" required class="demo-default size3">
+												<option value="">Bussiness Unit</option>
+												<option value="4">CDD</option>
+												<option value="1">CSD</option>
+												<option value="3">MAD</option>
+												<option value="5">INM</option>
+												<option value="11">BOM</option>
+												<option value="12">QWE</option>
+											</select>
+										</div>
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Start Date</td>
