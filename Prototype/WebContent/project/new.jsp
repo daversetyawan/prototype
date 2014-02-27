@@ -22,81 +22,85 @@
 	function test() {
 		alert($("#select-to").val());
 	}
-	$(document).ready(
-			function() {
-
-				$("#look-up").on('click', function() {
-					$.Dialog({
-						overlay : true,
-						shadow : true,
-						flat : true,
-						icon : '<img src="../images/LOGO_Taps6.png">',
-						title : 'Flat window',
-						content : '',
-						onShow : function(_dialog) {
-							var content = _dialog.children('.content');
-							content.html('ASD');
-						}
-					});
-				});
-
-				$("#datepicker-begin, #datepicker-end").datepicker({
-					date : "2014-01-01",
-					format : "dd/mm/yyyy",
-					effect : "none",
-					position : "bottom"
-				});
-				$('#select-phase, #select-bu').selectize({
-					sortField : {
-						field : 'text',
-						direction : 'asc'
-					}
-				});
-
-				var getName = function(item) {
-					return $.trim((item.desc.split("@")[0]));
-				};
-
-				var getDesc = function(item) {
-					return $.trim((item.desc.split("@")[1]));
-				};
-
-				$('#select-to').selectize(
-						{
-							create : false,
-							persist : false,
-							maxItems : 1,
-							valueField : 'id',
-							labelField : 'desc',
-							searchField : [ 'id', 'desc' ],
-							sortField : [ {
+	$(document)
+			.ready(
+					function() {
+						
+						$("#look-up").on('click', function(){
+						    $.Dialog({
+						        overlay: false,
+						        shadow: true,
+						        flat: false,
+						        title: 'Window 8.1 Everywhere For Everything!',
+						        content: '',
+						        onShow: function(_dialog){
+						            var html = ["<iframe width='640' height='480' src='../login.jsp' frameborder='0'></iframe>"].join("");
+						            $.Dialog.content(html);
+						        }
+						    });
+						});
+						$("#datepicker-begin, #datepicker-end").datepicker({
+							date : "2014-01-01",
+							format : "dd/mm/yyyy",
+							effect : "none",
+							position : "bottom"
+						});
+						$('#select-phase, #select-bu').selectize({
+							sortField : {
 								field : 'text',
 								direction : 'asc'
-							} ],
-
-							render : {
-								item : function(item, escape) {
-									var name = getName(item);
-									return '<div>'
-											+ (name ? '<span class="name">'
-													+ escape(name) + '</span>'
-													: '') + '</div>';
-								},
-								option : function(item, escape) {
-									var name = getDesc(item);
-									var label = getName(item);
-
-									return '<div>'
-											+ '<div class="">'
-											+ escape(label)
-											+ '</div>'
-											+ (name ? '<span class="caption">'
-													+ escape(name) + '</span>'
-													: '') + '</div>';
-								}
 							}
 						});
-			});
+
+						var getName = function(item) {
+							return $.trim((item.desc.split("@")[0]));
+						};
+
+						var getDesc = function(item) {
+							return $.trim((item.desc.split("@")[1]));
+						};
+
+						$('#select-to')
+								.selectize(
+										{
+											create : false,
+											persist : false,
+											maxItems : 1,
+											valueField : 'id',
+											labelField : 'desc',
+											searchField : [ 'id', 'desc' ],
+											sortField : [ {
+												field : 'text',
+												direction : 'asc'
+											} ],
+
+											render : {
+												item : function(item, escape) {
+													var name = getName(item);
+													return '<div>'
+															+ (name ? '<span class="name">'
+																	+ escape(name)
+																	+ '</span>'
+																	: '')
+															+ '</div>';
+												},
+												option : function(item, escape) {
+													var name = getDesc(item);
+													var label = getName(item);
+
+													return '<div>'
+															+ '<div class="">'
+															+ escape(label)
+															+ '</div>'
+															+ (name ? '<span class="caption">'
+																	+ escape(name)
+																	+ '</span>'
+																	: '')
+															+ '</div>';
+												}
+											}
+										});
+					});
 </script>
 
 <title>Project</title>
