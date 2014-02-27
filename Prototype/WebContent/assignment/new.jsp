@@ -30,7 +30,7 @@
 				$("#pr").hide();
 			}
 		});
-		$('#select-emp, #select-project').selectize({
+		$('#select-emp, #select-project, #select-task').selectize({
 			sortField : {
 				field : 'text',
 				direction : 'asc'
@@ -102,8 +102,18 @@
 							<tr>
 								<td class="size3">Reff Task Code</td>
 								<td>:</td>
-								<td><input type="text" value="PRJ131100002" />
-									<button onclick="">...</button></td>
+								<td><div class="auto-complete">
+										<div class="control-group">
+											<select id="select-task" required class="demo-default size3">
+												<option value="">Task Code</option>
+												<option value="4">PRJ131100001</option>
+												<option value="4">PRJ131100002</option>
+												<option value="1">PRJ131100003</option>
+												<option value="3">PRJ131100004</option>
+												<option value="5">PRJ131100005</option>
+											</select>
+										</div>
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Description</td>

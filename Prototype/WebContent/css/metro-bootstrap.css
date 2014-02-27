@@ -1555,7 +1555,7 @@ a {
   padding: 8px;
   font-size: 14px;
   line-height: 14pt;
-  vertical-align: top;
+  vertical-align: middle;
   border-bottom: 1px #eaeaea solid;
 }
 .metro .table th[class*="span"],
@@ -1565,7 +1565,7 @@ a {
   margin: 0;
 }
 .metro .table thead th {
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 .metro .table thead th,
 .metro .table thead td {
