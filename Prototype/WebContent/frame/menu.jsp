@@ -1,4 +1,4 @@
-<div class="sidebar dark shadow menu-taps">
+<div class="sidebar menu-taps">
 	<ul id="menu-parent-taps">
 		<li class="title bg-blue header-menu-taps"><span class="icon-grid"></span>&nbsp;&nbsp;<b>Menu</b></li>
 		<li class="stick tree-sub-menu"><a class="dropdown-toggle" href="#">Employee</a>
