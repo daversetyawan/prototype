@@ -1,3 +1,4 @@
+<div class="span-menu-taps" id="menu">
 <div class="sidebar menu-taps">
 	<ul id="menu-parent-taps">
 		<li class="title bg-blue header-menu-taps"><span class="icon-grid"></span>&nbsp;&nbsp;<b>Menu</b></li>
@@ -31,4 +32,5 @@
 				<li><a href=""><span class="icon-puzzle"></span>Project</a></li>
 			</ul></li>
 	</ul>
+</div>
 </div>

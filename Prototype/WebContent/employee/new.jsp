@@ -28,13 +28,11 @@
 <body class="metro">
 
 	<jsp:include page="../frame/header.jsp" />
+	<jsp:include page="../frame/menu.jsp" />
+	
 	<div class="grid dashboard">
 		<div class="row">
-			<div class="span4">
-				<jsp:include page="../frame/menu.jsp" />
-			</div>
-
-			<div class="span13" id="content">
+			<div class="span12">
 				<div class="content-taps">
 					<table class="table">
 						<thead>

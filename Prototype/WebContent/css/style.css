@@ -5,7 +5,9 @@ body {
 }
 
 .content-taps {
-	width: 1000px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .clear {
@@ -14,6 +16,9 @@ body {
 
 .dashboard {
 	margin-top: 45px;
+	position: relative;
+	left: 300px;
+	width: 1000px;
 }
 
 .logo {
@@ -35,7 +40,7 @@ body {
 }
 
 .menu-taps {
-	min-height: 660px;
+	min-height: 1000px;
 }
 
 .header-taps {
@@ -46,12 +51,15 @@ body {
 }
 
 .footer-taps {
-    position: relative;
     margin-right: 15px;
-    margin-top: -30px;
-    
+    margin-bottom: 10px;
 	text-align: right;
 	color: #c3c3c3;
 	font-family: Calibri;
 	font-size: 0.8em;
+}
+
+.span-menu-taps {
+	width: 250px;
+	position: fixed;
 }
