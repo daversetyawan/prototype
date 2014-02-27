@@ -31,10 +31,11 @@
 						        overlay: false,
 						        shadow: true,
 						        flat: false,
-						        title: 'Window 8.1 Everywhere For Everything!',
+						        icon: '<img src="../images/LOGO_Taps6.png">',
+						        title: 'Look Up',
 						        content: '',
 						        onShow: function(_dialog){
-						            var html = ["<iframe width='640' height='480' src='../login.jsp' frameborder='0'></iframe>"].join("");
+						            var html = ["<iframe width='640' height='480' src='new.jsp' frameborder='0'></iframe>"].join("");
 						            $.Dialog.content(html);
 						        }
 						    });
