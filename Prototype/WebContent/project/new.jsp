@@ -24,6 +24,22 @@
 	}
 	$(document).ready(
 			function() {
+
+				$("#look-up").on('click', function() {
+					$.Dialog({
+						overlay : true,
+						shadow : true,
+						flat : true,
+						icon : '<img src="../images/LOGO_Taps6.png">',
+						title : 'Flat window',
+						content : '',
+						onShow : function(_dialog) {
+							var content = _dialog.children('.content');
+							content.html('ASD');
+						}
+					});
+				});
+
 				$("#datepicker-begin, #datepicker-end").datepicker({
 					date : "2014-01-01",
 					format : "dd/mm/yyyy",
@@ -197,6 +213,11 @@
 							<tr>
 								<td colspan="3" class="size3">
 									<button onclick="javascript:test();">cek</button>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3" class="size3">
+									<button id="look-up">dialog</button>
 								</td>
 							</tr>
 
