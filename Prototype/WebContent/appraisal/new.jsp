@@ -9,14 +9,17 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
+<script src="../js/selectize/selectize.js"></script>
+<script src="../js/selectize/index.js"></script>
 <script>
 	$(document).ready(function() {
-		$("#datepicker-begin").datepicker({
+		$("#datepicker").datepicker({
 			date : "2014-01-01",
 			format : "dd/mm/yyyy",
 			effect : "none",
@@ -28,6 +31,12 @@
 				rating.rate(value);
 			}
 		});
+		$('#select-emp').selectize({
+			sortField : {
+				field : 'text',
+				direction : 'asc'
+			}
+		});
 	});
 </script>
 
@@ -36,13 +45,11 @@
 
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
+	<jsp:include page="../frame/menu.jsp" />
+
 	<div class="grid dashboard">
 		<div class="row">
-			<div class="span4">
-				<jsp:include page="../frame/menu.jsp" />
-			</div>
-
-			<div class="span13" id="content">
+			<div class="span12">
 				<div class="content-taps">
 					<table class="table">
 						<thead>
@@ -54,8 +61,7 @@
 							<tr>
 								<td class="size3">Appraisal Date</td>
 								<td>:</td>
-								<td><div class="input-control text size2"
-										id="datepicker-begin">
+								<td><div class="input-control text size2" id="datepicker">
 										<input type="text">
 										<button class="btn-date"></button>
 									</div></td>
@@ -63,8 +69,17 @@
 							<tr>
 								<td class="size3">Appraisal To</td>
 								<td>:</td>
-								<td><input type="text" />
-									<button onclick="">...</button></td>
+								<td><div class="auto-complete">
+										<div class="control-group">
+											<select id="select-emp" required class="demo-default size3">
+												<option value="">Employee</option>
+												<option value="4">Wirya Jaya</option>
+												<option value="1">Farisa Adelia</option>
+												<option value="3">Yusac Bazanolo</option>
+												<option value="5">Vinsen Surya</option>
+											</select>
+										</div>
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Appraisal Description</td>

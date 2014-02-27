@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
 <script src="../js/jquery/jquery.min.js"></script>
-<script src="../js/jquery/jquery.widget.min.js"></script>
+<script src="../js/jquery/jquery.widget.min.js"></script> 
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
@@ -21,13 +21,11 @@
 
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
+	<jsp:include page="../frame/menu.jsp" />
+	
 	<div class="grid dashboard">
 		<div class="row">
-			<div class="span4">
-				<jsp:include page="../frame/menu.jsp" />
-			</div>
-
-			<div class="span13" id="content">
+			<div class="span12">
 				<div class="content-taps">
 					<table class="table">
 						<thead>

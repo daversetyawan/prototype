@@ -10,13 +10,23 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/selectize.css">
+<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
+<script src="../js/selectize/selectize.js"></script>
+<script src="../js/selectize/index.js"></script>
 <script>
 	$(document).ready(function() {
+		$('#select-domain, #select-bu').selectize({
+			sortField : {
+				field : 'text',
+				direction : 'asc'
+			}
+		});
 		$("#__input_file_wrapper__").attr('placeholder', 'Browse File');
 	});
 </script>
@@ -28,13 +38,11 @@
 <body class="metro">
 
 	<jsp:include page="../frame/header.jsp" />
+	<jsp:include page="../frame/menu.jsp" />
+
 	<div class="grid dashboard">
 		<div class="row">
-			<div class="span4">
-				<jsp:include page="../frame/menu.jsp" />
-			</div>
-
-			<div class="span13" id="content">
+			<div class="span12">
 				<div class="content-taps">
 					<table class="table">
 						<thead>
@@ -46,8 +54,21 @@
 							<tr>
 								<td>Employee Domain</td>
 								<td>:</td>
-								<td><input type="text" />
-									<button onclick="">AD List</button></td>
+								<td>
+									<div class="auto-complete">
+										<div class="control-group">
+											<select id="select-domain" required
+												class="demo-default size3">
+												<option value="">Employee Domain</option>
+												<option value="4">devri.rs</option>
+												<option value="1">budi.ss</option>
+												<option value="3">kartiko.ew</option>
+												<option value="5">lukas.ws</option>
+												<option value="11">vinsen.surya</option>
+											</select>
+										</div>
+									</div>
+								</td>
 								<td rowspan="6" class="text-center"><img
 									src="../images/user.png" class="cycle avatar"><br>
 									<div class="input-control file size3">
@@ -85,8 +106,19 @@
 							<tr>
 								<td>Business Unit</td>
 								<td>:</td>
-								<td colspan="2"><input type="text" />
-									<button onclick="">...</button></td>
+								<td colspan="2"><div class="auto-complete">
+										<div class="control-group">
+											<select id="select-bu" required class="demo-default size3">
+												<option value="">Bussiness Unit</option>
+												<option value="4">CDD</option>
+												<option value="1">CSD</option>
+												<option value="3">MAD</option>
+												<option value="5">INM</option>
+												<option value="11">BOM</option>
+												<option value="12">QWE</option>
+											</select>
+										</div>
+									</div></td>
 							</tr>
 							<tr>
 								<td>Address</td>
