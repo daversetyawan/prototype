@@ -449,6 +449,12 @@
 	border-top: 0 none;
 }
 
+.selectize-control.contacts .selectize-dropdown .caption {
+	font-size: 12px;
+	display: block;
+	color: #a0a0a0;
+}
+
 .control-group {
 	margin: 0 0 20px 0;
 }
