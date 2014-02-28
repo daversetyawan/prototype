@@ -30,6 +30,13 @@
 		$('#shake').trigger('startRumble');
 
 		$('#select-periode, #select-range').selectize();
+
+		$(".choose").click(function(e) {
+			e.preventDefault();
+			$(this).addClass('menu-accordion-choosen').siblings().removeClass('menu-accordion-choosen')
+			.parent().siblings().find('.menu-accordion-choosen').removeClass('menu-accordion-choosen');
+			
+		});
 	});
 </script>
 </head>

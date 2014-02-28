@@ -1,7 +1,8 @@
 @CHARSET "ISO-8859-1";
 
 body {
-	background: #e5e5e5 url('../images/bg.jpg') center center no-repeat fixed;
+	background: #e5e5e5 url('../images/bg.jpg') center center no-repeat
+		fixed;
 }
 
 .content-taps {
@@ -52,8 +53,8 @@ body {
 }
 
 .footer-taps {
-    margin-right: 15px;
-    margin-bottom: 10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
 	text-align: right;
 	color: #c3c3c3;
 	font-family: Calibri;
@@ -63,4 +64,18 @@ body {
 .span-menu-taps {
 	width: 250px;
 	position: fixed;
+}
+
+.menu-accordion {
+	background-color: #262626;
+	color: white;
+}
+
+.menu-accordion-choosen {
+	background-color: white;
+	color: #262626;
+}
+
+.mini-padding {
+	padding-left: 20px;
 }
