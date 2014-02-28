@@ -31,12 +31,47 @@
 
 		$('#select-periode, #select-range').selectize();
 
-		$(".choose").click(function(e) {
-			e.preventDefault();
-			$(this).addClass('menu-accordion-choosen').siblings().removeClass('menu-accordion-choosen')
-			.parent().siblings().find('.menu-accordion-choosen').removeClass('menu-accordion-choosen');
-			
-		});
+		$(".choose").click(
+				function(e) {
+					e.preventDefault();
+					$(this).addClass('menu-accordion-choosen').siblings()
+							.removeClass('menu-accordion-choosen').parent()
+							.siblings().find('.menu-accordion-choosen')
+							.removeClass('menu-accordion-choosen');
+
+				});
+		$("#createFlatWindow")
+				.on(
+						'click',
+						function() {
+							$
+									.Dialog({
+										overlay : true,
+										shadow : true,
+										flat : true,
+										icon : '<img src="images/excel2013icon.png">',
+										title : 'Flat window',
+										content : '',
+										padding : 10,
+										onShow : function(_dialog) {
+											var content = '<form>'
+													+ '<label>Login</label>'
+													+ '<div class="input-control text"><input type="text" name="login"><button class="btn-clear"></button></div> '
+													+ '<label>Password</label>'
+													+ '<div class="input-control password"><input type="password" name="password"><button class="btn-reveal"></button></div> '
+													+ '<div class="input-control checkbox"><label><input type="checkbox" name="c1" checked/><span class="check"></span>Check me out</label></div>'
+													+ '<div class="form-actions">'
+													+ '<button class="button primary">Login to...</button> '
+													+ '<button class="button" type="button" onclick="$.Dialog.close()">Cancel</button> '
+													+ '</div>' + '</form>';
+											var str = $("#example").html();
+
+											$.Dialog.title("User login");
+											$.Dialog.content(str);
+											$.Metro.initInputs();
+										}
+									});
+						});
 	});
 </script>
 </head>
@@ -143,6 +178,12 @@
 										<td>Kamashwanee</td>
 										<td class="text-center">77</td>
 									</tr>
+									<tr>
+										<td colspan=4>
+											<button class="button" id="createFlatWindow">Create
+												Flat Window</button>
+										</td>
+									</tr>
 								</tbody>
 							</table>
 						</div>
@@ -185,12 +226,14 @@
 							</a>
 						</div>
 					</div>
-
 				</div>
 				<!-- end div content -->
 			</div>
 		</div>
 	</div>
+
 	<jsp:include page="../frame/footer.jsp" />
+	<div id="example" style="display: none;"><jsp:include
+			page="../lookup/_organization.jsp" /></div>
 </body>
 </html>
