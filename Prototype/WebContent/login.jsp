@@ -10,40 +10,39 @@
 <link href="css/style-login.css" rel="stylesheet">
 <script src="js/jquery/jquery.min.js"></script>
 <script type="text/javascript">
-function enablingLogin() {
-	$("#login-btn").removeAttr('disabled');
-	$("#login-btn").attr('style', 'cursor: pointer;');
-	$("#login-btn").attr('src', 'images/LOGIN_ENABLE.png');
-}
-function disablingLogin() {
-	$("#login-btn").attr('disabled', 'disabled');
-	$("#login-btn").attr('style', 'cursor: default;');
-	$("#login-btn").attr('src', 'images/LOGIN_DISABLE.png');
-}
-$(document).ready(function() {
-	disablingLogin();
-	$("#username").keyup(function(){
-		if ($("#username").val().length > 0 && $("#password").val().length > 0)
-			enablingLogin();
-		else
-			disablingLogin();
-		});
-	
-	$("#password").keyup(function(){
-		if ($("#username").val().length > 0 && $("#password").val().length > 0)
-			enablingLogin();
-		else
-			disablingLogin();
-		});
-});
+	function enablingLogin() {
+		$("#login-btn").removeAttr('disabled');
+		$("#login-btn").attr('style', 'cursor: pointer;');
+		$("#login-btn").attr('src', 'images/LOGIN_ENABLE.png');
+	}
+	function disablingLogin() {
+		$("#login-btn").attr('disabled', 'disabled');
+		$("#login-btn").attr('style', 'cursor: default;');
+		$("#login-btn").attr('src', 'images/LOGIN_DISABLE.png');
+	}
+	$(document).ready(
+			function() {
+				disablingLogin();
+				$("#username, #password").keyup(
+						function() {
+							if ($("#username").val().length > 0
+									&& $("#password").val().length > 0)
+								enablingLogin();
+							else
+								disablingLogin();
+						});
+				$("#login-btn").click(function() {
+					window.location.replace("dashboard.jsp");
+				});
 
+			});
 </script>
 </head>
 <body class="metro">
 	<div class="panel-taps">
 		<br /> <br /> <img src="images/LOGO_Taps6.png" class="logo-taps">
 		<h1 class="title-taps">Sign in to TAPS</h1>
-		<form name="myForm" method="post">
+		<form action="/Prototype/main/dashboard.jsp" name="myForm" method="post">
 			<input type="text" class="textbox-taps" name="username" id="username"
 				placeholder="Username" /> <br /> <input type="password"
 				class="textbox-taps" name="password" id="password"
@@ -53,8 +52,8 @@ $(document).ready(function() {
 					class="check"></span> Keep me signed in
 				</label>
 			</div>
-			<br />
-			<input type="image" class="login-taps" id="login-btn" src="images/LOGIN_ENABLE.png">
+			<br /> <input type="image" class="login-taps" id="login-btn"
+				src="images/LOGIN_ENABLE.png">
 		</form>
 
 	</div>
