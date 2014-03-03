@@ -33,7 +33,7 @@
 
 		$(".choose").click(
 				function(e) {
-					e.preventDefault();
+// 					e.preventDefault();
 					$(this).addClass('menu-accordion-choosen').siblings()
 							.removeClass('menu-accordion-choosen').parent()
 							.siblings().find('.menu-accordion-choosen')

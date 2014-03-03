@@ -122,7 +122,7 @@
 										</ul>
 									</div>
 								</td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="new.jsp"
 									data-hint="Add Employee" data-hint-position="bottom"><img
 										alt="" src="../images/ADD_EMPLOYEE.png"></a></td>
 							</tr>

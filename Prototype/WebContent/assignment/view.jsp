@@ -65,7 +65,7 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task - Membuat Tampilan Home</td>
+								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
 							</tr>
 							<tr>
 								<td>Detail Claim</td>

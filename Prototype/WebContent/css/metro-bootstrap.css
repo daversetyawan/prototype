@@ -3854,7 +3854,6 @@ important
 .metro .input-control.checkbox,.metro .input-control.radio,.metro .input-control.switch,.metro .input-control.text,.metro .input-control.password,.metro .input-control.select,.metro .input-control.textarea
 	{
 	display: inline-block;
-	cursor: pointer;
 	position: relative;
 	margin-bottom: 7pt;
 }
@@ -4243,7 +4242,6 @@ important
 
 .metro .input-control.select,.metro .input-control.textarea {
 	display: inline-block;
-	cursor: pointer;
 	position: relative;
 	width: 100%;
 }

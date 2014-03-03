@@ -87,3 +87,10 @@ body {
 .in-bl {
 	display: inline-block;
 }
+
+textarea {
+	font-family: 'Segoe UI_','Open Sans',Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	cursor: text;
+}

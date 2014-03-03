@@ -77,7 +77,7 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task <br>- Membuat Tampilan Home</td>
+								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
 							</tr>
 							<tr>
 								<td>Update Assignment Star</td>

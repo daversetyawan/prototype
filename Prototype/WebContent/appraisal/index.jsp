@@ -138,7 +138,7 @@
 											</ul>
 										</div>
 									</td>
-									<td colspan=1 class="text-center"><a href="#"
+									<td colspan=1 class="text-center"><a href="new.jsp"
 										data-hint="Add Special Appraisal" data-hint-position="bottom"><img
 											alt="" src="../images/ADD_STAR.png"></a></td>
 								</tr>
