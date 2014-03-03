@@ -54,10 +54,10 @@
 					<div class="row">
 						<div class="span10">
 							<h2 class="fg-white">Employee Ranking</h2>
-							<table class="table striped bordered hovered">
+							<table class="table">
 								<thead>
 									<tr>
-										<th colspan=4><div class="auto-complete">
+										<th><div class="auto-complete">
 												<div class="control-periode">
 													<select id="select-periode" required
 														class="demo-default size3">
@@ -67,6 +67,8 @@
 													</select>
 												</div>
 											</div>
+											</th>
+											<th>
 											<div class="auto-complete">
 												<div class="control-periode">
 													<select id="select-range" required
@@ -79,77 +81,159 @@
 											</div></th>
 									</tr>
 									<tr>
-										<th>#</th>
-										<th>Initial</th>
-										<th>Name</th>
-										<th>Star</th>
+										<th>Employee</th>
+										<th>Total Star</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td class="text-center">1</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
+										<td class="text-center"><img src="../images/test-ava.jpg" style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
 										<td class="text-center">77</td>
 									</tr>
 									<tr>
-										<td class="text-center">2</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
+										<td class="text-center"><img src="../images/test-ava.jpg" style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
 										<td class="text-center">77</td>
 									</tr>
 									<tr>
-										<td class="text-center">3</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
+										<td class="text-center"><img src="../images/test-ava.jpg" style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
 										<td class="text-center">77</td>
 									</tr>
 									<tr>
-										<td class="text-center">4</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
+										<td class="text-center"><img src="../images/test-ava.jpg" style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
 										<td class="text-center">77</td>
 									</tr>
 									<tr>
-										<td class="text-center">5</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
+										<td class="text-center"><img src="../images/test-ava.jpg" style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
 										<td class="text-center">77</td>
 									</tr>
 									<tr>
-										<td class="text-center">6</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
+										<td class="text-center"><img src="../images/test-ava.jpg" style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
 										<td class="text-center">77</td>
 									</tr>
 									<tr>
-										<td class="text-center">7</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
+										<td class="text-center"><img src="../images/test-ava.jpg" style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
 										<td class="text-center">77</td>
 									</tr>
 									<tr>
-										<td class="text-center">8</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
+										<td class="text-center"><img src="../images/test-ava.jpg" style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
 										<td class="text-center">77</td>
 									</tr>
 									<tr>
-										<td class="text-center">9</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
+										<td class="text-center"><img src="../images/test-ava.jpg" style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
 										<td class="text-center">77</td>
 									</tr>
 									<tr>
-										<td class="text-center">10</td>
-										<td>DRS</td>
-										<td>Kamashwanee</td>
+										<td class="text-center"><img src="../images/test-ava.jpg" style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
 										<td class="text-center">77</td>
 									</tr>
 								</tbody>
 							</table>
 						</div>
 					</div>
+
+<div class="row">
+<div class="tile">
+<img src="../images/test-ava.jpg" style="width: 120px; height: 120px;">
+<div class="brand bg-dark opacity">
+<span class="text">
+Lukas
+</span>
+<span class="badge bg-red">77</span>
+</div>
+</div>
+<div class="tile">
+<img src="../images/test-ava.jpg" style="width: 120px; height: 120px;">
+<div class="brand bg-dark opacity">
+<span class="text">
+Lukas
+</span>
+<span class="badge bg-red">77</span>
+</div>
+</div>
+<div class="tile">
+<img src="../images/test-ava.jpg" style="width: 120px; height: 120px;">
+<div class="brand bg-dark opacity">
+<span class="text">
+Lukas
+</span>
+<span class="badge bg-red">77</span>
+</div>
+</div>
+<div class="tile">
+<img src="../images/test-ava.jpg" style="width: 120px; height: 120px;">
+<div class="brand bg-dark opacity">
+<span class="text">
+Lukas
+</span>
+<span class="badge bg-red">77</span>
+</div>
+</div>
+<div class="tile">
+<img src="../images/test-ava.jpg" style="width: 120px; height: 120px;">
+<div class="brand bg-dark opacity">
+<span class="text">
+Lukas
+</span>
+<span class="badge bg-red">77</span>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="tile">
+<img src="../images/test-ava.jpg" style="width: 120px; height: 120px;">
+<div class="brand bg-dark opacity">
+<span class="text">
+Lukas
+</span>
+<span class="badge bg-red">77</span>
+</div>
+</div>
+<div class="tile">
+<img src="../images/test-ava.jpg" style="width: 120px; height: 120px;">
+<div class="brand bg-dark opacity">
+<span class="text">
+Lukas
+</span>
+<span class="badge bg-red">77</span>
+</div>
+</div>
+<div class="tile">
+<img src="../images/test-ava.jpg" style="width: 120px; height: 120px;">
+<div class="brand bg-dark opacity">
+<span class="text">
+Lukas
+</span>
+<span class="badge bg-red">77</span>
+</div>
+</div>
+<div class="tile">
+<img src="../images/test-ava.jpg" style="width: 120px; height: 120px;">
+<div class="brand bg-dark opacity">
+<span class="text">
+Lukas
+</span>
+<span class="badge bg-red">77</span>
+</div>
+</div>
+<div class="tile">
+<img src="../images/test-ava.jpg" style="width: 120px; height: 120px;">
+<div class="brand bg-dark opacity">
+<span class="text">
+Lukas
+</span>
+<span class="badge bg-red">77</span>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div style="border: 1px solid white; border-radius: 10px; width: 300px; height: 200px;">
+<br />
+&nbsp;&nbsp;
+<img src="../images/test-ava.jpg" style="width: 100px; height: 140px;">
+</div>
+</div>
 
 					<div class="row">
 						<div class="span10">

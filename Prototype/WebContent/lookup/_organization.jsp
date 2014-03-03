@@ -5,18 +5,24 @@
 				<th colspan=3 class='text-center'>Look Organization</th>
 			</tr>
 			<tr>
-				<td colspan=3><div class='input-control select size2'>
-						<select id='search'>
-							<option value=''>All</option>
+				<td colspan=1 class="text-center">
+					<div class="auto-complete">
+						<div class="control-group">
+							<select id="select-search" required class="demo-default size2-5">
+								<option value=''>All</option>
 							<option value='organizationCode'>Organization Code</option>
 							<option value='organizationName'>Organization Name</option>
 							<option value='headName'>Head Name</option>
-						</select>
+							</select>
+						</div>
 					</div>
-					<div class='input-control text size6'>
+				</td>
+				<td colspan=2 class="text-center">
+					<div class="input-control text size5">
 						<input type='text' placeholder='Keyword of Organization' />
 						<button class='btn-search'></button>
 					</div>
+				</td>
 			</tr>
 			<tr>
 				<th></th>

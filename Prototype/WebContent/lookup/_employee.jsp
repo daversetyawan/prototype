@@ -5,18 +5,25 @@
 				<th colspan=6 class='text-center'>List Employee</th>
 			</tr>
 			<tr>
-				<td colspan=6><div class='input-control select size2'>
-						<select id='search'>
-							<option value=''>All</option>
-							<option value='employeeCode'>Employee Code</option>
-							<option value='employeeName'>Employee Name</option>
-							<option value='employeeAddress'>Employee Address</option>
-						</select>
+				<td colspan=2 class="text-center">
+					<div class="auto-complete">
+						<div class="control-group">
+							<select id="select-search" required class="demo-default size3">
+								<option value=''>All</option>
+								<option value='employeeCode'>Employee Code</option>
+								<option value='employeeName'>Employee Name</option>
+								<option value='employeeAddress'>Employee Address</option>
+							</select>
+						</div>
 					</div>
-					<div class='input-control text size8'>
+				</td>
+				<td colspan=4 class="text-center">
+					<div class="input-control text size6">
 						<input type='text' placeholder='Keyword of Employee' />
 						<button class='btn-search'></button>
 					</div>
+				</td>
+
 			</tr>
 			<tr>
 				<th></th>
@@ -103,7 +110,7 @@
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='employee_choose' value='9'></td>
+					name='employee_choose' value='7'></td>
 				<td class="text-center">Code</td>
 				<td class="text-center">Name</td>
 				<td class="text-center">Jl. Street</td>
@@ -112,7 +119,7 @@
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='employee_choose' value='10'></td>
+					name='employee_choose' value='8'></td>
 				<td class="text-center">Code</td>
 				<td class="text-center">Name</td>
 				<td class="text-center">Jl. Street</td>

@@ -64,7 +64,7 @@
 									<div class="input-control radio margin10">
 										<label> <input type="radio" name="assignment_type"
 											checked="checked" value="Bussiness Unit" /> <span
-											class="check"></span> Bussiness Unit
+											class="check"></span> Business Unit
 										</label>
 									</div>
 									<div class="input-control radio margin10">
@@ -117,10 +117,10 @@
 	</div>
 	<jsp:include page="../frame/footer.jsp" /></body>
 <div id="popup_employee" class="hide"><jsp:include
-		page="../lookup/_organization.jsp" /></div>
+		page="../lookup/_employee.jsp" /></div>
 <div id="popup_project" class="hide">
-	3<jsp:include page="../lookup/_organization.jsp" /></div>
+	<jsp:include page="../lookup/_project.jsp" /></div>
 <div id="popup_task" class="hide">
-	4<jsp:include page="../lookup/_organization.jsp" /></div>
+	<jsp:include page="../lookup/_task.jsp" /></div>
 </body>
 </html>

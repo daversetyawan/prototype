@@ -9,9 +9,13 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
+<script src="../js/selectize/selectize.js"></script>
+<script src="../js/selectize/index.js"></script>
+<script src="../js/other/selectize.js"></script>
 <script>
 	$(document).ready(function() {
 		$("#datepicker-begin, #datepicker-end").datepicker({
@@ -55,19 +59,25 @@
 									</div></td>
 							</tr>
 							<tr>
-								<td class="size3">Search By</td>
-								<td>:</td>
-								<td><div class="input-control select size2">
-										<select>
-											<option>Task Code</option>
-											<option>Task Type</option>
-											<option>Employee</option>
-										</select>
-									</div> &nbsp;&nbsp;&nbsp;
-									<div class="input-control text size3">
-										<input type="text" />
+								<td class="text-center">
+									<div class="auto-complete">
+										<div class="control-group">
+											<select id="select-search" required
+												class="demo-default size2-5">
+												<option value="">All</option>
+												<option value="taskCode">Task Code</option>
+												<option value="taskType">Task Type</option>
+												<option value="employee">Employee</option>
+											</select>
+										</div>
+									</div>
+								</td>
+								<td colspan=2 class="text-center">
+									<div class="input-control text size9">
+										<input type="text" placeholder="Keyword of Assignment" />
 										<button class="btn-search"></button>
-									</div></td>
+									</div>
+								</td>
 							</tr>
 						</tbody>
 					</table>
