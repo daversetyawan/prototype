@@ -15,6 +15,23 @@ $(document).ready(function() {
 			}
 		});
 	});
+	
+	$("#employee-2").on('click', function() {
+		$.Dialog({
+			overlay : true,
+			shadow : true,
+			flat : true,
+			icon : '<img src="../images/LOGO_Taps6.png">',
+			title : 'Flat window',
+			content : '',
+			padding : 10,
+			onShow : function(_dialog) {
+				$.Dialog.title("Employee");
+				$.Dialog.content($("#popup_employee-2").html());
+				$.Metro.initInputs();
+			}
+		});
+	});
 
 	$("#task").on('click', function() {
 		$.Dialog({

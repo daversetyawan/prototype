@@ -104,17 +104,23 @@
 							<tr>
 								<td class="size3">Project Code</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Project Code" />
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Project Name</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Project Name" />
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Client</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Client" />
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Phase</td>
@@ -174,37 +180,36 @@
 									<button onclick="">Cancel</button>
 								</td>
 							</tr>
-							<tr>
-								<td colspan="3" class="size3">
-									<div class="control-group">
-										<label for="select-to">To:</label> <select id="select-to"
-											name="select-to" class="contacts"
-											placeholder="Pick some people...">
-											<option value="">Employee</option>
-											<option value="1">devri@Volvo kosong</option>
-											<option value="2">asdqwe@Volvo satu</option>
-											<option value="3">kamas@Volvo2 dua</option>
-											<option value="4">kael@Volvo3 tiga</option>
-											<option value="5">invo@Marchedes enol</option>
-											<option value="6">drow@Mercedes siji</option>
-											<option value="7">lanaya@Mercedes loro</option>
-											<option value="8">wr@Mercedes tiga</option>
+<!-- 							<tr> -->
+<!-- 								<td colspan="3" class="size3"> -->
+<!-- 									<div class="control-group"> -->
+<!-- 										<label for="select-to">To:</label> <select id="select-to" -->
+<!-- 											name="select-to" class="contacts" -->
+<!-- 											placeholder="Pick some people..."> -->
+<!-- 											<option value="">Employee</option> -->
+<!-- 											<option value="1">devri@Volvo kosong</option> -->
+<!-- 											<option value="2">asdqwe@Volvo satu</option> -->
+<!-- 											<option value="3">kamas@Volvo2 dua</option> -->
+<!-- 											<option value="4">kael@Volvo3 tiga</option> -->
+<!-- 											<option value="5">invo@Marchedes enol</option> -->
+<!-- 											<option value="6">drow@Mercedes siji</option> -->
+<!-- 											<option value="7">lanaya@Mercedes loro</option> -->
+<!-- 											<option value="8">wr@Mercedes tiga</option> -->
 
-										</select>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td colspan="3" class="size3">
-									<button onclick="javascript:test();">cek</button>
-								</td>
-							</tr>
-							<tr>
-								<td colspan="3" class="size3">
-									<button id="look-up">dialog</button>
-								</td>
-							</tr>
-
+<!-- 										</select> -->
+<!-- 									</div> -->
+<!-- 								</td> -->
+<!-- 							</tr> -->
+<!-- 							<tr> -->
+<!-- 								<td colspan="3" class="size3"> -->
+<!-- 									<button onclick="javascript:test();">cek</button> -->
+<!-- 								</td> -->
+<!-- 							</tr> -->
+<!-- 							<tr> -->
+<!-- 								<td colspan="3" class="size3"> -->
+<!-- 									<button id="look-up">dialog</button> -->
+<!-- 								</td> -->
+<!-- 							</tr> -->
 						</tbody>
 					</table>
 				</div>

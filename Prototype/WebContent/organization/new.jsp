@@ -110,7 +110,7 @@
 		</div>
 	</div>
 	<jsp:include page="../frame/footer.jsp" />
-	<div id="popup_employee" style="display: none;"><jsp:include
+	<div id="popup_employee" class="hide"><jsp:include
 			page="../lookup/_organization.jsp" /></div>
 </body>
 
