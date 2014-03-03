@@ -60,11 +60,19 @@
 							<tr>
 								<td class="size3">Assignment Type</td>
 								<td>:</td>
-								<td><input type="radio" name="assignment_type"
-									value="Bussiness Unit" checked="checked">&nbsp;&nbsp;
-									Bussiness Unit &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"
-									name="assignment_type" value="Project">&nbsp;&nbsp;
-									Project</td>
+								<td>
+									<div class="input-control radio margin10">
+										<label> <input type="radio" name="assignment_type"
+											checked="checked" value="Bussiness Unit" /> <span
+											class="check"></span> Bussiness Unit
+										</label>
+									</div>
+									<div class="input-control radio margin10">
+										<label> <input type="radio" name="assignment_type"
+											value="Project" /> <span class="check"></span> Project
+										</label>
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<td class="size3">Assign To</td>
