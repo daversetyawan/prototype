@@ -17,6 +17,17 @@
 <script src="../js/metro/metro-datepicker.min.js"></script>
 <script src="../js/other/popup.js"></script>
 
+<script>
+	$(document).ready(function() {
+		$("#save-btn").click(function() {
+			window.location.replace("structure.jsp");
+		});
+		$("#cancel-btn").click(function() {
+			window.location.replace("structure.jsp");
+		});
+	});
+</script>
+
 <title>Add Project Structure</title>
 </head>
 
@@ -67,8 +78,8 @@
 							</tr>
 							<tr>
 								<td colspan="3" class="text-right">
-									<button onclick="" class="button success">Save</button>
-									<button onclick="">Cancel</button>
+									<button id="save-btn" onclick="" class="button success">Save</button>
+									<button id="cancel-btn" onclick="">Cancel</button>
 								</td>
 							</tr>
 						</tbody>

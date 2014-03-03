@@ -29,6 +29,9 @@
 				$("#1month").show();
 			}
 		});
+		$("#generate-btn").click(function() {
+			window.location.replace("view.jsp");
+		});
 	});
 </script>
 
@@ -121,7 +124,7 @@
 							</tr>
 							<tr>
 								<td colspan="3" class="text-right">
-									<button onclick="" class="success">Generate</button>
+									<button id="generate-btn" onclick="" class="success">Generate</button>
 								</td>
 							</tr>
 						</tbody>

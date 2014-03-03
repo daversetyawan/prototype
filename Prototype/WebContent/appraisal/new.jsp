@@ -30,6 +30,12 @@
 				rating.rate(value);
 			}
 		});
+		$("#appraisal-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#cancel-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
 	});
 </script>
 
@@ -90,8 +96,8 @@
 							</tr>
 							<tr>
 								<td colspan="3" class="text-right">
-									<button onclick="" class="success">Appraisal</button>
-									<button onclick="">Cancel</button>
+									<button id="appraisal-btn" onclick="" class="success">Appraisal</button>
+									<button id="cancel-btn" onclick="">Cancel</button>
 								</td>
 							</tr>
 						</tbody>

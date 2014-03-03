@@ -24,6 +24,15 @@
 			effect : "none",
 			position : "bottom"
 		});
+		$("#claim-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#claimclose-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#cancel-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
 	});
 </script>
 
@@ -147,9 +156,9 @@
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">
-									<button class="button success">Claim</button>
-									<button class="button success">Claim &amp; Close</button>
-									<button class="button info">Cancel</button>
+									<button id="claim-btn" class="button success">Claim</button>
+									<button id="claimclose-btn" class="button success">Claim &amp; Close</button>
+									<button id="cancel-btn" class="button info">Cancel</button>
 								</td>
 							</tr>
 						</tbody>

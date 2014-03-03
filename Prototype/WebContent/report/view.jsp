@@ -12,6 +12,13 @@
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#back-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+	});
+</script>
 
 <title>Taps</title>
 </head>
@@ -128,7 +135,7 @@
 										</ul>
 									</div>
 								</td>
-								<td colspan=2 class="text-right"><button>Back</button></td>
+								<td colspan=2 class="text-right"><button id="back-btn">Back</button></td>
 							</tr>
 							
 						</tbody>
