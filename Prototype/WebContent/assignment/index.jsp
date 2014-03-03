@@ -14,13 +14,7 @@
 <script src="../js/metro/metro.min.js"></script>
 <script>
 	$(document).ready(function() {
-		$("#datepicker-begin").datepicker({
-			date : "2014-01-01",
-			format : "dd/mm/yyyy",
-			effect : "none",
-			position : "bottom"
-		});
-		$("#datepicker-end").datepicker({
+		$("#datepicker-begin, #datepicker-end").datepicker({
 			date : "2014-01-01",
 			format : "dd/mm/yyyy",
 			effect : "none",
@@ -35,7 +29,7 @@
 
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
+
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
