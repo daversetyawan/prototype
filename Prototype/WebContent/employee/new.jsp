@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/selectize.css">
-<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
@@ -179,7 +178,7 @@
 									<div class="auto-complete">
 										<div class="control-group">
 											<select id="select-tingkat" required
-												class="demo-default size1">
+												class="demo-default size-mh">
 												<option value="">Level</option>
 												<option value="A">A</option>
 												<option value="B">B</option>

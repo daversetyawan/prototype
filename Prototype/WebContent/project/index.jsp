@@ -10,11 +10,15 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
+<script src="../js/selectize/selectize.js"></script>
+<script src="../js/selectize/index.js"></script>
+<script src="../js/other/selectize.js"></script>
 
 <title>Project</title>
 </head>
@@ -22,7 +26,7 @@
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
+
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
@@ -30,25 +34,32 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th class="text-center">Project</th>
+								<th colspan=2 class="text-center">Project</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td><div class="input-control select size3">
-										<select>
-											<option value="">All</option>
-											<option value="projectCode">Project Code</option>
-											<option value="projectName">Project Name</option>
-											<option value="client">Client</option>
-											<option value="phase">Phase</option>
-											<option value="organization">Organization</option>
-										</select>
-									</div> &nbsp;&nbsp;&nbsp;
-									<div class="input-control text size8">
+								<td class="text-center">
+									<div class="auto-complete">
+										<div class="control-group">
+											<select id="select-search" required
+												class="demo-default size2-5">
+												<option value="">All</option>
+												<option value="projectCode">Project Code</option>
+												<option value="projectName">Project Name</option>
+												<option value="client">Client</option>
+												<option value="phase">Phase</option>
+												<option value="organization">Organization</option>
+											</select>
+										</div>
+									</div>
+								</td>
+								<td class="text-center">
+									<div class="input-control text size9">
 										<input type="text" placeholder="Keyword of Projects" />
 										<button class="btn-search"></button>
-									</div></td>
+									</div>
+								</td>
 							</tr>
 						</tbody>
 					</table>

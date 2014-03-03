@@ -55,7 +55,7 @@
 								<td>Organization Code</td>
 								<td>:</td>
 								<td><div class="input-control text size3">
-										<input type="text" placeholder="Ogranization Code" />
+										<input type="text" placeholder="Organization Code" />
 									</div></td>
 							</tr>
 							<tr>
@@ -63,7 +63,7 @@
 								<td>:</td>
 								<td>
 									<div class="input-control text size3">
-										<input type="text" placeholder="Ogranization Name" />
+										<input type="text" placeholder="Organization Name" />
 									</div>
 								</td>
 							</tr>
@@ -111,7 +111,7 @@
 	</div>
 	<jsp:include page="../frame/footer.jsp" />
 	<div id="popup_employee" class="hide"><jsp:include
-			page="../lookup/_organization.jsp" /></div>
+			page="../lookup/_employee.jsp" /></div>
 </body>
 
 </html>

@@ -40,7 +40,7 @@
 								<td>:</td>
 								<td>
 									<div class="input-control text size3">
-										<input type="text" placeholder="Ogranization Name" />
+										<input type="text" placeholder="Organization Name" />
 									</div>
 								</td>
 							</tr>
@@ -81,9 +81,9 @@
 
 	<jsp:include page="../frame/footer.jsp" />
 	<div id="popup_employee" class="hide"><jsp:include
-			page="../lookup/_organization.jsp" /></div>
+			page="../lookup/_employee.jsp" /></div>
 	<div id="popup_employee-2" class="hide">
-		2<br><jsp:include page="../lookup/_organization.jsp" /></div>
+		<jsp:include page="../lookup/_employee.jsp" /></div>
 </body>
 
 </html>

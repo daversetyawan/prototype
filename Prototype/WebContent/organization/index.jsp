@@ -11,9 +11,13 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
+<script src="../js/selectize/selectize.js"></script>
+<script src="../js/selectize/index.js"></script>
+<script src="../js/other/selectize.js"></script>
 
 <title>Organization</title>
 </head>
@@ -29,24 +33,31 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th class="text-center">Organization</th>
+								<th colspan=2 class="text-center">Organization</th>
 							</tr>
 						</thead>
 
 						<tbody>
 							<tr>
-								<td><div class="input-control select size3">
-										<select id="search">
-											<option value="">All</option>
-											<option value="organizationCode">Organization Code</option>
-											<option value="organizationName">Organization Name</option>
-											<option value="headName">Head Name</option>
-										</select>
+								<td class="text-center">
+									<div class="auto-complete">
+										<div class="control-group">
+											<select id="select-search" required
+												class="demo-default size2-5">
+												<option value="">All</option>
+												<option value="organizationCode">Organization Code</option>
+												<option value="organizationName">Organization Name</option>
+												<option value="headName">Head Name</option>
+											</select>
+										</div>
 									</div>
+								</td>
+								<td class="text-center">
 									<div class="input-control text size9">
 										<input type="text" placeholder="Keyword of Organization" />
 										<button class="btn-search"></button>
 									</div>
+								</td>
 							</tr>
 						</tbody>
 					</table>
