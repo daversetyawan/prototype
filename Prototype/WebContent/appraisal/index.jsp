@@ -19,109 +19,108 @@
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
+
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
 				<div class="content-taps">
 					<div class="row">
-						<table class="table">
+
+						<table class="table striped bordered hovered">
 							<thead>
 								<tr>
-									<th colspan=7 class="text-center">Special Appraisal</th>
+									<th colspan=4 class="text-center">Special Appraisal</th>
+								</tr>
+								<tr>
+									<th class="text-center">Appraisal Date</th>
+									<th class="text-center">Appraisal To</th>
+									<th class="text-center">Appraisal Star</th>
+									<th class="text-center">View</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri S<a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-										<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
+									<td class="text-center">01/03/2014</td>
+									<td class="text-center">Devri</td>
+									<td class="text-center">10</td>
+									<td class="text-center"><a href="view.jsp"
+										data-hint="View Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/EDIT.png"></a></td>
 								</tr>
 								<tr>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-										<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
-									<td class="text-center"><div class="tile bg-cyan">
-											<div class="tile-content icon">
-												25/02/2014 Devri <a href="view.jsp"><img
-													src="../images/taps.png"></a>
-											</div>
-										</div></td>
+									<td class="text-center">01/03/2014</td>
+									<td class="text-center">Devri</td>
+									<td class="text-center">10</td>
+									<td class="text-center"><a href="view.jsp"
+										data-hint="View Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/EDIT.png"></a></td>
 								</tr>
 								<tr>
-									<td colspan=6>
+									<td class="text-center">01/03/2014</td>
+									<td class="text-center">Devri</td>
+									<td class="text-center">10</td>
+									<td class="text-center"><a href="view.jsp"
+										data-hint="View Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/EDIT.png"></a></td>
+								</tr>
+								<tr>
+									<td class="text-center">01/03/2014</td>
+									<td class="text-center">Devri</td>
+									<td class="text-center">10</td>
+									<td class="text-center"><a href="view.jsp"
+										data-hint="View Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/EDIT.png"></a></td>
+								</tr>
+								<tr>
+									<td class="text-center">01/03/2014</td>
+									<td class="text-center">Devri</td>
+									<td class="text-center">10</td>
+									<td class="text-center"><a href="view.jsp"
+										data-hint="View Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/EDIT.png"></a></td>
+								</tr>
+								<tr>
+									<td class="text-center">01/03/2014</td>
+									<td class="text-center">Devri</td>
+									<td class="text-center">10</td>
+									<td class="text-center"><a href="view.jsp"
+										data-hint="View Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/EDIT.png"></a></td>
+								</tr>
+								<tr>
+									<td class="text-center">01/03/2014</td>
+									<td class="text-center">Devri</td>
+									<td class="text-center">10</td>
+									<td class="text-center"><a href="view.jsp"
+										data-hint="View Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/EDIT.png"></a></td>
+								</tr>
+								<tr>
+									<td class="text-center">01/03/2014</td>
+									<td class="text-center">Devri</td>
+									<td class="text-center">10</td>
+									<td class="text-center"><a href="view.jsp"
+										data-hint="View Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/EDIT.png"></a></td>
+								</tr>
+								<tr>
+									<td class="text-center">01/03/2014</td>
+									<td class="text-center">Devri</td>
+									<td class="text-center">10</td>
+									<td class="text-center"><a href="view.jsp"
+										data-hint="View Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/EDIT.png"></a></td>
+								</tr>
+								<tr>
+									<td class="text-center">01/03/2014</td>
+									<td class="text-center">Devri</td>
+									<td class="text-center">10</td>
+									<td class="text-center"><a href="view.jsp"
+										data-hint="View Appraisal" data-hint-position="bottom"><img
+											alt="" src="../images/EDIT.png"></a></td>
+								</tr>
+								<tr>
+									<td colspan=3 class="text-center">
 										<div class="pagination">
 											<ul>
 												<li class="first"><a><i class="icon-first-2"></i></a></li>
@@ -134,21 +133,15 @@
 												<li><a>500</a></li>
 												<li class="next"><a><i class="icon-next"></i></a></li>
 												<li class="last"><a><i class="icon-last-2"></i></a></li>
-												<li></li>
 											</ul>
 										</div>
 									</td>
-									<td colspan=1 class="text-center"><a href="new.jsp"
-										data-hint="Add Special Appraisal" data-hint-position="bottom"><img
-											alt="" src="../images/ADD_STAR.png"></a></td>
 								</tr>
 							</tbody>
 						</table>
-
 					</div>
 
 				</div>
-				<!-- end div content -->
 			</div>
 		</div>
 	</div>
