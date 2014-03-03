@@ -10,11 +10,15 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
+<script src="../js/selectize/selectize.js"></script>
+<script src="../js/selectize/index.js"></script>
+<script src="../js/other/selectize.js"></script>
 
 <title>Business Unit Member</title>
 </head>
@@ -43,18 +47,24 @@
 								<td colspan="2">???</td>
 							</tr>
 							<tr>
-								<td colspan=2><div class="input-control select size3">
-										<select>
-											<option value="">All</option>
-											<option value="employeeCode">Employee Code</option>
-											<option value="employeeName">Employee Name</option>
-										</select>
+								<td class="text-center">
+									<div class="auto-complete">
+										<div class="control-group">
+											<select id="select-search" required
+												class="demo-default size2-5">
+												<option value="">All</option>
+												<option value="employeeCode">Employee Code</option>
+												<option value="employeeName">Employee Name</option>
+											</select>
+										</div>
 									</div>
-									<div class="input-control text size7">
-										<input type="text"
-											placeholder="Keyword of Member in Organization" />
+								</td>
+								<td class="text-center">
+									<div class="input-control text size9">
+										<input type="text" placeholder="Keyword of Member in Organization" />
 										<button class="btn-search"></button>
-									</div></td>
+									</div>
+								</td>
 							</tr>
 						</tbody>
 					</table>

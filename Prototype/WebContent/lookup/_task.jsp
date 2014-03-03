@@ -26,18 +26,24 @@
 
 			</tr>
 			<tr>
-				<td colspan=6><div class='input-control select size2'>
-						<select id='search'>
-							<option value=''>All</option>
+				<td colspan=2 class="text-center">
+					<div class="auto-complete">
+						<div class="control-group">
+							<select id="select-search" required class="demo-default size3">
+								<option value=''>All</option>
 							<option value='taskCode'>Task Code</option>
 							<option value='taskType'>Task Type</option>
 							<option value='employeeName'>Employee Name</option>
-						</select>
+							</select>
+						</div>
 					</div>
-					<div class='input-control text size8'>
-						<input type='text' placeholder='Keyword of Project' />
+				</td>
+				<td colspan=4 class="text-center">
+					<div class="input-control text size6">
+						<input type='text' placeholder='Keyword of Task' />
 						<button class='btn-search'></button>
 					</div>
+				</td>
 			</tr>
 			<tr>
 				<th></th>

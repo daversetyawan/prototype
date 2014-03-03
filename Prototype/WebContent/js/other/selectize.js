@@ -2,7 +2,7 @@ $(document)
 		.ready(
 				function() {
 					$(
-							'#select-, #select-bu, #select-tingkat, #select-gol, #select-semester, #select-phase, #select-bu, #select-mh, .size-mh')
+							'#select-, #select-bu, #select-tingkat, #select-gol, #select-semester, #select-phase, #select-bu, #select-mh, #select-search, .size-mh')
 							.selectize({
 								sortField : {
 									field : 'text',

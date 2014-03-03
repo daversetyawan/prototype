@@ -78,7 +78,7 @@
 									<div class="input-control radio margin10">
 										<label> <input type="radio" name="assignment_type"
 											checked="checked" value="Bussiness Unit" /> <span
-											class="check"></span> Bussiness Unit
+											class="check"></span> Business Unit
 										</label>
 									</div>
 									<div class="input-control radio margin10">

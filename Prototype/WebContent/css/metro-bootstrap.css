@@ -1519,6 +1519,10 @@ a {
 	width: 140px !important;
 }
 
+.metro .span2,.metro .size2-5 {
+	width: 180px !important;
+}
+
 .metro .span3,.metro .size3 {
 	width: 220px !important;
 }
@@ -3855,7 +3859,7 @@ important
 	{
 	display: inline-block;
 	position: relative;
-	margin-bottom: 7pt;
+	margin-bottom: 0pt;
 }
 
 .metro .input-control.checkbox input[type="checkbox"],.metro .input-control.radio input[type="checkbox"],.metro .input-control.checkbox input[type="radio"],.metro .input-control.radio input[type="radio"]
