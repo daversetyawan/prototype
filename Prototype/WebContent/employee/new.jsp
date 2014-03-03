@@ -79,22 +79,30 @@
 							<tr>
 								<td>Employee Code</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Employee Code" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Employee NIK</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="NIK" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Employee First Name</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="First Name" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Employee Last Name</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Last Name" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Employee Gender</td>
@@ -128,17 +136,23 @@
 							<tr>
 								<td>Phone No</td>
 								<td>:</td>
-								<td colspan="2"><input type="text" /></td>
+								<td colspan="2"><div class="input-control text size3">
+										<input type="text" placeholder="Phone No" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Mobile No</td>
 								<td>:</td>
-								<td colspan="2"><input type="text" /></td>
+								<td colspan="2"><div class="input-control text size3">
+										<input type="text" placeholder="Mobile No" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Email</td>
 								<td>:</td>
-								<td colspan="2"><input type="text" /></td>
+								<td colspan="2"><div class="input-control text size3">
+										<input type="text" placeholder="Email" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Golongan</td>
