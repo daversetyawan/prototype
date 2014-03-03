@@ -30,6 +30,16 @@
 		$('#shake').trigger('startRumble');
 
 		$('#select-periode, #select-range').selectize();
+
+		$(".choose").click(
+				function(e) {
+// 					e.preventDefault();
+					$(this).addClass('menu-accordion-choosen').siblings()
+							.removeClass('menu-accordion-choosen').parent()
+							.siblings().find('.menu-accordion-choosen')
+							.removeClass('menu-accordion-choosen');
+
+				});
 	});
 </script>
 </head>
@@ -143,8 +153,6 @@
 
 					<div class="row">
 						<div class="span10">
-							<!-- 						<h2 class="fg-white">To-do List</h2> -->
-
 							<a href="#" id="shake" data-hint="Approval Assignment"
 								data-hint-position="left" class="tile bg-cyan"> <span
 								class="tile-content icon"> <img alt=""
@@ -178,12 +186,13 @@
 							</a>
 						</div>
 					</div>
-
 				</div>
 				<!-- end div content -->
 			</div>
 		</div>
 	</div>
+
 	<jsp:include page="../frame/footer.jsp" />
+	
 </body>
 </html>

@@ -18,69 +18,16 @@
 <script src="../js/metro/metro-datepicker.js"></script>
 <script src="../js/selectize/selectize.js"></script>
 <script src="../js/selectize/index.js"></script>
+<script src="../js/other/selectize.js"></script>
 <script>
-	function test() {
-		alert($("#select-to").val());
-	}
-	$(document).ready(
-			function() {
-				$("#datepicker-begin, #datepicker-end").datepicker({
-					date : "2014-01-01",
-					format : "dd/mm/yyyy",
-					effect : "none",
-					position : "bottom"
-				});
-				$('#select-phase, #select-bu').selectize({
-					sortField : {
-						field : 'text',
-						direction : 'asc'
-					}
-				});
-
-				var getName = function(item) {
-					return $.trim((item.desc.split("@")[0]));
-				};
-
-				var getDesc = function(item) {
-					return $.trim((item.desc.split("@")[1]));
-				};
-
-				$('#select-to').selectize(
-						{
-							create : false,
-							persist : false,
-							maxItems : 1,
-							valueField : 'id',
-							labelField : 'desc',
-							searchField : [ 'id', 'desc' ],
-							sortField : [ {
-								field : 'text',
-								direction : 'asc'
-							} ],
-
-							render : {
-								item : function(item, escape) {
-									var name = getName(item);
-									return '<div>'
-											+ (name ? '<span class="name">'
-													+ escape(name) + '</span>'
-													: '') + '</div>';
-								},
-								option : function(item, escape) {
-									var name = getDesc(item);
-									var label = getName(item);
-
-									return '<div>'
-											+ '<div class="">'
-											+ escape(label)
-											+ '</div>'
-											+ (name ? '<span class="caption">'
-													+ escape(name) + '</span>'
-													: '') + '</div>';
-								}
-							}
-						});
-			});
+	$(document).ready(function() {
+		$("#datepicker-begin, #datepicker-end").datepicker({
+			date : "2014-01-01",
+			format : "dd/mm/yyyy",
+			effect : "none",
+			position : "bottom"
+		});
+	});
 </script>
 
 <title>Project</title>
@@ -104,17 +51,23 @@
 							<tr>
 								<td class="size3">Project Code</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Project Code" />
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Project Name</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Project Name" />
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Client</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Client" />
+									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Phase</td>
@@ -174,37 +127,36 @@
 									<button onclick="">Cancel</button>
 								</td>
 							</tr>
-							<tr>
-								<td colspan="3" class="size3">
-									<div class="control-group">
-										<label for="select-to">To:</label> <select id="select-to"
-											name="select-to" class="contacts"
-											placeholder="Pick some people...">
-											<option value="">Employee</option>
-											<option value="1">devri@Volvo kosong</option>
-											<option value="2">asdqwe@Volvo satu</option>
-											<option value="3">kamas@Volvo2 dua</option>
-											<option value="4">kael@Volvo3 tiga</option>
-											<option value="5">invo@Marchedes enol</option>
-											<option value="6">drow@Mercedes siji</option>
-											<option value="7">lanaya@Mercedes loro</option>
-											<option value="8">wr@Mercedes tiga</option>
+							<!-- 							<tr> -->
+							<!-- 								<td colspan="3" class="size3"> -->
+							<!-- 									<div class="control-group"> -->
+							<!-- 										<label for="select-to">To:</label> <select id="select-to" -->
+							<!-- 											name="select-to" class="contacts" -->
+							<!-- 											placeholder="Pick some people..."> -->
+							<!-- 											<option value="">Employee</option> -->
+							<!-- 											<option value="1">devri@Volvo kosong</option> -->
+							<!-- 											<option value="2">asdqwe@Volvo satu</option> -->
+							<!-- 											<option value="3">kamas@Volvo2 dua</option> -->
+							<!-- 											<option value="4">kael@Volvo3 tiga</option> -->
+							<!-- 											<option value="5">invo@Marchedes enol</option> -->
+							<!-- 											<option value="6">drow@Mercedes siji</option> -->
+							<!-- 											<option value="7">lanaya@Mercedes loro</option> -->
+							<!-- 											<option value="8">wr@Mercedes tiga</option> -->
 
-										</select>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td colspan="3" class="size3">
-									<button onclick="javascript:test();">cek</button>
-								</td>
-							</tr>
-							<tr>
-								<td colspan="3" class="size3">
-									<button id="look-up">dialog</button>
-								</td>
-							</tr>
-
+							<!-- 										</select> -->
+							<!-- 									</div> -->
+							<!-- 								</td> -->
+							<!-- 							</tr> -->
+							<!-- 							<tr> -->
+							<!-- 								<td colspan="3" class="size3"> -->
+							<!-- 									<button onclick="javascript:test();">cek</button> -->
+							<!-- 								</td> -->
+							<!-- 							</tr> -->
+							<!-- 							<tr> -->
+							<!-- 								<td colspan="3" class="size3"> -->
+							<!-- 									<button id="look-up">dialog</button> -->
+							<!-- 								</td> -->
+							<!-- 							</tr> -->
 						</tbody>
 					</table>
 				</div>

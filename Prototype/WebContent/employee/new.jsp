@@ -19,14 +19,9 @@
 <script src="../js/metro/metro-datepicker.min.js"></script>
 <script src="../js/selectize/selectize.js"></script>
 <script src="../js/selectize/index.js"></script>
+<script src="../js/other/selectize.js"></script>
 <script>
 	$(document).ready(function() {
-		$('#select-domain, #select-bu').selectize({
-			sortField : {
-				field : 'text',
-				direction : 'asc'
-			}
-		});
 		$("#__input_file_wrapper__").attr('placeholder', 'Browse File');
 	});
 </script>
@@ -79,29 +74,47 @@
 							<tr>
 								<td>Employee Code</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Employee Code" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Employee NIK</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="NIK" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Employee First Name</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="First Name" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Employee Last Name</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Last Name" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Employee Gender</td>
 								<td>:</td>
-								<td><input type="radio" name="gender" id="gender"
-									value="Male">&nbsp;&nbsp;Male &nbsp;&nbsp;&nbsp;&nbsp;<input
-									type="radio" name="gender" id="gender" value="Female">&nbsp;&nbsp;Female</td>
+								<td>
+									<div class="input-control radio margin10">
+										<label> <input type="radio" name="gender" checked="checked"/> <span
+											class="check"></span> Male
+										</label>
+									</div>
+									<div class="input-control radio margin10">
+
+										<label> <input type="radio" name="gender" /> <span
+											class="check"></span> Female
+										</label>
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<td>Business Unit</td>
@@ -128,35 +141,56 @@
 							<tr>
 								<td>Phone No</td>
 								<td>:</td>
-								<td colspan="2"><input type="text" /></td>
+								<td colspan="2"><div class="input-control text size3">
+										<input type="text" placeholder="Phone No" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Mobile No</td>
 								<td>:</td>
-								<td colspan="2"><input type="text" /></td>
+								<td colspan="2"><div class="input-control text size3">
+										<input type="text" placeholder="Mobile No" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Email</td>
 								<td>:</td>
-								<td colspan="2"><input type="text" /></td>
+								<td colspan="2"><div class="input-control text size3">
+										<input type="text" placeholder="Email" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Golongan</td>
 								<td>:</td>
-								<td colspan="2"><select id="golongan" class="size1">
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-										<option value="5">5</option>
-										<option value="6">6</option>
-								</select> <select id="golongan-tingkat" class="size1">
-										<option value="A">A</option>
-										<option value="B">B</option>
-										<option value="C">C</option>
-										<option value="D">D</option>
-										<option value="E">E</option>
-										<option value="F">F</option>
-								</select></td>
+								<td colspan="2">
+									<div class="auto-complete">
+										<div class="control-group">
+											<select id="select-gol" required class="demo-default size1">
+												<option value="">Gol</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="auto-complete">
+										<div class="control-group">
+											<select id="select-tingkat" required
+												class="demo-default size1">
+												<option value="">Level</option>
+												<option value="A">A</option>
+												<option value="B">B</option>
+												<option value="C">C</option>
+												<option value="D">D</option>
+												<option value="E">E</option>
+												<option value="F">F</option>
+											</select>
+										</div>
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<td colspan="4" class="text-right">

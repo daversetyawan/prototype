@@ -13,42 +13,38 @@
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/selectize/selectize.js"></script>
 <script src="../js/selectize/index.js"></script>
+<script src="../js/other/selectize.js"></script>
+
+<script src="../js/other/popup.js"></script>
 <script>
-	$(document).ready(
-			function() {
-				$("#datepicker").datepicker({
-					date : "2014-01-01",
-					format : "dd/mm/yyyy",
-					effect : "none",
-					position : "bottom"
-				});
+	$(document).ready(function() {
+		$("#datepicker, #datepicker-begin, #datepicker-end").datepicker({
+			date : "2014-01-01",
+			format : "dd/mm/yyyy",
+			effect : "none",
+			position : "bottom"
+		});
+		$("#pr").hide();
+		$("#bu").show();
+		$("#adhoc").hide();
+		$("input[name='assignment_type']").change(function() {
+			if ($(this).val() == "Project") {
+				$("#pr").show();
+				$("#bu").hide();
+			} else {
 				$("#pr").hide();
 				$("#bu").show();
+			}
+		});
+		$("input[name='activity_type']").change(function() {
+			if ($(this).val() == "AdHoc") {
+				$("#adhoc").show();
+			} else {
 				$("#adhoc").hide();
-				$("input[name='assignment_type']").change(function() {
-					if ($(this).val() == "Project") {
-						$("#pr").show();
-						$("#bu").hide();
-					} else {
-						$("#pr").hide();
-						$("#bu").show();
-					}
-				});
-				$("input[name='activity_type']").change(function() {
-					if ($(this).val() == "AdHoc") {
-						$("#adhoc").show();
-					} else {
-						$("#adhoc").hide();
-					}
-				});
-				$('#select-emp, #select-project, #select-task, #select-adhoc')
-						.selectize({
-							sortField : {
-								field : 'text',
-								direction : 'asc'
-							}
-						});
-			});
+			}
+		});
+
+	});
 </script>
 <title>New Assignment</title>
 </head>
@@ -63,7 +59,7 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th colspan=3 class="text-center">New Assignment</th>
+								<th colspan=3 class="text-center">New Self Assignment</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -78,11 +74,19 @@
 							<tr>
 								<td class="size3">Assignment Type</td>
 								<td>:</td>
-								<td><input type="radio" name="assignment_type"
-									value="Bussiness Unit" checked="checked">&nbsp;&nbsp;
-									Bussiness Unit &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"
-									name="assignment_type" value="Project">&nbsp;&nbsp;
-									Project</td>
+								<td>
+									<div class="input-control radio margin10">
+										<label> <input type="radio" name="assignment_type"
+											checked="checked" value="Bussiness Unit" /> <span
+											class="check"></span> Bussiness Unit
+										</label>
+									</div>
+									<div class="input-control radio margin10">
+										<label> <input type="radio" name="assignment_type"
+											value="Project" /> <span class="check"></span> Project
+										</label>
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<td class="size3">Assign By</td>
@@ -92,132 +96,119 @@
 										</b> : Toto Hugo
 									</div>
 									<div id="pr">
-										<div class="auto-complete">
-											<div class="control-group">
-												<select id="select-project" required
-													class="demo-default size3">
-													<option value="">Project</option>
-													<option value="4">Front End</option>
-													<option value="1">Back End</option>
-													<option value="3">Taps</option>
-													<option value="5">Dota Taps</option>
-												</select>
-											</div>
+										<div class="input-control text size3">
+											<input type="text" placeholder="Project" readonly="readonly" />
+											<button class="btn-search" id="project"></button>
 										</div>
+
 										&nbsp;&nbsp; <b>Report to </b> :
-										<div class="auto-complete">
-											<div class="control-group">
-												<select id="select-emp" required class="demo-default size3">
-													<option value="">Employee</option>
-													<option value="1">Toto</option>
-													<option value="2">Hugo</option>
-													<option value="3">Hizkia</option>
-													<option value="4">Edo</option>
-												</select>
-											</div>
+										<div class="input-control text size3">
+											<input type="text" placeholder="Employee" readonly="readonly" />
+											<button class="btn-search" id="employee"></button>
 										</div>
 									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Activity Type</td>
 								<td>:</td>
-								<td><input type="radio" name="activity_type"
-									value="Routine" checked="checked">&nbsp;&nbsp; Routine
-									&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"
-									name="activity_type" value="Initiative">&nbsp;&nbsp;
-									Initiative &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"
-									name="activity_type" value="AdHoc">&nbsp;&nbsp; Ad Hoc
-									&nbsp;&nbsp;
-									<div id="adhoc" class="auto-complete">
-										<div class="control-group">
-											<select id="select-adhoc" required class="demo-default size3">
-												<option value="">Ad-Hoc to</option>
-												<option value="4">Wirya Jaya</option>
-												<option value="1">Farisa Adelia</option>
-												<option value="3">Yusac Bazanolo</option>
-												<option value="5">Vinsen Surya</option>
-											</select>
+								<td>
+									<div class="input-control radio margin10">
+										<label> <input type="radio" name="activity_type"
+											checked="checked" value="Routine" /> <span
+											class="check"></span> Routine
+										</label>
+									</div>
+									<div class="input-control radio margin10">
+										<label> <input type="radio" name="activity_type"
+											value="Initiative" /> <span class="check"></span> Initiative
+										</label>
+									</div>
+									<div class="input-control radio margin10">
+										<label> <input type="radio" name="activity_type"
+											value="AdHoc" /> <span class="check"></span> AdHoc
+										</label>
+									</div>
+									<div id="adhoc" class="in-bl">
+										<div class="input-control text size3">
+											<input type="text" placeholder="Ad Hoc To"
+												readonly="readonly" />
+											<button class="btn-search" id="employee-2"></button>
 										</div>
-									</div></td>
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<td class="size3">Reff Task Code</td>
 								<td>:</td>
-								<td><div class="auto-complete">
-										<div class="control-group">
-											<select id="select-task" required class="demo-default size3">
-												<option value="">Task Code</option>
-												<option value="4">PRJ131100001</option>
-												<option value="4">PRJ131100002</option>
-												<option value="1">PRJ131100003</option>
-												<option value="3">PRJ131100004</option>
-												<option value="5">PRJ131100005</option>
-											</select>
-										</div>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Reff Task Code"
+											readonly="readonly" />
+										<button class="btn-search" id="task"></button>
 									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Manhours</td>
 								<td>:</td>
-								<td><div class="input-control select size-mh">
-										<select>
-											<option>00:30</option>
-											<option>01:00</option>
-											<option>01:30</option>
-											<option>02:00</option>
-											<option>02:30</option>
-											<option>03:00</option>
-											<option>03:30</option>
-											<option>04:00</option>
-											<option>04:30</option>
-											<option>05:00</option>
-											<option>05:30</option>
-											<option>06:00</option>
-											<option>06:30</option>
-											<option>07:00</option>
-											<option>07:30</option>
-											<option>08:00</option>
-											<option>08:30</option>
-											<option>09:00</option>
-											<option>09:30</option>
-											<option>10:00</option>
-											<option>10:30</option>
-											<option>11:00</option>
-											<option>11:30</option>
-											<option>12:00</option>
-											<option>12:30</option>
-											<option>13:00</option>
-											<option>13:30</option>
-											<option>14:00</option>
-											<option>14:30</option>
-											<option>15:00</option>
-											<option>15:30</option>
-											<option>16:00</option>
-											<option>16:30</option>
-											<option>17:00</option>
-											<option>17:30</option>
-											<option>18:00</option>
-											<option>18:30</option>
-											<option>19:00</option>
-											<option>19:30</option>
-											<option>20:00</option>
-											<option>20:30</option>
-											<option>21:00</option>
-											<option>21:30</option>
-											<option>22:00</option>
-											<option>22:30</option>
-											<option>22:00</option>
-											<option>22:30</option>
-											<option>23:00</option>
-											<option>23:30</option>
-											<option>24:00</option>
-										</select>
+								<td><div class="auto-complete">
+										<div class="control-group">
+											<select required class="demo-default size-mh">
+												<option value="">00:00</option>
+												<option value="00:30">00:30</option>
+												<option value="01:00">01:00</option>
+												<option value="01:30">01:30</option>
+												<option value="02:00">02:00</option>
+												<option value="02:30">02:30</option>
+												<option value="03:00">03:00</option>
+												<option value="03:30">03:30</option>
+												<option value="04:00">04:00</option>
+												<option value="04:30">04:30</option>
+												<option value="05:00">05:00</option>
+												<option value="05:30">05:30</option>
+												<option value="06:00">06:00</option>
+												<option value="06:30">06:30</option>
+												<option value="07:00">07:00</option>
+												<option value="07:30">07:30</option>
+												<option value="08:00">08:00</option>
+												<option value="08:30">08:30</option>
+												<option value="09:00">09:00</option>
+												<option value="09:30">09:30</option>
+												<option value="10:00">10:00</option>
+												<option value="10:30">10:30</option>
+												<option value="11:00">11:00</option>
+												<option value="11:30">11:30</option>
+												<option value="12:00">12:00</option>
+												<option value="12:30">12:30</option>
+												<option value="13:00">13:00</option>
+												<option value="13:30">13:30</option>
+												<option value="14:00">14:00</option>
+												<option value="14:30">14:30</option>
+												<option value="15:00">15:00</option>
+												<option value="15:30">15:30</option>
+												<option value="16:00">16:00</option>
+												<option value="16:30">16:30</option>
+												<option value="17:00">17:00</option>
+												<option value="17:30">17:30</option>
+												<option value="18:00">18:00</option>
+												<option value="18:30">18:30</option>
+												<option value="19:00">19:00</option>
+												<option value="19:30">19:30</option>
+												<option value="20:00">20:00</option>
+												<option value="20:30">20:30</option>
+												<option value="21:00">21:00</option>
+												<option value="21:30">21:30</option>
+												<option value="22:00">22:00</option>
+												<option value="22:30">22:30</option>
+												<option value="23:00">23:00</option>
+												<option value="23:30">23:30</option>
+												<option value="24:00">24:00</option>
+											</select>
+										</div>
 									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Description</td>
 								<td>:</td>
-								<td><textarea rows="3" class="input-control textarea">inwan mey pacaran</textarea></td>
+								<td><textarea rows="3" class="input-control textarea"></textarea></td>
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right"><button
@@ -232,6 +223,14 @@
 			</div>
 		</div>
 	</div>
-	<jsp:include page="../frame/footer.jsp" /></body>
+	<jsp:include page="../frame/footer.jsp" />
+	<div id="popup_employee" class="hide"><jsp:include
+			page="../lookup/_employee.jsp" /></div>
+	<div id="popup_employee-2" class="hide">
+		<jsp:include page="../lookup/_employee.jsp" /></div>
+	<div id="popup_project" class="hide">
+		<jsp:include page="../lookup/_project.jsp" /></div>
+	<div id="popup_task" class="hide">
+		<jsp:include page="../lookup/_task.jsp" /></div>
 </body>
 </html>

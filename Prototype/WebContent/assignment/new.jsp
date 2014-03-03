@@ -7,13 +7,12 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
+<script src="../js/other/popup.js"></script>
 
-<script src="../js/selectize/selectize.js"></script>
-<script src="../js/selectize/index.js"></script>
+
 <script>
 	$(document).ready(function() {
 		$("#datepicker").datepicker({
@@ -30,12 +29,7 @@
 				$("#pr").hide();
 			}
 		});
-		$('#select-emp, #select-project, #select-task').selectize({
-			sortField : {
-				field : 'text',
-				direction : 'asc'
-			}
-		});
+
 	});
 </script>
 <title>New Assignment</title>
@@ -66,59 +60,47 @@
 							<tr>
 								<td class="size3">Assignment Type</td>
 								<td>:</td>
-								<td><input type="radio" name="assignment_type"
-									value="Bussiness Unit" checked="checked">&nbsp;&nbsp;
-									Bussiness Unit &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"
-									name="assignment_type" value="Project">&nbsp;&nbsp;
-									Project</td>
+								<td>
+									<div class="input-control radio margin10">
+										<label> <input type="radio" name="assignment_type"
+											checked="checked" value="Bussiness Unit" /> <span
+											class="check"></span> Bussiness Unit
+										</label>
+									</div>
+									<div class="input-control radio margin10">
+										<label> <input type="radio" name="assignment_type"
+											value="Project" /> <span class="check"></span> Project
+										</label>
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<td class="size3">Assign To</td>
 								<td>:</td>
-								<td><div class="auto-complete" id="pr">
-										<div class="control-group">
-											<select id="select-project" required
-												class="demo-default size3">
-												<option value="">Project</option>
-												<option value="4">Front End</option>
-												<option value="1">Back End</option>
-												<option value="3">Taps</option>
-												<option value="5">Dota Taps</option>
-											</select>
+								<td><div id="pr" class="in-bl">
+										<div class="input-control text size3">
+											<input type="text" placeholder="Project" readonly="readonly" />
+											<button class="btn-search" id="project"></button>
 										</div>
 									</div>
-									<div class="auto-complete">
-										<div class="control-group">
-											<select id="select-emp" required class="demo-default size3">
-												<option value="">Employee</option>
-												<option value="4">Wirya Jaya</option>
-												<option value="1">Farisa Adelia</option>
-												<option value="3">Yusac Bazanolo</option>
-												<option value="5">Vinsen Surya</option>
-											</select>
-										</div>
+									<div class="input-control text size3">
+										<input type="text" placeholder="Employee" readonly="readonly" />
+										<button class="btn-search" id="employee"></button>
 									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Reff Task Code</td>
 								<td>:</td>
-								<td><div class="auto-complete">
-										<div class="control-group">
-											<select id="select-task" required class="demo-default size3">
-												<option value="">Task Code</option>
-												<option value="4">PRJ131100001</option>
-												<option value="4">PRJ131100002</option>
-												<option value="1">PRJ131100003</option>
-												<option value="3">PRJ131100004</option>
-												<option value="5">PRJ131100005</option>
-											</select>
-										</div>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Reff Task Code"
+											readonly="readonly" />
+										<button class="btn-search" id="task"></button>
 									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Description</td>
 								<td>:</td>
-								<td><textarea rows="3" class="input-control textarea">inwan mey pacaran</textarea></td>
+								<td><textarea rows="3" class="input-control textarea"></textarea></td>
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right"><button
@@ -134,5 +116,11 @@
 		</div>
 	</div>
 	<jsp:include page="../frame/footer.jsp" /></body>
+<div id="popup_employee" class="hide"><jsp:include
+		page="../lookup/_organization.jsp" /></div>
+<div id="popup_project" class="hide">
+	3<jsp:include page="../lookup/_organization.jsp" /></div>
+<div id="popup_task" class="hide">
+	4<jsp:include page="../lookup/_organization.jsp" /></div>
 </body>
 </html>

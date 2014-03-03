@@ -19,6 +19,10 @@
 
 <script src="../js/selectize/selectize.js"></script>
 <script src="../js/selectize/index.js"></script>
+<script src="../js/other/popup.js"></script>
+
+
+
 <script>
 	$(document).ready(function() {
 		$('#select-head, #select-parent').selectize({
@@ -50,27 +54,29 @@
 							<tr>
 								<td>Organization Code</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Ogranization Code" />
+									</div></td>
 							</tr>
 							<tr>
 								<td>Organization Name</td>
 								<td>:</td>
-								<td><input type="text" /></td>
+								<td>
+									<div class="input-control text size3">
+										<input type="text" placeholder="Ogranization Name" />
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<td>Head Name</td>
 								<td>:</td>
-								<td><div class="auto-complete">
-										<div class="control-group">
-											<select id="select-head" required class="demo-default size3">
-												<option value="">Head Organization</option>
-												<option value="1">Toto</option>
-												<option value="2">Hugo</option>
-												<option value="3">Hizkia</option>
-												<option value="4">Edo</option>
-											</select>
-										</div>
-									</div></td>
+								<td>
+									<div class="input-control text size3">
+										<input type="text" placeholder="Head of Organization"
+											readonly="readonly" />
+										<button class="btn-search" id="employee"></button>
+									</div>
+								</td>
 							</tr>
 							<tr>
 								<td>Parent Organization</td>
@@ -104,6 +110,8 @@
 		</div>
 	</div>
 	<jsp:include page="../frame/footer.jsp" />
+	<div id="popup_employee" class="hide"><jsp:include
+			page="../lookup/_organization.jsp" /></div>
 </body>
 
 </html>

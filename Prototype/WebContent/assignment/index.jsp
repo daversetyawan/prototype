@@ -14,13 +14,7 @@
 <script src="../js/metro/metro.min.js"></script>
 <script>
 	$(document).ready(function() {
-		$("#datepicker-begin").datepicker({
-			date : "2014-01-01",
-			format : "dd/mm/yyyy",
-			effect : "none",
-			position : "bottom"
-		});
-		$("#datepicker-end").datepicker({
+		$("#datepicker-begin, #datepicker-end").datepicker({
 			date : "2014-01-01",
 			format : "dd/mm/yyyy",
 			effect : "none",
@@ -35,7 +29,7 @@
 
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
+
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
@@ -98,7 +92,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="approval_assignment.jsp">RFA</a></td>
+								<td class="text-center"><a href="approval.jsp">RFA</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -107,7 +101,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="approval_assignment.jsp">RFA</a></td>
+								<td class="text-center"><a href="approval.jsp">RFA</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -116,7 +110,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="approval_assignment.jsp">RFA</a></td>
+								<td class="text-center"><a href="approval.jsp">RFA</a></td>
 							</tr>
 							<tr>
 								<td colspan=5 class="text-center">
@@ -135,7 +129,7 @@
 										</ul>
 									</div>
 								</td>
-								<td colspan=2 class="text-right"><a href="#"
+								<td colspan=2 class="text-right"><a href="new.jsp"
 									data-hint="New Assignment" data-hint-position="bottom"><img
 										alt="" src="../images/ADD_ASSIGNMENTT.png"></a></td>
 							</tr>

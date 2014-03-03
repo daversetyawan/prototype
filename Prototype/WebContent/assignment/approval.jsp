@@ -9,9 +9,13 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
+<script src="../js/selectize/selectize.js"></script>
+<script src="../js/selectize/index.js"></script>
+<script src="../js/other/selectize.js"></script>
 <script>
 	$(document).ready(function() {
 		$("#rating").rating({
@@ -28,7 +32,7 @@
 
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
+
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
@@ -83,62 +87,63 @@
 										<tbody>
 											<tr>
 												<td class="text-center">2013-11-15</td>
-												<td><textarea rows="2" class="input-control textarea">inwan</textarea>
+												<td><textarea rows="2" class="input-control textarea"></textarea>
 												</td>
-												<td class="text-center"><div
-														class="input-control select size-mh">
-														<select>
-															<option>00:30</option>
-															<option>01:00</option>
-															<option>01:30</option>
-															<option>02:00</option>
-															<option>02:30</option>
-															<option>03:00</option>
-															<option>03:30</option>
-															<option>04:00</option>
-															<option>04:30</option>
-															<option>05:00</option>
-															<option>05:30</option>
-															<option>06:00</option>
-															<option>06:30</option>
-															<option>07:00</option>
-															<option>07:30</option>
-															<option>08:00</option>
-															<option>08:30</option>
-															<option>09:00</option>
-															<option>09:30</option>
-															<option>10:00</option>
-															<option>10:30</option>
-															<option>11:00</option>
-															<option>11:30</option>
-															<option>12:00</option>
-															<option>12:30</option>
-															<option>13:00</option>
-															<option>13:30</option>
-															<option>14:00</option>
-															<option>14:30</option>
-															<option>15:00</option>
-															<option>15:30</option>
-															<option>16:00</option>
-															<option>16:30</option>
-															<option>17:00</option>
-															<option>17:30</option>
-															<option>18:00</option>
-															<option>18:30</option>
-															<option>19:00</option>
-															<option>19:30</option>
-															<option>20:00</option>
-															<option>20:30</option>
-															<option>21:00</option>
-															<option>21:30</option>
-															<option>22:00</option>
-															<option>22:30</option>
-															<option>22:00</option>
-															<option>22:30</option>
-															<option>23:00</option>
-															<option>23:30</option>
-															<option>24:00</option>
-														</select>
+												<td class="text-center"><div class="auto-complete">
+														<div class="control-group">
+															<select required
+																class="demo-default size-mh">
+																<option value="">00:00</option>
+																<option value="00:30">00:30</option>
+																<option value="01:00">01:00</option>
+																<option value="01:30">01:30</option>
+																<option value="02:00">02:00</option>
+																<option value="02:30">02:30</option>
+																<option value="03:00">03:00</option>
+																<option value="03:30">03:30</option>
+																<option value="04:00">04:00</option>
+																<option value="04:30">04:30</option>
+																<option value="05:00">05:00</option>
+																<option value="05:30">05:30</option>
+																<option value="06:00">06:00</option>
+																<option value="06:30">06:30</option>
+																<option value="07:00">07:00</option>
+																<option value="07:30">07:30</option>
+																<option value="08:00">08:00</option>
+																<option value="08:30">08:30</option>
+																<option value="09:00">09:00</option>
+																<option value="09:30">09:30</option>
+																<option value="10:00">10:00</option>
+																<option value="10:30">10:30</option>
+																<option value="11:00">11:00</option>
+																<option value="11:30">11:30</option>
+																<option value="12:00">12:00</option>
+																<option value="12:30">12:30</option>
+																<option value="13:00">13:00</option>
+																<option value="13:30">13:30</option>
+																<option value="14:00">14:00</option>
+																<option value="14:30">14:30</option>
+																<option value="15:00">15:00</option>
+																<option value="15:30">15:30</option>
+																<option value="16:00">16:00</option>
+																<option value="16:30">16:30</option>
+																<option value="17:00">17:00</option>
+																<option value="17:30">17:30</option>
+																<option value="18:00">18:00</option>
+																<option value="18:30">18:30</option>
+																<option value="19:00">19:00</option>
+																<option value="19:30">19:30</option>
+																<option value="20:00">20:00</option>
+																<option value="20:30">20:30</option>
+																<option value="21:00">21:00</option>
+																<option value="21:30">21:30</option>
+																<option value="22:00">22:00</option>
+																<option value="22:30">22:30</option>
+																<option value="23:00">23:00</option>
+																<option value="23:30">23:30</option>
+																<option value="24:00">24:00</option>
+															</select>
+														</div>
 													</div></td>
 											</tr>
 											<tr>
@@ -169,7 +174,7 @@
 							<tr>
 								<td>Comment</td>
 								<td>:</td>
-								<td><textarea rows="3" class="input-control textarea">inwan</textarea></td>
+								<td><textarea rows="3" class="input-control textarea"></textarea></td>
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">
@@ -209,7 +214,8 @@
 							</tr>
 						</tbody>
 					</table>
-				</div> <!-- end div content -->
+				</div>
+				<!-- end div content -->
 			</div>
 		</div>
 	</div>

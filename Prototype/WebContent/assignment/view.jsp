@@ -65,7 +65,7 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task - Membuat Tampilan Home</td>
+								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
 							</tr>
 							<tr>
 								<td>Detail Claim</td>
@@ -82,7 +82,7 @@
 										<tbody>
 											<tr>
 												<td class="text-center">2013-11-15</td>
-												<td><textarea rows="2" class="input-control textarea">inwan</textarea>
+												<td><textarea rows="2" class="input-control textarea"></textarea>
 												</td>
 												<td class="text-center">02:00</td>
 											</tr>
@@ -114,7 +114,7 @@
 							<tr>
 								<td>Comment</td>
 								<td>:</td>
-								<td><textarea rows="3" class="input-control textarea">inwan</textarea></td>
+								<td><textarea rows="3" class="input-control textarea"></textarea></td>
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">

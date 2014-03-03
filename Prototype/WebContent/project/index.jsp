@@ -79,14 +79,14 @@
 								<td>01/11/2013</td>
 								<td>31/12/2013</td>
 								<td>20</td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="structure.jsp"
 									data-hint="Member Project" data-hint-position="bottom"><img
 										alt="" src="../images/MEMBER.png"></a></td>
 								<td class="text-center"><a href="#"
 									data-hint="Edit Project" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
-									data-hint="Delet Project" data-hint-position="bottom"><img
+									data-hint="Delete Project" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
@@ -105,7 +105,7 @@
 									data-hint="Edit Project" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
-									data-hint="Delet Project" data-hint-position="bottom"><img
+									data-hint="Delete Project" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
@@ -126,7 +126,7 @@
 									</div>
 								</td>
 
-								<td colspan=2 class="text-right"><a href="#"
+								<td colspan=2 class="text-right"><a href="new.jsp"
 									data-hint="Add Project" data-hint-position="bottom"><img
 										alt="" src="../images/ADD_PROJECT.png"></a></td>
 							</tr>

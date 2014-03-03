@@ -9,14 +9,13 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
-<script src="../js/selectize/selectize.js"></script>
-<script src="../js/selectize/index.js"></script>
+<script src="../js/other/popup.js"></script>
+
 <script>
 	$(document).ready(function() {
 		$("#datepicker").datepicker({
@@ -29,12 +28,6 @@
 			stars : 10,
 			click : function(value, rating) {
 				rating.rate(value);
-			}
-		});
-		$('#select-emp').selectize({
-			sortField : {
-				field : 'text',
-				direction : 'asc'
 			}
 		});
 	});
@@ -69,22 +62,15 @@
 							<tr>
 								<td class="size3">Appraisal To</td>
 								<td>:</td>
-								<td><div class="auto-complete">
-										<div class="control-group">
-											<select id="select-emp" required class="demo-default size3">
-												<option value="">Employee</option>
-												<option value="4">Wirya Jaya</option>
-												<option value="1">Farisa Adelia</option>
-												<option value="3">Yusac Bazanolo</option>
-												<option value="5">Vinsen Surya</option>
-											</select>
-										</div>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Employee" readonly="readonly" />
+										<button class="btn-search" id="employee"></button>
 									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Appraisal Description</td>
 								<td>:</td>
-								<td><textarea rows="3" cols="80">Devri Cemburu</textarea></td>
+								<td><textarea rows="3" cols="80"></textarea></td>
 							</tr>
 							<tr>
 								<td class="size3">Appraisal Star</td>
@@ -117,6 +103,8 @@
 	</div>
 
 	<jsp:include page="../frame/footer.jsp" />
+	<div id="popup_employee" class="hide"><jsp:include
+			page="../lookup/_employee.jsp" /></div>
 </body>
 
 </html>

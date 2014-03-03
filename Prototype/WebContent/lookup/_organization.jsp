@@ -1,4 +1,3 @@
-
 <div class='span8'>
 	<table class='table'>
 		<thead>
