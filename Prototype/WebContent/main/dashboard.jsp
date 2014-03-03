@@ -40,38 +40,6 @@
 							.removeClass('menu-accordion-choosen');
 
 				});
-		$("#createFlatWindow")
-				.on(
-						'click',
-						function() {
-							$
-									.Dialog({
-										overlay : true,
-										shadow : true,
-										flat : true,
-										icon : '<img src="images/excel2013icon.png">',
-										title : 'Flat window',
-										content : '',
-										padding : 10,
-										onShow : function(_dialog) {
-											var content = '<form>'
-													+ '<label>Login</label>'
-													+ '<div class="input-control text"><input type="text" name="login"><button class="btn-clear"></button></div> '
-													+ '<label>Password</label>'
-													+ '<div class="input-control password"><input type="password" name="password"><button class="btn-reveal"></button></div> '
-													+ '<div class="input-control checkbox"><label><input type="checkbox" name="c1" checked/><span class="check"></span>Check me out</label></div>'
-													+ '<div class="form-actions">'
-													+ '<button class="button primary">Login to...</button> '
-													+ '<button class="button" type="button" onclick="$.Dialog.close()">Cancel</button> '
-													+ '</div>' + '</form>';
-											var str = $("#example").html();
-
-											$.Dialog.title("User login");
-											$.Dialog.content(str);
-											$.Metro.initInputs();
-										}
-									});
-						});
 	});
 </script>
 </head>
@@ -178,12 +146,6 @@
 										<td>Kamashwanee</td>
 										<td class="text-center">77</td>
 									</tr>
-									<tr>
-										<td colspan=4>
-											<button class="button" id="createFlatWindow">Create
-												Flat Window</button>
-										</td>
-									</tr>
 								</tbody>
 							</table>
 						</div>
@@ -191,8 +153,6 @@
 
 					<div class="row">
 						<div class="span10">
-							<!-- 						<h2 class="fg-white">To-do List</h2> -->
-
 							<a href="#" id="shake" data-hint="Approval Assignment"
 								data-hint-position="left" class="tile bg-cyan"> <span
 								class="tile-content icon"> <img alt=""
@@ -233,7 +193,6 @@
 	</div>
 
 	<jsp:include page="../frame/footer.jsp" />
-	<div id="example" style="display: none;"><jsp:include
-			page="../lookup/_organization.jsp" /></div>
+	
 </body>
 </html>

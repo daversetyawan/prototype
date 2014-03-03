@@ -79,3 +79,7 @@ body {
 .mini-padding {
 	padding-left: 20px;
 }
+
+.hide {
+	display: none;
+}
