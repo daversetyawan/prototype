@@ -64,39 +64,39 @@
 		</div>
 
 
-		<ul id="menu-parent-taps">
-			<li class="title bg-blue header-menu-taps"><span
-				class="icon-grid"></span>&nbsp;&nbsp;<b>Menu</b></li>
-			<li class="accordion-frame"><a class="dropdown-toggle" href="#">Employee</a>
-				<ul class="dropdown-menu" data-role="dropdown">
-					<li class="choose"><a href="../main/dashboard.jsp"><span class="icon-dashboard"></span>Dashboard</a></li>
-					<li class="choose"><a href="../employee/index.jsp"><span
-							class="icon-clipboard-2"></span>Employee Report</a></li>
-				</ul></li>
-			<li class="accordion-frame"><a class="dropdown-toggle" href="#">Supervisor</a>
-				<ul class="dropdown-menu" data-role="dropdown">
-					<li class="choose"><a href="../main/dashboard.jsp"><span class="icon-dashboard"></span>Dashboard</a></li>
-					<li class="choose"><a href="../employee/index.jsp"><span
-							class="icon-clipboard-2"></span>Employee Report</a></li>
-					<li class="choose"><a href="../assignment/index.jsp"><span class="icon-list"></span>Assignment</a></li>
-				</ul></li>
-			<li class="accordion-frame"><a class="dropdown-toggle" href="#">Head
-					BU</a>
-				<ul class="dropdown-menu" data-role="dropdown">
-					<li class="choose"><a href="../main/dashboard.jsp"><span class="icon-dashboard"></span>Dashboard</a></li>
-					<li class="choose"><a href="../employee/index.jsp"><span
-							class="icon-clipboard-2"></span>Employee Report</a></li>
-					<li class="choose"><a href="../appraisal/index.jsp"><span class="icon-trophy"></span>Special
-							Appraisal</a></li>
-				</ul></li>
-			<li class="accordion-frame"><a class="dropdown-toggle" href="#">Administrator</a>
-				<ul class="dropdown-menu" data-role="dropdown">
-					<li class="choose"><a href="../main/dashboard.jsp"><span class="icon-dashboard"></span>Dashboard</a></li>
-					<li class="choose"><a href="../employee/index.jsp"><span class="icon-user"></span>Employee</a></li>
-					<li class="choose"><a href="../organization/index.jsp"><span
-							class="icon-briefcase-2"></span>Organization</a></li>
-					<li class="choose"><a href="../project/index.jsp"><span class="icon-puzzle"></span>Project</a></li>
-				</ul></li>
-		</ul>
+<!-- 		<ul id="menu-parent-taps"> -->
+<!-- 			<li class="title bg-blue header-menu-taps"><span -->
+<!-- 				class="icon-grid"></span>&nbsp;&nbsp;<b>Menu</b></li> -->
+<!-- 			<li class="accordion-frame"><a class="dropdown-toggle" href="#">Employee</a> -->
+<!-- 				<ul class="dropdown-menu" data-role="dropdown"> -->
+<!-- 					<li class="choose"><a href="../main/dashboard.jsp"><span class="icon-dashboard"></span>Dashboard</a></li> -->
+<!-- 					<li class="choose"><a href="../employee/index.jsp"><span -->
+<!-- 							class="icon-clipboard-2"></span>Employee Report</a></li> -->
+<!-- 				</ul></li> -->
+<!-- 			<li class="accordion-frame"><a class="dropdown-toggle" href="#">Supervisor</a> -->
+<!-- 				<ul class="dropdown-menu" data-role="dropdown"> -->
+<!-- 					<li class="choose"><a href="../main/dashboard.jsp"><span class="icon-dashboard"></span>Dashboard</a></li> -->
+<!-- 					<li class="choose"><a href="../employee/index.jsp"><span -->
+<!-- 							class="icon-clipboard-2"></span>Employee Report</a></li> -->
+<!-- 					<li class="choose"><a href="../assignment/index.jsp"><span class="icon-list"></span>Assignment</a></li> -->
+<!-- 				</ul></li> -->
+<!-- 			<li class="accordion-frame"><a class="dropdown-toggle" href="#">Head -->
+<!-- 					BU</a> -->
+<!-- 				<ul class="dropdown-menu" data-role="dropdown"> -->
+<!-- 					<li class="choose"><a href="../main/dashboard.jsp"><span class="icon-dashboard"></span>Dashboard</a></li> -->
+<!-- 					<li class="choose"><a href="../employee/index.jsp"><span -->
+<!-- 							class="icon-clipboard-2"></span>Employee Report</a></li> -->
+<!-- 					<li class="choose"><a href="../appraisal/index.jsp"><span class="icon-trophy"></span>Special -->
+<!-- 							Appraisal</a></li> -->
+<!-- 				</ul></li> -->
+<!-- 			<li class="accordion-frame"><a class="dropdown-toggle" href="#">Administrator</a> -->
+<!-- 				<ul class="dropdown-menu" data-role="dropdown"> -->
+<!-- 					<li class="choose"><a href="../main/dashboard.jsp"><span class="icon-dashboard"></span>Dashboard</a></li> -->
+<!-- 					<li class="choose"><a href="../employee/index.jsp"><span class="icon-user"></span>Employee</a></li> -->
+<!-- 					<li class="choose"><a href="../organization/index.jsp"><span -->
+<!-- 							class="icon-briefcase-2"></span>Organization</a></li> -->
+<!-- 					<li class="choose"><a href="../project/index.jsp"><span class="icon-puzzle"></span>Project</a></li> -->
+<!-- 				</ul></li> -->
+<!-- 		</ul> -->
 	</div>
 </div>

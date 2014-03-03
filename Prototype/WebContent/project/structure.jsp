@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
 <script src="../js/jquery/jquery.min.js"></script>
-<script src="../js/jquery/jquery.widget.min.js"></script> 
+<script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
@@ -22,7 +22,7 @@
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
+
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
@@ -62,29 +62,45 @@
 								<td>Project Manager</td>
 								<td>Toto Hugo</td>
 								<td>Ricky Suryo Utomo</td>
-								<td><a href="">Edit</a></td>
-								<td><a href="">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Project" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Project" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td>System Analyst</td>
 								<td>Hizkia Purba</td>
 								<td>Toto Hugo</td>
-								<td><a href="">Edit</a></td>
-								<td><a href="">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Project" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Project" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td>Programmer Analyst</td>
 								<td>Edo R. Hermanto</td>
 								<td>Toto Hugo</td>
-								<td><a href="">Edit</a></td>
-								<td><a href="">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Project" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Project" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td>Programmer</td>
 								<td>Rudy Chandra</td>
 								<td>Toto Hugo</td>
-								<td><a href="">Edit</a></td>
-								<td><a href="">Delete</a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Edit Project" data-hint-position="bottom"><img
+										alt="" src="../images/EDIT.png"></a></td>
+								<td class="text-center"><a href="#"
+									data-hint="Delet Project" data-hint-position="bottom"><img
+										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
 								<td colspan=5 class="text-center">
