@@ -12,7 +12,7 @@
 					<a href="../main/dashboard.jsp"><span class="icon-dashboard mini-padding"></span>&nbsp;&nbsp;Dashboard</a>
 				</div>
 				<div class="content choose">
-					<a href="../employee/index.jsp"><span class="icon-clipboard-2 mini-padding"></span>&nbsp;&nbsp;Employee
+					<a href="../assignment/index.jsp"><span class="icon-clipboard-2 mini-padding"></span>&nbsp;&nbsp;Employee
 						Report</a>
 				</div>
 			</div>
@@ -24,7 +24,7 @@
 					<a href="../main/dashboard.jsp"><span class="icon-dashboard mini-padding"></span>&nbsp;&nbsp;Dashboard</a>
 				</div>
 				<div class="content choose">
-					<a href="../employee/index.jsp"><span class="icon-clipboard-2 mini-padding"></span>&nbsp;&nbsp;Employee
+					<a href="../assignment/index.jsp"><span class="icon-clipboard-2 mini-padding"></span>&nbsp;&nbsp;Employee
 						Report</a>
 				</div>
 				<div class="content choose">
