@@ -108,12 +108,10 @@
 								<td>Employee Gender</td>
 								<td>:</td>
 								<td>
-
 									<div class="input-control radio margin10">
 										<label> <input type="radio" name="gender" /> <span
 											class="check"></span> Male
 										</label>
-
 									</div>
 									<div class="input-control radio margin10">
 

@@ -16,7 +16,7 @@
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
 
-<title>Project Structure</title>
+<title>Member Structure</title>
 </head>
 
 <body class="metro">
@@ -30,7 +30,7 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th colspan=3 class="text-center">Projects Structure</th>
+								<th colspan=3 class="text-center">Members Structure</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -40,7 +40,7 @@
 								<td>Custom Development Department</td>
 							</tr>
 							<tr>
-								<td class="size3">Project</td>
+								<td class="size3">Member</td>
 								<td>:</td>
 								<td>Timesheet and Performance Sheet</td>
 							</tr>
@@ -59,14 +59,14 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>Project Manager</td>
+								<td>Member Manager</td>
 								<td>Toto Hugo</td>
 								<td>Ricky Suryo Utomo</td>
 								<td class="text-center"><a href="#"
-									data-hint="Edit Project" data-hint-position="bottom"><img
+									data-hint="Edit Member" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
-									data-hint="Delet Project" data-hint-position="bottom"><img
+									data-hint="Delete Member" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
@@ -74,10 +74,10 @@
 								<td>Hizkia Purba</td>
 								<td>Toto Hugo</td>
 								<td class="text-center"><a href="#"
-									data-hint="Edit Project" data-hint-position="bottom"><img
+									data-hint="Edit Member" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
-									data-hint="Delet Project" data-hint-position="bottom"><img
+									data-hint="Delete Member" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
@@ -85,10 +85,10 @@
 								<td>Edo R. Hermanto</td>
 								<td>Toto Hugo</td>
 								<td class="text-center"><a href="#"
-									data-hint="Edit Project" data-hint-position="bottom"><img
+									data-hint="Edit Member" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
-									data-hint="Delet Project" data-hint-position="bottom"><img
+									data-hint="Delete Member" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
@@ -96,10 +96,10 @@
 								<td>Rudy Chandra</td>
 								<td>Toto Hugo</td>
 								<td class="text-center"><a href="#"
-									data-hint="Edit Project" data-hint-position="bottom"><img
+									data-hint="Edit Member" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
-									data-hint="Delet Project" data-hint-position="bottom"><img
+									data-hint="Delete Member" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>

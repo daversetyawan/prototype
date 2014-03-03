@@ -66,8 +66,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td colspan="3">
-									<button onclick="">Save</button>
+								<td colspan="3" class="text-right">
+									<button onclick="" class="button success">Save</button>
 									<button onclick="">Cancel</button>
 								</td>
 							</tr>
@@ -82,8 +82,8 @@
 	<jsp:include page="../frame/footer.jsp" />
 	<div id="popup_employee" class="hide"><jsp:include
 			page="../lookup/_organization.jsp" /></div>
-			<div id="popup_employee-2" class="hide">2<br><jsp:include
-			page="../lookup/_organization.jsp" /></div>
+	<div id="popup_employee-2" class="hide">
+		2<br><jsp:include page="../lookup/_organization.jsp" /></div>
 </body>
 
 </html>
