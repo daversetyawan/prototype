@@ -19,14 +19,9 @@
 <script src="../js/metro/metro-datepicker.min.js"></script>
 <script src="../js/selectize/selectize.js"></script>
 <script src="../js/selectize/index.js"></script>
+<script src="../js/other/selectize.js"></script>
 <script>
 	$(document).ready(function() {
-		$('#select-domain, #select-bu, #select-tingkat, #select-gol').selectize({
-			sortField : {
-				field : 'text',
-				direction : 'asc'
-			}
-		});
 		$("#__input_file_wrapper__").attr('placeholder', 'Browse File');
 	});
 </script>
@@ -109,7 +104,7 @@
 								<td>:</td>
 								<td>
 									<div class="input-control radio margin10">
-										<label> <input type="radio" name="gender" /> <span
+										<label> <input type="radio" name="gender" checked="checked"/> <span
 											class="check"></span> Male
 										</label>
 									</div>
