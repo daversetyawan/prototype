@@ -27,7 +27,6 @@
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
@@ -153,9 +152,7 @@
 							<tr>
 								<td>Comment</td>
 								<td>:</td>
-								<td><div class="input-control textarea">
-										<textarea>...</textarea>
-									</div></td>
+								<td><textarea rows="3" class="input-control textarea"></textarea></td>
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">
@@ -195,12 +192,13 @@
 							</tr>
 						</tbody>
 					</table>
-				</div> <!--  end div content -->
+				</div>
+				<!--  end div content -->
 			</div>
 		</div>
 	</div>
-	
-	<jsp:include page="../frame/footer.jsp"/>
+
+	<jsp:include page="../frame/footer.jsp" />
 
 </body>
 </html>

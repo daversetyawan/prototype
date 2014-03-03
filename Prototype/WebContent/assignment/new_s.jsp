@@ -7,48 +7,40 @@
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/selectize.css">
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/jquery/jquery.widget.min.js"></script>
 <script src="../js/metro/metro.min.js"></script>
-<script src="../js/selectize/selectize.js"></script>
-<script src="../js/selectize/index.js"></script>
+
+<script src="../js/other/popup.js"></script>
 <script>
-	$(document).ready(
-			function() {
-				$("#datepicker").datepicker({
-					date : "2014-01-01",
-					format : "dd/mm/yyyy",
-					effect : "none",
-					position : "bottom"
-				});
+	$(document).ready(function() {
+		$("#datepicker").datepicker({
+			date : "2014-01-01",
+			format : "dd/mm/yyyy",
+			effect : "none",
+			position : "bottom"
+		});
+		$("#pr").hide();
+		$("#bu").show();
+		$("#adhoc").hide();
+		$("input[name='assignment_type']").change(function() {
+			if ($(this).val() == "Project") {
+				$("#pr").show();
+				$("#bu").hide();
+			} else {
 				$("#pr").hide();
 				$("#bu").show();
+			}
+		});
+		$("input[name='activity_type']").change(function() {
+			if ($(this).val() == "AdHoc") {
+				$("#adhoc").show();
+			} else {
 				$("#adhoc").hide();
-				$("input[name='assignment_type']").change(function() {
-					if ($(this).val() == "Project") {
-						$("#pr").show();
-						$("#bu").hide();
-					} else {
-						$("#pr").hide();
-						$("#bu").show();
-					}
-				});
-				$("input[name='activity_type']").change(function() {
-					if ($(this).val() == "AdHoc") {
-						$("#adhoc").show();
-					} else {
-						$("#adhoc").hide();
-					}
-				});
-				$('#select-emp, #select-project, #select-task, #select-adhoc')
-						.selectize({
-							sortField : {
-								field : 'text',
-								direction : 'asc'
-							}
-						});
-			});
+			}
+		});
+
+	});
 </script>
 <title>New Assignment</title>
 </head>
@@ -92,29 +84,15 @@
 										</b> : Toto Hugo
 									</div>
 									<div id="pr">
-										<div class="auto-complete">
-											<div class="control-group">
-												<select id="select-project" required
-													class="demo-default size3">
-													<option value="">Project</option>
-													<option value="4">Front End</option>
-													<option value="1">Back End</option>
-													<option value="3">Taps</option>
-													<option value="5">Dota Taps</option>
-												</select>
-											</div>
+										<div class="input-control text size3">
+											<input type="text" placeholder="Project" readonly="readonly" />
+											<button class="btn-search" id="project"></button>
 										</div>
+
 										&nbsp;&nbsp; <b>Report to </b> :
-										<div class="auto-complete">
-											<div class="control-group">
-												<select id="select-emp" required class="demo-default size3">
-													<option value="">Employee</option>
-													<option value="1">Toto</option>
-													<option value="2">Hugo</option>
-													<option value="3">Hizkia</option>
-													<option value="4">Edo</option>
-												</select>
-											</div>
+										<div class="input-control text size3">
+											<input type="text" placeholder="Employee" readonly="readonly" />
+											<button class="btn-search" id="employee"></button>
 										</div>
 									</div></td>
 							</tr>
@@ -128,32 +106,21 @@
 									Initiative &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"
 									name="activity_type" value="AdHoc">&nbsp;&nbsp; Ad Hoc
 									&nbsp;&nbsp;
-									<div id="adhoc" class="auto-complete">
-										<div class="control-group">
-											<select id="select-adhoc" required class="demo-default size3">
-												<option value="">Ad-Hoc to</option>
-												<option value="4">Wirya Jaya</option>
-												<option value="1">Farisa Adelia</option>
-												<option value="3">Yusac Bazanolo</option>
-												<option value="5">Vinsen Surya</option>
-											</select>
+									<div id="adhoc" class="in-bl">
+										<div class="input-control text size3">
+											<input type="text" placeholder="Ad Hoc To"
+												readonly="readonly" />
+											<button class="btn-search" id="employee-2"></button>
 										</div>
 									</div></td>
 							</tr>
 							<tr>
 								<td class="size3">Reff Task Code</td>
 								<td>:</td>
-								<td><div class="auto-complete">
-										<div class="control-group">
-											<select id="select-task" required class="demo-default size3">
-												<option value="">Task Code</option>
-												<option value="4">PRJ131100001</option>
-												<option value="4">PRJ131100002</option>
-												<option value="1">PRJ131100003</option>
-												<option value="3">PRJ131100004</option>
-												<option value="5">PRJ131100005</option>
-											</select>
-										</div>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Reff Task Code"
+											readonly="readonly" />
+										<button class="btn-search" id="task"></button>
 									</div></td>
 							</tr>
 							<tr>
@@ -217,7 +184,7 @@
 							<tr>
 								<td class="size3">Description</td>
 								<td>:</td>
-								<td><textarea rows="3" class="input-control textarea">inwan mey pacaran</textarea></td>
+								<td><textarea rows="3" class="input-control textarea"></textarea></td>
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right"><button
@@ -232,6 +199,14 @@
 			</div>
 		</div>
 	</div>
-	<jsp:include page="../frame/footer.jsp" /></body>
+	<jsp:include page="../frame/footer.jsp" />
+	<div id="popup_employee" class="hide"><jsp:include
+			page="../lookup/_organization.jsp" /></div>
+	<div id="popup_employee-2" class="hide">
+		2<jsp:include page="../lookup/_organization.jsp" /></div>
+	<div id="popup_project" class="hide">
+		3<jsp:include page="../lookup/_organization.jsp" /></div>
+	<div id="popup_task" class="hide">
+		4<jsp:include page="../lookup/_organization.jsp" /></div>
 </body>
 </html>
