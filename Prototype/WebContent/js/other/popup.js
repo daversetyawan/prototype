@@ -100,4 +100,21 @@ $(document).ready(function() {
 			}
 		});
 	});
+	
+	$("#approve").on('click', function() {
+		$.Dialog({
+			overlay : true,
+			shadow : true,
+			flat : true,
+			icon : '<img src="../images/LOGO_Taps6.png">',
+			title : 'Flat window',
+			content : '',
+			padding : 10,
+			onShow : function(_dialog) {
+				$.Dialog.title("Approval");
+				$.Dialog.content($("#popup_approve").html());
+				$.Metro.initInputs();
+			}
+		});
+	});
 });

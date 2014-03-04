@@ -158,30 +158,30 @@
 								</td>
 							</tr>
 
-							<tr>
-								<td>Assignment Star</td>
-								<td>:</td>
-								<td>
-									<div class="rating" id="rating">
-										<ul>
-											<li class="rated"></li>
-											<li class="rated"></li>
-											<li></li>
-											<li></li>
-											<li></li>
-										</ul>
-										<span class="score-hint"></span>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Comment</td>
-								<td>:</td>
-								<td><textarea rows="3" class="input-control textarea"></textarea></td>
-							</tr>
+<!-- 							<tr> -->
+<!-- 								<td>Assignment Star</td> -->
+<!-- 								<td>:</td> -->
+<!-- 								<td> -->
+<!-- 									<div class="rating" id="rating"> -->
+<!-- 										<ul> -->
+<!-- 											<li class="rated"></li> -->
+<!-- 											<li class="rated"></li> -->
+<!-- 											<li></li> -->
+<!-- 											<li></li> -->
+<!-- 											<li></li> -->
+<!-- 										</ul> -->
+<!-- 										<span class="score-hint"></span> -->
+<!-- 									</div> -->
+<!-- 								</td> -->
+<!-- 							</tr> -->
+<!-- 							<tr> -->
+<!-- 								<td>Comment</td> -->
+<!-- 								<td>:</td> -->
+<!-- 								<td><textarea rows="3" class="input-control textarea"></textarea></td> -->
+<!-- 							</tr> -->
 							<tr>
 								<td colspan=3 class="text-right">
-									<button id="approve-btn" class="button success">Approve</button>
+									<button id="approve" class="button success">Approve</button>
 									<button id="correction-btn" class="button warning">Correction</button>
 									<button id="reject-btn" class="button danger">Reject</button>
 									<button id="cancel-btn" class="button info">Cancel</button>
@@ -224,5 +224,7 @@
 	</div>
 
 	<jsp:include page="../frame/footer.jsp" />
+	<div id="popup_approve" class="hide"><jsp:include
+			page="../lookup/_approve.jsp" /></div>
 </body>
 </html>
