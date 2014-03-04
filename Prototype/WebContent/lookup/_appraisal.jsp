@@ -1,3 +1,14 @@
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#rating").rating({
+			stars : 10,
+			click : function(value, rating) {
+				rating.rate(value);
+			}
+		});
+	});
+</script>
+
 <div class="span10">
 	<table class="table">
 		<thead>
@@ -34,7 +45,7 @@
 			</tr>
 			<tr>
 				<td colspan="3" class="text-right">
-					<button id="appraisal" onclick="" class="success">Appraisal</button>
+					<button id="appraisal-btn" onclick="" class="success">Appraisal</button>
 					<button id="cancel-btn" onclick="">Cancel</button>
 				</td>
 			</tr>
