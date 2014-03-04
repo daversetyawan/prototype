@@ -9,23 +9,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <jsp:include page="../js/import.jsp" />
 
-<script>
-	$(document).ready(function() {
-		$('#select-head, #select-parent').selectize({
-			sortField : {
-				field : 'text',
-				direction : 'asc'
-			}
-		});
-		
-		$("#save-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#cancel-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-	});
-</script>
 <title>Add Organization</title>
 </head>
 

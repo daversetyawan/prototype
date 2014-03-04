@@ -9,13 +9,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <jsp:include page="../js/import.jsp" />
 
-<script type="text/javascript">
-	$(document).ready(function() {
-		$("#back-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-	});
-</script>
 <title>Business Unit Member</title>
 </head>
 
