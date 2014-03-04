@@ -15,3 +15,7 @@ function confDel() {
 	});
 }
 
+function appraisalBtn() {
+	window.location.replace("index.jsp");
+}
+

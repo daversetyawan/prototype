@@ -15,7 +15,7 @@ $(document).ready(function() {
 			}
 		});
 	});
-	
+
 	$("#employee-2").on('click', function() {
 		$.Dialog({
 			overlay : true,
@@ -83,7 +83,7 @@ $(document).ready(function() {
 			}
 		});
 	});
-	
+
 	$("#appraisal").on('click', function() {
 		$.Dialog({
 			overlay : true,
@@ -96,11 +96,12 @@ $(document).ready(function() {
 			onShow : function(_dialog) {
 				$.Dialog.title("Appraisal");
 				$.Dialog.content($("#popup_appraisal").html());
+
 				$.Metro.initInputs();
 			}
 		});
 	});
-	
+
 	$("#approve").on('click', function() {
 		$.Dialog({
 			overlay : true,
@@ -117,7 +118,7 @@ $(document).ready(function() {
 			}
 		});
 	});
-	
+
 	$("#updatestar").on('click', function() {
 		$.Dialog({
 			overlay : true,
@@ -134,5 +135,5 @@ $(document).ready(function() {
 			}
 		});
 	});
-	
+
 });

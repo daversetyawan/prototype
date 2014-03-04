@@ -17,13 +17,8 @@
 				<td>
 					<div class="rating" id="rating">
 						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+							<li class="rated"></li>
+							<li class="rated"></li>
 							<li></li>
 							<li></li>
 							<li></li>
@@ -34,7 +29,7 @@
 			</tr>
 			<tr>
 				<td colspan="3" class="text-right">
-					<button id="appraisal-btn" onclick="" class="success">Appraise</button>
+					<button id="appraisal-btn" onclick="javascript:appraisalBtn()" class="success">Appraise</button>
 					<button id="cancel-btn" onclick="$.Dialog.close()">Cancel</button>
 				</td>
 			</tr>
