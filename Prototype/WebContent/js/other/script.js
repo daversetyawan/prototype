@@ -4,7 +4,7 @@ $(document).ready(
 				window.location.replace("../main/dashboard.jsp");
 			});
 
-			$("#datepicker-begin, #datepicker-end").datepicker({
+			$("#datepicker-begin, #datepicker-end, #datepicker").datepicker({
 				date : "2014-01-01",
 				format : "dd/mm/yyyy",
 				effect : "none",
@@ -67,6 +67,19 @@ $(document).ready(
 				window.location.replace("index.jsp");
 			});
 			$("#cancel-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			
+			// =================================================================================
+			// APPRAISAL
+			// =================================================================================
+			$("#rating").rating({
+				stars : 10,
+				click : function(value, rating) {
+					rating.rate(value);
+				}
+			});
+			$("#appraisal-btn").click(function() {
 				window.location.replace("index.jsp");
 			});
 
