@@ -8,7 +8,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<script src="../js/import.js"></script>
+
+<jsp:include page="../js/import.jsp" />
 
 <title>Organization</title>
 </head>
@@ -16,7 +17,7 @@
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
+
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
@@ -138,9 +139,9 @@
 										</ul>
 									</div>
 								</td>
-								<td class="text-center"><a href="new.jsp" data-hint="Add Organization"
-									data-hint-position="bottom"><img alt=""
-										src="../images/ADD_ORGANIZATIONS.png"></a></td>
+								<td class="text-center"><a href="new.jsp"
+									data-hint="Add Organization" data-hint-position="bottom"><img
+										alt="" src="../images/ADD_ORGANIZATIONS.png"></a></td>
 							</tr>
 						</tbody>
 					</table>

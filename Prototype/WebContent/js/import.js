@@ -36,17 +36,19 @@ importFile(base + '/css/selectize.css');
 
 //Import JS Files
 importFile(base + '/js/jquery/jquery.min.js');
+importFile(base + '/js/jquery/jquery.widget.min.js');
+importFile(base + '/js/metro/metro.min.js');
+importFile(base + '/js/rumble/jquery.jrumble.1.3.min.js');
+importFile(base + '/js/metro/metro-calendar.min.js');
+importFile(base + '/js/metro/metro-datepicker.min.js');
+importFile(base + '/js/selectize/selectize.js');
+importFile(base + '/js/selectize/index.js');
+importFile(base + '/js/other/script.js');
+importFile(base + '/js/other/popup.js');
+importFile(base + '/js/other/selectize.js');
+
 setTimeout(function() {
-	importFile(base + '/js/jquery/jquery.widget.min.js');
-	importFile(base + '/js/metro/metro.min.js');
-	importFile(base + '/js/rumble/jquery.jrumble.1.3.min.js');
-	importFile(base + '/js/metro/metro-calendar.min.js');
-	importFile(base + '/js/metro/metro-datepicker.min.js');
-	importFile(base + '/js/selectize/selectize.js');
-	importFile(base + '/js/selectize/index.js');
-	importFile(base + '/js/other/script.js');
-	importFile(base + '/js/other/popup.js');
-	importFile(base + '/js/other/selectize.js');
+	
 }, 500);
 
 
