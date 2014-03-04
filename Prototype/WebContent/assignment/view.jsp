@@ -8,23 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <jsp:include page="../js/import.jsp" />
 
-<script>
-	$(document).ready(function() {
-		$("#rating").rating({
-			stars : 10,
-			click : function(value, rating) {
-				rating.rate(value);
-			}
-		});
-		$("#updatestar-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#cancel-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-	});
-</script>
-
 <title>Assignment</title>
 </head>
 <body class="metro">

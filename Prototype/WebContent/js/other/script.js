@@ -88,4 +88,58 @@ $(document).ready(
 			// =================================================================================
 			$("#__input_file_wrapper__").attr('placeholder', 'Browse File');
 
+			// =================================================================================
+			// ASSIGNMENT
+			// =================================================================================
+			$("#approve-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			$("#correction-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			$("#reject-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			$("#cancel-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			$("#claim-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			$("#claimclose-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			
+			$("#pr").hide();
+			$("#bu").show();
+			$("#adhoc").hide();
+			$("input[name='assignment_type']").change(function() {
+				if ($(this).val() == "Project") {
+					$("#pr").show();
+					$("#bu").hide();
+				} else {
+					$("#pr").hide();
+					$("#bu").show();
+				}
+			});
+			$("input[name='activity_type']").change(function() {
+				if ($(this).val() == "AdHoc") {
+					$("#adhoc").show();
+				} else {
+					$("#adhoc").hide();
+				}
+			});
+			$("#save-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			$("#assign-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			$("#cancel-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			$("#updatestar-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			
 		});

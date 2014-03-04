@@ -6,33 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <jsp:include page="../js/import.jsp" />
 
-<script>
-	$(document).ready(function() {
-		$("#datepicker").datepicker({
-			date : "2014-01-01",
-			format : "dd/mm/yyyy",
-			effect : "none",
-			position : "bottom"
-		});
-		$("#pr").hide();
-		$("input[name='assignment_type']").change(function() {
-			if ($(this).val() == "Project") {
-				$("#pr").show();
-			} else {
-				$("#pr").hide();
-			}
-		});
-		$("#save-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#assign-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#cancel-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-	});
-</script>
 <title>New Assignment</title>
 </head>
 <body class="metro">
