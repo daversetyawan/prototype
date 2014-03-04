@@ -33,61 +33,61 @@
 		<tbody>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='organization_choose' value='1'></td>
+					name='organization_choose' value='1@CDD1'></td>
 				<td class='text-center'>CDD</td>
 				<td class='text-center'>CDD Description</td>
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='organization_choose' value='2'></td>
+					name='organization_choose' value='2@CDD2'></td>
 				<td class='text-center'>CDD</td>
 				<td class='text-center'>CDD Description</td>
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='organization_choose' value='3'></td>
+					name='organization_choose' value='3@CDD3'></td>
 				<td class='text-center'>CDD</td>
 				<td class='text-center'>CDD Description</td>
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='organization_choose' value='1'></td>
+					name='organization_choose' value='4@CDD4'></td>
 				<td class='text-center'>CDD</td>
 				<td class='text-center'>CDD Description</td>
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='organization_choose' value='2'></td>
+					name='organization_choose' value='5@CDD5'></td>
 				<td class='text-center'>CDD</td>
 				<td class='text-center'>CDD Description</td>
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='organization_choose' value='3'></td>
+					name='organization_choose' value='6@CDD6'></td>
 				<td class='text-center'>CDD</td>
 				<td class='text-center'>CDD Description</td>
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='organization_choose' value='1'></td>
+					name='organization_choose' value='7@CDD7'></td>
 				<td class='text-center'>CDD</td>
 				<td class='text-center'>CDD Description</td>
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='organization_choose' value='2'></td>
+					name='organization_choose' value='8@CDD8'></td>
 				<td class='text-center'>CDD</td>
 				<td class='text-center'>CDD Description</td>
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='organization_choose' value='3'></td>
+					name='organization_choose' value='9@CDD9'></td>
 				<td class='text-center'>CDD</td>
 				<td class='text-center'>CDD Description</td>
 			</tr>
 			<tr>
 				<td class='text-center'><input type='radio'
-					name='organization_choose' value='1'></td>
+					name='organization_choose' value='10@CDD10'></td>
 				<td class='text-center'>CDD</td>
 				<td class='text-center'>CDD Description</td>
 			</tr>
@@ -97,7 +97,7 @@
 			</tr>
 
 			<tr>
-				<td colspan=3 class='text-right'><button class='button success'>Add</button></td>
+				<td colspan=3 class='text-right'><button class='button success' onclick="javascript:chooseBussinessUnit()">Add</button></td>
 			</tr>
 		</tbody>
 	</table>
