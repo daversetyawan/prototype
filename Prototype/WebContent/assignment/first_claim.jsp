@@ -8,26 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <jsp:include page="../js/import.jsp" />
 
-<script>
-	$(document).ready(function() {
-		$("#datepicker").datepicker({
-			date : "2014-01-01",
-			format : "dd/mm/yyyy",
-			effect : "none",
-			position : "bottom"
-		});
-		$("#claim-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#claimclose-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#cancel-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-	});
-</script>
-
 <title>Claim Assignment</title>
 </head>
 <body class="metro">

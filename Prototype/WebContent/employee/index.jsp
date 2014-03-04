@@ -11,6 +11,7 @@
 <jsp:include page="../js/import.jsp" />
 
 <title>Employee</title>
+
 </head>
 
 <body class="metro">
@@ -76,7 +77,7 @@
 								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Employee" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="javascript:confDel()"
 									data-hint="Delete Employee" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
@@ -89,7 +90,7 @@
 								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Employee" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="javascript:confDel()"
 									data-hint="Delete Employee" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
@@ -102,7 +103,7 @@
 								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Employee" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="javascript:confDel()"
 									data-hint="Delete Employee" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
