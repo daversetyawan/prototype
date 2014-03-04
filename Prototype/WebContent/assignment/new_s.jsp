@@ -4,18 +4,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" href="../css/metro-bootstrap.css">
-<link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
-<link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/selectize.css">
-<script src="../js/jquery/jquery.min.js"></script>
-<script src="../js/jquery/jquery.widget.min.js"></script>
-<script src="../js/metro/metro.min.js"></script>
-<script src="../js/selectize/selectize.js"></script>
-<script src="../js/selectize/index.js"></script>
-<script src="../js/other/selectize.js"></script>
+<script src="../js/import.js"></script>
 
-<script src="../js/other/popup.js"></script>
 <script>
 	$(document).ready(function() {
 		$("#datepicker, #datepicker-begin, #datepicker-end").datepicker({

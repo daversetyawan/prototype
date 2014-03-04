@@ -6,12 +6,8 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="../css/metro-bootstrap.css">
-<link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
-<link rel="stylesheet" href="../css/style.css">
-<script src="../js/jquery/jquery.min.js"></script>
-<script src="../js/jquery/jquery.widget.min.js"></script>
-<script src="../js/metro/metro.min.js"></script>
+<script src="../js/import.js"></script>
+
 <script>
 	$(document).ready(function() {
 		$("#rating").rating({
