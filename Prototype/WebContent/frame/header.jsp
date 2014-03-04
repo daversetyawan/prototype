@@ -5,8 +5,7 @@
 				src="../images/LOGO_PANJANG2.png"></a> <a class="element1 pull-menu" href="#"></a><span
 				class="element-divider"></span>
 			<ul class="element-menu">
-				<li><a href="#" class="element">Welcome iPhone 5 Wirya Gitu
-						Lho</a></li>
+				<li><a href="#" class="element">Welcome, Wirya Jaya</a></li>
 			</ul>
 			<ul class="element-menu float-right">
 				<li><a href="#" class="element float-right">Minggu, 30

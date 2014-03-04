@@ -75,8 +75,9 @@ $(document).ready(
 			// =================================================================================
 			$("#rating").rating({
 				stars : 10,
-                showScore: true,
+//                showScore: true,
                 scoreHint: "",
+                static:false,
 				click : function(value, rating) {
 					rating.rate(value);
 				}
