@@ -24,6 +24,18 @@
 				rating.rate(value);
 			}
 		});
+		$("#approve-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#correction-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#reject-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#cancel-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
 	});
 </script>
 
@@ -161,10 +173,10 @@
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">
-									<button class="button success">Approve</button>
-									<button class="button warning">Correction</button>
-									<button class="button danger">Reject</button>
-									<button class="button info">Cancel</button>
+									<button id="approve-btn" class="button success">Approve</button>
+									<button id="correction-btn" class="button warning">Correction</button>
+									<button id="reject-btn" class="button danger">Reject</button>
+									<button id="cancel-btn" class="button info">Cancel</button>
 								</td>
 							</tr>
 						</tbody>

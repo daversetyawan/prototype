@@ -15,6 +15,14 @@
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
 
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#back-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+	});
+</script>
+
 <title>View Special Appraisal</title>
 </head>
 
@@ -71,7 +79,7 @@
 							</tr>
 							<tr>
 								<td colspan="3" class="text-right">
-									<button onclick="">Back</button>
+									<button id="back-btn" onclick="">Back</button>
 								</td>
 							</tr>
 						</tbody>

@@ -81,7 +81,7 @@
 								<td class="text-center"><a href="structure.jsp"
 									data-hint="Member Organization" data-hint-position="bottom"><img
 										alt="" src="../images/MEMBER.png"></a></td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Organization" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
@@ -95,7 +95,7 @@
 								<td class="text-center"><a href="structure.jsp"
 									data-hint="Member Organization" data-hint-position="bottom"><img
 										alt="" src="../images/MEMBER.png"></a></td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Organization" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
@@ -109,7 +109,7 @@
 								<td class="text-center"><a href="structure.jsp"
 									data-hint="Member Organization" data-hint-position="bottom"><img
 										alt="" src="../images/MEMBER.png"></a></td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Organization" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
@@ -123,7 +123,7 @@
 								<td class="text-center"><a href="structure.jsp"
 									data-hint="Member Organization" data-hint-position="bottom"><img
 										alt="" src="../images/MEMBER.png"></a></td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Organization" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"

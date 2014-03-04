@@ -136,6 +136,9 @@
 											</ul>
 										</div>
 									</td>
+									<td class="text-center"><a href="new.jsp"
+									data-hint="New Special Appraisal" data-hint-position="bottom"><img
+										alt="" src="../images/ADD_STAR.png"></a></td>
 								</tr>
 							</tbody>
 						</table>

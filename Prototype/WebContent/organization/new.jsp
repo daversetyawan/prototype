@@ -31,6 +31,13 @@
 				direction : 'asc'
 			}
 		});
+		
+		$("#save-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#cancel-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
 	});
 </script>
 <title>Add Organization</title>
@@ -81,25 +88,32 @@
 							<tr>
 								<td>Parent Organization</td>
 								<td>:</td>
-								<td><div class="auto-complete">
-										<div class="control-group">
-											<select id="select-parent" required
-												class="demo-default size3">
-												<option value="">Parent Organization</option>
-												<option value="4">CDD</option>
-												<option value="1">CSD</option>
-												<option value="3">MAD</option>
-												<option value="5">INM</option>
-												<option value="11">BOM</option>
-												<option value="12">QWE</option>
-											</select>
-										</div>
-									</div></td>
+								<td>
+									<div class="input-control text size3">
+										<input type="text" placeholder="Parent Organization"
+											readonly="readonly" />
+										<button class="btn-search" id="organization"></button>
+									</div>
+<!-- 									<div class="auto-complete"> -->
+<!-- 										<div class="control-group"> -->
+<!-- 											<select id="select-parent" required -->
+<!-- 												class="demo-default size3"> -->
+<!-- 												<option value="">Parent Organization</option> -->
+<!-- 												<option value="4">CDD</option> -->
+<!-- 												<option value="1">CSD</option> -->
+<!-- 												<option value="3">MAD</option> -->
+<!-- 												<option value="5">INM</option> -->
+<!-- 												<option value="11">BOM</option> -->
+<!-- 												<option value="12">QWE</option> -->
+<!-- 											</select> -->
+<!-- 										</div> -->
+<!-- 									</div> -->
+								</td>
 							</tr>
 							<tr>
 								<td colspan="3" class="text-right">
-									<button onclick="" class="success">Save</button>
-									<button onclick="">Cancel</button>
+									<button id="save-btn" onclick="" class="success">Save</button>
+									<button id="cancel-btn" onclick="">Cancel</button>
 								</td>
 							</tr>
 						</tbody>
@@ -112,6 +126,8 @@
 	<jsp:include page="../frame/footer.jsp" />
 	<div id="popup_employee" class="hide"><jsp:include
 			page="../lookup/_employee.jsp" /></div>
+	<div id="popup_organization" class="hide"><jsp:include
+			page="../lookup/_organization.jsp" /></div>
 </body>
 
 </html>

@@ -19,14 +19,20 @@
 <script src="../js/selectize/selectize.js"></script>
 <script src="../js/selectize/index.js"></script>
 <script src="../js/other/selectize.js"></script>
-
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#back-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+	});
+</script>
 <title>Business Unit Member</title>
 </head>
 
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
 	<jsp:include page="../frame/menu.jsp" />
-	
+
 	<div class="grid dashboard">
 		<div class="row">
 			<div class="span12">
@@ -61,7 +67,8 @@
 								</td>
 								<td class="text-center">
 									<div class="input-control text size9">
-										<input type="text" placeholder="Keyword of Member in Organization" />
+										<input type="text"
+											placeholder="Keyword of Member in Organization" />
 										<button class="btn-search"></button>
 									</div>
 								</td>
@@ -111,12 +118,14 @@
 								</td>
 							</tr>
 							<tr>
-								<td colspan=3 class="text-right"><button onclick="">Back</button></td>
+								<td colspan=3 class="text-right"><button id="back-btn"
+										onclick="">Back</button></td>
 							</tr>
 						</tbody>
 					</table>
-					
-				</div> <!-- end div content -->
+
+				</div>
+				<!-- end div content -->
 			</div>
 		</div>
 	</div>

@@ -15,6 +15,16 @@
 <script src="../js/metro/metro.min.js"></script>
 <script src="../js/metro/metro-calendar.min.js"></script>
 <script src="../js/metro/metro-datepicker.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#back-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#add-btn").click(function() {
+			window.location.replace("add.jsp");
+		});
+	});
+</script>
 
 <title>Member Structure</title>
 </head>
@@ -62,7 +72,7 @@
 								<td>Member Manager</td>
 								<td>Toto Hugo</td>
 								<td>Ricky Suryo Utomo</td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="add.jsp"
 									data-hint="Edit Member" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
@@ -73,7 +83,7 @@
 								<td>System Analyst</td>
 								<td>Hizkia Purba</td>
 								<td>Toto Hugo</td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="add.jsp"
 									data-hint="Edit Member" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
@@ -84,7 +94,7 @@
 								<td>Programmer Analyst</td>
 								<td>Edo R. Hermanto</td>
 								<td>Toto Hugo</td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="add.jsp"
 									data-hint="Edit Member" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
@@ -95,7 +105,7 @@
 								<td>Programmer</td>
 								<td>Rudy Chandra</td>
 								<td>Toto Hugo</td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="add.jsp"
 									data-hint="Edit Member" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
@@ -122,8 +132,8 @@
 							</tr>
 							<tr>
 								<td colspan=5 class="text-right">
-									<button onclick="" class="success">Add</button>
-									<button onclick="">Back</button>
+									<button id="add-btn" onclick="" class="success">Add</button>
+									<button id="back-btn" onclick="">Back</button>
 								</td>
 							</tr>
 						</tbody>

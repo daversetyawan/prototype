@@ -20,7 +20,14 @@
 				rating.rate(value);
 			}
 		});
+		$("#updatestar-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#cancel-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
 	});
+	
 </script>
 
 <title>Self Assignment</title>
@@ -97,8 +104,8 @@
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">
-									<button class="button success">Update Star</button>
-									<button class="button info">Cancel</button>
+									<button id="updatestar-btn" class="button success">Update Star</button>
+									<button id="cancel-btn" class="button info">Cancel</button>
 								</td>
 							</tr>
 						</tbody>

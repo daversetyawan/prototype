@@ -19,9 +19,17 @@
 <script src="../js/selectize/selectize.js"></script>
 <script src="../js/selectize/index.js"></script>
 <script src="../js/other/selectize.js"></script>
+<script src="../js/other/popup.js"></script>
 <script>
 	$(document).ready(function() {
 		$("#__input_file_wrapper__").attr('placeholder', 'Browse File');
+		
+		$("#save-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#cancel-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
 	});
 </script>
 <title>Employee</title>
@@ -118,19 +126,26 @@
 							<tr>
 								<td>Business Unit</td>
 								<td>:</td>
-								<td colspan="2"><div class="auto-complete">
-										<div class="control-group">
-											<select id="select-bu" required class="demo-default size3">
-												<option value="">Bussiness Unit</option>
-												<option value="4">CDD</option>
-												<option value="1">CSD</option>
-												<option value="3">MAD</option>
-												<option value="5">INM</option>
-												<option value="11">BOM</option>
-												<option value="12">QWE</option>
-											</select>
-										</div>
-									</div></td>
+								<td colspan="2">
+									<div class="input-control text size3">
+										<input type="text" placeholder="Business Unit"
+											readonly="readonly" />
+										<button class="btn-search" id="organization"></button>
+									</div>
+<!-- 									<div class="auto-complete"> -->
+<!-- 										<div class="control-group"> -->
+<!-- 											<select id="select-bu" required class="demo-default size3"> -->
+<!-- 												<option value="">Bussiness Unit</option> -->
+<!-- 												<option value="4">CDD</option> -->
+<!-- 												<option value="1">CSD</option> -->
+<!-- 												<option value="3">MAD</option> -->
+<!-- 												<option value="5">INM</option> -->
+<!-- 												<option value="11">BOM</option> -->
+<!-- 												<option value="12">QWE</option> -->
+<!-- 											</select> -->
+<!-- 										</div> -->
+<!-- 									</div> -->
+								</td>
 							</tr>
 							<tr>
 								<td>Address</td>
@@ -193,8 +208,8 @@
 							</tr>
 							<tr>
 								<td colspan="4" class="text-right">
-									<button onclick="" class="button success">Save</button>
-									<button onclick="">Cancel</button>
+									<button id="save-btn" onclick="" class="button success">Save</button>
+									<button id="cancel-btn" onclick="">Cancel</button>
 								</td>
 							</tr>
 						</tbody>
@@ -207,6 +222,8 @@
 	</div>
 
 	<jsp:include page="../frame/footer.jsp" />
+	<div id="popup_organization" class="hide"><jsp:include
+			page="../lookup/_organization.jsp" /></div>
 </body>
 
 </html>

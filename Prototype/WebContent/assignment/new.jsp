@@ -29,7 +29,15 @@
 				$("#pr").hide();
 			}
 		});
-
+		$("#save-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#assign-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
+		$("#cancel-btn").click(function() {
+			window.location.replace("index.jsp");
+		});
 	});
 </script>
 <title>New Assignment</title>
@@ -103,10 +111,10 @@
 								<td><textarea rows="3" class="input-control textarea"></textarea></td>
 							</tr>
 							<tr>
-								<td colspan=3 class="text-right"><button
+								<td colspan=3 class="text-right"><button id="save-btn"
 										class="button success">Save</button>
-									<button class="button success">Assign</button>
-									<button class="button info">Cancel</button></td>
+									<button id="assign-btn" class="button success">Assign</button>
+									<button id="cancel-btn" class="button info">Cancel</button></td>
 							</tr>
 						</tbody>
 					</table>

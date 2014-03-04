@@ -82,7 +82,7 @@
 								<td class="text-center">555</td>
 								<td>Devri</td>
 								<td class="text-center">senen</td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Employee" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
@@ -95,7 +95,7 @@
 								<td class="text-center">555</td>
 								<td>Wirya</td>
 								<td class="text-center">kebon</td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Employee" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
@@ -108,7 +108,7 @@
 								<td class="text-center">555</td>
 								<td>Vinsen</td>
 								<td class="text-center">meruya</td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Employee" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
 								<td class="text-center"><a href="#"
