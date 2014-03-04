@@ -9,23 +9,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <script src="../js/import.js"></script>
 
-<script>
-	$(document).ready(function() {
-		$("#__input_file_wrapper__").attr('placeholder', 'Browse File');
-		
-		$("#save-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#cancel-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-	});
-</script>
 <title>Employee</title>
-
-
 </head>
-
 <body class="metro">
 
 	<jsp:include page="../frame/header.jsp" />
@@ -45,21 +30,9 @@
 							<tr>
 								<td>Employee Domain</td>
 								<td>:</td>
-								<td>
-									<div class="auto-complete">
-										<div class="control-group">
-											<select id="select-domain" required
-												class="demo-default size3">
-												<option value="">Employee Domain</option>
-												<option value="4">devri.rs</option>
-												<option value="1">budi.ss</option>
-												<option value="3">kartiko.ew</option>
-												<option value="5">lukas.ws</option>
-												<option value="11">vinsen.surya</option>
-											</select>
-										</div>
-									</div>
-								</td>
+								<td><div class="input-control text size3">
+										<input type="text" placeholder="Employee Domain" />
+									</div></td>
 								<td rowspan="6" class="text-center"><img
 									src="../images/user.png" class="cycle avatar"><br>
 									<div class="input-control file size3">
@@ -121,19 +94,6 @@
 											readonly="readonly" />
 										<button class="btn-search" id="organization"></button>
 									</div>
-<!-- 									<div class="auto-complete"> -->
-<!-- 										<div class="control-group"> -->
-<!-- 											<select id="select-bu" required class="demo-default size3"> -->
-<!-- 												<option value="">Bussiness Unit</option> -->
-<!-- 												<option value="4">CDD</option> -->
-<!-- 												<option value="1">CSD</option> -->
-<!-- 												<option value="3">MAD</option> -->
-<!-- 												<option value="5">INM</option> -->
-<!-- 												<option value="11">BOM</option> -->
-<!-- 												<option value="12">QWE</option> -->
-<!-- 											</select> -->
-<!-- 										</div> -->
-<!-- 									</div> -->
 								</td>
 							</tr>
 							<tr>

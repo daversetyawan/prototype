@@ -44,9 +44,9 @@ setTimeout(function() {
 	importFile(base + '/js/metro/metro-datepicker.min.js');
 	importFile(base + '/js/selectize/selectize.js');
 	importFile(base + '/js/selectize/index.js');
-	importFile(base + '/js/other/selectize.js');
-	importFile(base + '/js/other/popup.js');
 	importFile(base + '/js/other/script.js');
+	importFile(base + '/js/other/popup.js');
+	importFile(base + '/js/other/selectize.js');
 }, 500);
 
 

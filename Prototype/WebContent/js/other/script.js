@@ -82,5 +82,10 @@ $(document).ready(
 			$("#appraisal-btn").click(function() {
 				window.location.replace("index.jsp");
 			});
+			
+			// =================================================================================
+			// EMPLOYEE
+			// =================================================================================
+			$("#__input_file_wrapper__").attr('placeholder', 'Browse File');
 
 		});
