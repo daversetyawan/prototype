@@ -30,13 +30,13 @@
 								<td>
 									<div class="input-control radio margin10">
 										<label> <input type="radio" name="report_type"
-											checked="checked" /> <span class="check"></span> Summary
+											checked="checked" /> <span class="check"></span> Project
 										</label>
 									</div>
 									<div class="input-control radio margin10">
 
 										<label> <input type="radio" name="report_type" /> <span
-											class="check"></span> Detail
+											class="check"></span> Employee
 										</label>
 									</div>
 								</td>
