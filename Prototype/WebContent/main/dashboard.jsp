@@ -196,35 +196,35 @@
 
 					<div class="row">
 						<div class="span10">
-							<a href="#" id="shake" data-hint="Approval Assignment"
+							<a href="#" data-hint="Approval Assignment"
 								data-hint-position="left" class="tile bg-cyan"> <span
 								class="tile-content icon"> <img alt=""
 									src="../images/APPROVAL_ASSIGNMENT.png">
-							</span> <span class="brand"> <span class="badge bg-red">10</span>
+							</span> <span class="brand"> <span class="badge bg-red">0</span>
 							</span>
-							</a> <a href="#" data-hint="Claim Assignment"
+							</a> <a href="../assignment/index_claim.jsp" id="shake" data-hint="Claim Assignment"
 								data-hint-position="left" class="tile bg-cyan"> <span
 								class="tile-content icon"> <img alt=""
 									src="../images/CLAIM_ASSIGNMENT.png">
-							</span> <span class="brand"> <span class="badge bg-red">10</span>
+							</span> <span class="brand"> <span class="badge bg-red">5</span>
 							</span>
 							</a> <a href="#" data-hint="Claim Self Assignment"
 								data-hint-position="left" class="tile bg-cyan"> <span
 								class="tile-content icon"> <img alt=""
 									src="../images/CLAIM_NEW_ASSIGNMENT.png">
-							</span> <span class="brand"> <span class="badge bg-red">10</span>
+							</span> <span class="brand"> <span class="badge bg-red">0</span>
 							</span>
 							</a> <a href="#" data-hint="Correction Assignment"
 								data-hint-position="left" class="tile bg-cyan"> <span
 								class="tile-content icon"> <img alt=""
 									src="../images/CORRECTION_ASSIGNMENT.png">
-							</span> <span class="brand"> <span class="badge bg-red">10</span>
+							</span> <span class="brand"> <span class="badge bg-red">0</span>
 							</span>
 							</a> <a href="#" data-hint="Correction Self Assignment"
 								data-hint-position="left" class="tile bg-cyan"> <span
 								class="tile-content icon"> <img alt=""
 									src="../images/CORRECTION_NEW_ASSIGNMENT.png">
-							</span> <span class="brand"> <span class="badge bg-red">10</span>
+							</span> <span class="brand"> <span class="badge bg-red">0</span>
 							</span>
 							</a>
 						</div>

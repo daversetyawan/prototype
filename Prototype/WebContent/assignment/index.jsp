@@ -86,16 +86,6 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="first_claim.jsp">Claim
-										(first claim)</a></td>
-							</tr>
-							<tr>
-								<td class="text-center">2013-11-14</td>
-								<td class="text-center">PRJ131100002</td>
-								<td class="text-center">Assignment</td>
-								<td>Hizkia Purba</td>
-								<td class="text-center">2013-11-20</td>
-								<td class="text-center">2013-11-14</td>
 								<td class="text-center"><a href="claim_temp.jsp">Claim</a></td>
 							</tr>
 							<tr>

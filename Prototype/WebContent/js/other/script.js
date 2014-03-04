@@ -112,6 +112,16 @@ $(document).ready(
 				window.location.replace("index.jsp");
 			});
 
+			$("#firstclaim-btn").click(function() {
+				window.location.replace("index_claim.jsp");
+			});
+			$("#firstclaimclose-btn").click(function() {
+				window.location.replace("index_claim.jsp");
+			});
+			$("#firstcancel-btn").click(function() {
+				window.location.replace("index_claim.jsp");
+			});
+			
 			$("#pr").hide();
 			$("#bu").show();
 			$("#adhoc").hide();

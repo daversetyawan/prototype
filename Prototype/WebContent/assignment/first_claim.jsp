@@ -128,9 +128,9 @@
 							</tr>
 							<tr>
 								<td colspan=3 class="text-right">
-									<button id="claim-btn" class="button success">Claim</button>
-									<button id="claimclose-btn" class="button success">RFA</button>
-									<button id="cancel-btn" class="button info">Cancel</button>
+									<button id="firstclaim-btn" class="button success">Claim</button>
+									<button id="firstclaimclose-btn" class="button success">RFA</button>
+									<button id="firstcancel-btn" class="button info">Cancel</button>
 								</td>
 							</tr>
 						</tbody>
