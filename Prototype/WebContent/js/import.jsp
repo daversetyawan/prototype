@@ -15,3 +15,5 @@
 <script src="../js/other/popup.js"></script>
 <script src="../js/other/selectize.js"></script>
 <script src="../js/other/no-document-ready-here.js"></script>
+
+<div id="popup_delete" class="hide"><jsp:include page="../lookup/_delete.jsp" /></div>

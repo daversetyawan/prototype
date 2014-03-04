@@ -85,7 +85,7 @@
 								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Project" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="javascript:confDel()"
 									data-hint="Delete Project" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
@@ -104,7 +104,7 @@
 								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Project" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="javascript:confDel()"
 									data-hint="Delete Project" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
