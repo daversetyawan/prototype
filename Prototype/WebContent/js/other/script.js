@@ -69,7 +69,7 @@ $(document).ready(
 			$("#cancel-btn").click(function() {
 				window.location.replace("index.jsp");
 			});
-			
+
 			// =================================================================================
 			// APPRAISAL
 			// =================================================================================
@@ -82,7 +82,7 @@ $(document).ready(
 			$("#appraisal-btn").click(function() {
 				window.location.replace("index.jsp");
 			});
-			
+
 			// =================================================================================
 			// EMPLOYEE
 			// =================================================================================
@@ -109,7 +109,7 @@ $(document).ready(
 			$("#claimclose-btn").click(function() {
 				window.location.replace("index.jsp");
 			});
-			
+
 			$("#pr").hide();
 			$("#bu").show();
 			$("#adhoc").hide();
@@ -132,6 +132,9 @@ $(document).ready(
 			$("#save-btn").click(function() {
 				window.location.replace("index.jsp");
 			});
+			$("#save-btn-emp").click(function() {
+				window.location.replace("index.jsp");
+			});
 			$("#assign-btn").click(function() {
 				window.location.replace("index.jsp");
 			});
@@ -141,5 +144,5 @@ $(document).ready(
 			$("#updatestar-btn").click(function() {
 				window.location.replace("index.jsp");
 			});
-			
+
 		});

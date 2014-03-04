@@ -73,8 +73,8 @@
 								<td>:</td>
 								<td>
 									<div class="input-control radio margin10">
-										<label> <input type="radio" name="gender" checked="checked"/> <span
-											class="check"></span> Male
+										<label> <input type="radio" name="gender"
+											checked="checked" /> <span class="check"></span> Male
 										</label>
 									</div>
 									<div class="input-control radio margin10">
@@ -157,7 +157,7 @@
 							</tr>
 							<tr>
 								<td colspan="4" class="text-right">
-									<button id="save-btn" onclick="" class="button success">Save</button>
+									<button id="save-btn-emp" onclick="" class="button success">Save</button>
 									<button id="cancel-btn" onclick="">Cancel</button>
 								</td>
 							</tr>

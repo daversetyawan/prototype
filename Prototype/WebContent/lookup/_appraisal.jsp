@@ -35,7 +35,7 @@
 			<tr>
 				<td colspan="3" class="text-right">
 					<button id="appraisal-btn" onclick="" class="success">Appraise</button>
-					<button id="cancel-btn" onclick="">Cancel</button>
+					<button id="cancel-btn" onclick="$.Dialog.close()">Cancel</button>
 				</td>
 			</tr>
 		</tbody>
