@@ -320,9 +320,9 @@
 										</ul>
 									</div>
 								</td>
-								<td colspan=2 class="text-right"><a href="new.jsp"
-									data-hint="New Assignment" data-hint-position="bottom"><img
-										alt="" src="../images/ADD_ASSIGNMENTT.png"></a></td>
+<!-- 								<td colspan=2 class="text-right"><a href="new.jsp" -->
+<!-- 									data-hint="New Assignment" data-hint-position="bottom"><img -->
+<!-- 										alt="" src="../images/ADD_ASSIGNMENTT.png"></a></td> -->
 							</tr>
 						</tbody>
 					</table>

@@ -24,9 +24,17 @@
 						</thead>
 						<tbody>
 							<tr>
+								<td class="size3">Assignment Date</td>
+								<td>:</td>
+								<td><div class="input-control text size2" id="datepicker-begin">
+										<input type="text">
+										<button class="btn-date"></button>
+									</div></td>
+							</tr>
+							<tr>
 								<td class="size3">Assignment Due Date</td>
 								<td>:</td>
-								<td><div class="input-control text size2" id="datepicker">
+								<td><div class="input-control text size2" id="datepicker-end">
 										<input type="text">
 										<button class="btn-date"></button>
 									</div></td>
