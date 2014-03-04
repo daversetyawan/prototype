@@ -19,3 +19,9 @@ function appraisalBtn() {
 	window.location.replace("index.jsp");
 }
 
+function chooseBussinessUnit() {
+	var nilai = $("input[name='organization_choose']:checked").val();
+	alert(nilai.split('@')[0]);
+	$("#parent_organization").val(nilai.split('@')[1]);
+	$.Dialog.close();
+}
