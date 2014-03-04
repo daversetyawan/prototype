@@ -11,6 +11,7 @@
 <jsp:include page="../js/import.jsp" />
 
 <title>Employee</title>
+
 </head>
 
 <body class="metro">
@@ -102,7 +103,7 @@
 								<td class="text-center"><a href="new.jsp"
 									data-hint="Edit Employee" data-hint-position="bottom"><img
 										alt="" src="../images/EDIT.png"></a></td>
-								<td class="text-center"><a href="#"
+								<td class="text-center"><a href="javascript:confDel()"
 									data-hint="Delete Employee" data-hint-position="bottom"><img
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
@@ -136,7 +137,8 @@
 	</div>
 
 	<jsp:include page="../frame/footer.jsp" />
-
+<div id="popup_delete" class="hide"><jsp:include
+		page="../lookup/_delete.jsp" /></div>
 </body>
 
 </html>
