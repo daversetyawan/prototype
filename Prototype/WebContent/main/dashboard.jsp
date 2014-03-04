@@ -109,89 +109,89 @@
 						</div>
 					</div>
 
-					<div class="row">
-						<div class="tile">
-							<img src="../images/test-ava.jpg"
-								style="width: 120px; height: 120px;">
-							<div class="brand bg-dark opacity">
-								<span class="text"> Lukas </span> <span class="badge bg-red">77</span>
-							</div>
-						</div>
-						<div class="tile">
-							<img src="../images/test-ava.jpg"
-								style="width: 120px; height: 120px;">
-							<div class="brand bg-dark opacity">
-								<span class="text"> Lukas </span> <span class="badge bg-red">77</span>
-							</div>
-						</div>
-						<div class="tile">
-							<img src="../images/test-ava.jpg"
-								style="width: 120px; height: 120px;">
-							<div class="brand bg-dark opacity">
-								<span class="text"> Lukas </span> <span class="badge bg-red">77</span>
-							</div>
-						</div>
-						<div class="tile">
-							<img src="../images/test-ava.jpg"
-								style="width: 120px; height: 120px;">
-							<div class="brand bg-dark opacity">
-								<span class="text"> Lukas </span> <span class="badge bg-red">77</span>
-							</div>
-						</div>
-						<div class="tile">
-							<img src="../images/test-ava.jpg"
-								style="width: 120px; height: 120px;">
-							<div class="brand bg-dark opacity">
-								<span class="text"> Lukas </span> <span class="badge bg-red">77</span>
-							</div>
-						</div>
-					</div>
+<!-- 					<div class="row"> -->
+<!-- 						<div class="tile"> -->
+<!-- 							<img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 120px; height: 120px;"> -->
+<!-- 							<div class="brand bg-dark opacity"> -->
+<!-- 								<span class="text"> Lukas </span> <span class="badge bg-red">77</span> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="tile"> -->
+<!-- 							<img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 120px; height: 120px;"> -->
+<!-- 							<div class="brand bg-dark opacity"> -->
+<!-- 								<span class="text"> Lukas </span> <span class="badge bg-red">77</span> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="tile"> -->
+<!-- 							<img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 120px; height: 120px;"> -->
+<!-- 							<div class="brand bg-dark opacity"> -->
+<!-- 								<span class="text"> Lukas </span> <span class="badge bg-red">77</span> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="tile"> -->
+<!-- 							<img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 120px; height: 120px;"> -->
+<!-- 							<div class="brand bg-dark opacity"> -->
+<!-- 								<span class="text"> Lukas </span> <span class="badge bg-red">77</span> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="tile"> -->
+<!-- 							<img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 120px; height: 120px;"> -->
+<!-- 							<div class="brand bg-dark opacity"> -->
+<!-- 								<span class="text"> Lukas </span> <span class="badge bg-red">77</span> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
 
-					<div class="row">
-						<div class="tile">
-							<img src="../images/test-ava.jpg"
-								style="width: 120px; height: 120px;">
-							<div class="brand bg-dark opacity">
-								<span class="text"> Lukas </span> <span class="badge bg-red">77</span>
-							</div>
-						</div>
-						<div class="tile">
-							<img src="../images/test-ava.jpg"
-								style="width: 120px; height: 120px;">
-							<div class="brand bg-dark opacity">
-								<span class="text"> Lukas </span> <span class="badge bg-red">77</span>
-							</div>
-						</div>
-						<div class="tile">
-							<img src="../images/test-ava.jpg"
-								style="width: 120px; height: 120px;">
-							<div class="brand bg-dark opacity">
-								<span class="text"> Lukas </span> <span class="badge bg-red">77</span>
-							</div>
-						</div>
-						<div class="tile">
-							<img src="../images/test-ava.jpg"
-								style="width: 120px; height: 120px;">
-							<div class="brand bg-dark opacity">
-								<span class="text"> Lukas </span> <span class="badge bg-red">77</span>
-							</div>
-						</div>
-						<div class="tile">
-							<img src="../images/test-ava.jpg"
-								style="width: 120px; height: 120px;">
-							<div class="brand bg-dark opacity">
-								<span class="text"> Lukas </span> <span class="badge bg-red">77</span>
-							</div>
-						</div>
-					</div>
+<!-- 					<div class="row"> -->
+<!-- 						<div class="tile"> -->
+<!-- 							<img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 120px; height: 120px;"> -->
+<!-- 							<div class="brand bg-dark opacity"> -->
+<!-- 								<span class="text"> Lukas </span> <span class="badge bg-red">77</span> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="tile"> -->
+<!-- 							<img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 120px; height: 120px;"> -->
+<!-- 							<div class="brand bg-dark opacity"> -->
+<!-- 								<span class="text"> Lukas </span> <span class="badge bg-red">77</span> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="tile"> -->
+<!-- 							<img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 120px; height: 120px;"> -->
+<!-- 							<div class="brand bg-dark opacity"> -->
+<!-- 								<span class="text"> Lukas </span> <span class="badge bg-red">77</span> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="tile"> -->
+<!-- 							<img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 120px; height: 120px;"> -->
+<!-- 							<div class="brand bg-dark opacity"> -->
+<!-- 								<span class="text"> Lukas </span> <span class="badge bg-red">77</span> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 						<div class="tile"> -->
+<!-- 							<img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 120px; height: 120px;"> -->
+<!-- 							<div class="brand bg-dark opacity"> -->
+<!-- 								<span class="text"> Lukas </span> <span class="badge bg-red">77</span> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
 
-					<div class="row">
-						<div
-							style="border: 1px solid white; border-radius: 10px; width: 300px; height: 200px;">
-							<br /> &nbsp;&nbsp; <img src="../images/test-ava.jpg"
-								style="width: 100px; height: 140px;">
-						</div>
-					</div>
+<!-- 					<div class="row"> -->
+<!-- 						<div -->
+<!-- 							style="border: 1px solid white; border-radius: 10px; width: 300px; height: 200px;"> -->
+<!-- 							<br /> &nbsp;&nbsp; <img src="../images/test-ava.jpg" -->
+<!-- 								style="width: 100px; height: 140px;"> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
 
 					<div class="row">
 						<div class="span10">
