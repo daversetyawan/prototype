@@ -85,7 +85,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Claim</a></td>
+								<td class="text-center"><a href="first_claim.jsp">Claim (first claim)</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -94,7 +94,16 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">RFA</a></td>
+								<td class="text-center"><a href="claim_temp.jsp">Claim</a></td>
+							</tr>
+							<tr>
+								<td class="text-center">2013-11-14</td>
+								<td class="text-center">PRJ131100002</td>
+								<td class="text-center">Assignment</td>
+								<td>Hizkia Purba</td>
+								<td class="text-center">2013-11-20</td>
+								<td class="text-center">2013-11-14</td>
+								<td class="text-center"><a href="view_temp.jsp">RFA</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -112,7 +121,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Approved</a></td>
+								<td class="text-center"><a href="approval_viewonly.jsp">Approved</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -121,7 +130,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Draft</a></td>
+								<td class="text-center"><a href="new_s.jsp">Draft</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -130,16 +139,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Claim</a></td>
-							</tr>
-							<tr>
-								<td class="text-center">2013-11-14</td>
-								<td class="text-center">PRJ131100002</td>
-								<td class="text-center">Self Assignment</td>
-								<td>Hizkia Purba</td>
-								<td class="text-center">2013-11-20</td>
-								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">RFA</a></td>
+								<td class="text-center"><a href="view_stemp.jsp">RFA</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -157,7 +157,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Approved</a></td>
+								<td class="text-center"><a href="approval_sviewonly.jsp">Approved</a></td>
 							</tr>
 							<tr>
 								<td colspan=5 class="text-center">
@@ -254,7 +254,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Claim</a></td>
+								<td class="text-center"><a href="claim_temp.jsp">Claim</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -272,7 +272,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Correction</a></td>
+								<td class="text-center"><a href="view_temp.jsp">Correction</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -300,7 +300,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Correction</a></td>
+								<td class="text-center"><a href="view_stemp.jsp">Correction</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -405,7 +405,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Draft</a></td>
+								<td class="text-center"><a href="new.jsp">Draft</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -414,7 +414,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Claim</a></td>
+								<td class="text-center"><a href="claim_temp.jsp">Claim</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -432,7 +432,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="#">Correction</a></td>
+								<td class="text-center"><a href="view_temp.jsp">Correction</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
