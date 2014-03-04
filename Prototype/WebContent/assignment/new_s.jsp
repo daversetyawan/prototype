@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<script src="../js/import.js"></script>
+<jsp:include page="../js/import.jsp" />
 
 <script>
 	$(document).ready(function() {
