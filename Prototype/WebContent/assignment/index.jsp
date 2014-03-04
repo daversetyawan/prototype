@@ -7,7 +7,8 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="icon" type="image/png" href="../images/LOGO_TITLE.png"><jsp:include page="../js/import.jsp" />
+<link rel="icon" type="image/png" href="../images/LOGO_TITLE.png"><jsp:include
+	page="../js/import.jsp" />
 
 <title>Assignment</title>
 </head>
@@ -85,7 +86,8 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="first_claim.jsp">Claim (first claim)</a></td>
+								<td class="text-center"><a href="first_claim.jsp">Claim
+										(first claim)</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -176,8 +178,8 @@
 										</ul>
 									</div>
 								</td>
-								<td colspan=2 class="text-right"><a href="new.jsp"
-									data-hint="New Assignment" data-hint-position="bottom"><img
+								<td colspan=2 class="text-right"><a href="new_s.jsp"
+									data-hint="New Self Assignment" data-hint-position="bottom"><img
 										alt="" src="../images/ADD_ASSIGNMENTT.png"></a></td>
 							</tr>
 						</tbody>
@@ -283,7 +285,7 @@
 								<td class="text-center">2013-11-14</td>
 								<td class="text-center"><a href="view.jsp">Approved</a></td>
 							</tr>
-							
+
 							<tr>
 								<td class="text-center">2013-11-14</td>
 								<td class="text-center">PRJ131100002</td>
