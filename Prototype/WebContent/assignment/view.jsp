@@ -80,30 +80,26 @@
 								</td>
 							</tr>
 
-							<tr>
-								<td>Assignment Star</td>
-								<td>:</td>
-								<td>
-									<div class="rating" id="rating">
-										<ul>
-											<li class="rated"></li>
-											<li class="rated"></li>
-											<li></li>
-											<li></li>
-											<li></li>
-										</ul>
-										<span class="score-hint"></span>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Comment</td>
-								<td>:</td>
-								<td><textarea rows="3" class="input-control textarea"></textarea></td>
-							</tr>
+<!-- 							<tr> -->
+<!-- 								<td>Assignment Star</td> -->
+<!-- 								<td>:</td> -->
+<!-- 								<td> -->
+<!-- 									<div class="rating" id="rating"> -->
+<!-- 										<ul> -->
+<!-- 											<li class="rated"></li> -->
+<!-- 											<li class="rated"></li> -->
+<!-- 											<li></li> -->
+<!-- 											<li></li> -->
+<!-- 											<li></li> -->
+<!-- 										</ul> -->
+<!-- 										<span class="score-hint"></span> -->
+<!-- 									</div> -->
+<!-- 								</td> -->
+<!-- 							</tr> -->
+							
 							<tr>
 								<td colspan=3 class="text-right">
-									<button id="updatestar-btn" class="button success">Update Star</button>
+									<button id="updatestar" class="button success">Update Star</button>
 									<button id="cancel-btn" class="button info">Cancel</button>
 								</td>
 							</tr>
@@ -144,5 +140,7 @@
 	</div>
 
 	<jsp:include page="../frame/footer.jsp" />
+	<div id="popup_updatestar" class="hide"><jsp:include
+			page="../lookup/_approve.jsp" /></div>
 </body>
 </html>

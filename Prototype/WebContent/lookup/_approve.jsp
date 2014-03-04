@@ -2,7 +2,7 @@
 	<table class="table">
 		<thead>
 			<tr>
-				<th colspan=3 class="text-center">Approval</th>
+				<th colspan=3 class="text-center">Star</th>
 			</tr>
 		</thead>
 		<tbody>
