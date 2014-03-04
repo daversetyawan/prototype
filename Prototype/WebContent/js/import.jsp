@@ -14,3 +14,4 @@
 <script src="../js/other/script.js"></script>
 <script src="../js/other/popup.js"></script>
 <script src="../js/other/selectize.js"></script>
+<script src="../js/other/no-document-ready-here.js"></script>
