@@ -8,28 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <jsp:include page="../js/import.jsp" />
 
-<script>
-	$(document).ready(function() {
-		$("#rating").rating({
-			click : function(value, rating) {
-				rating.rate(value);
-			}
-		});
-		$("#approve-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#correction-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#reject-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#cancel-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-	});
-</script>
-
 <title>Aprroval Assignment</title>
 </head>
 <body class="metro">

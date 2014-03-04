@@ -8,20 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <jsp:include page="../js/import.jsp" />
 
-<script>
-	$(document).ready(function() {
-		$("#claim-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#claimclose-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-		$("#cancel-btn").click(function() {
-			window.location.replace("index.jsp");
-		});
-	});
-</script>
-
 <title>Assignment</title>
 </head>
 <body class="metro">
