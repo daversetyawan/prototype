@@ -47,4 +47,27 @@ $(document).ready(
 			$("#back-btn").click(function() {
 				window.location.replace("index.jsp");
 			});
+
+			// =================================================================================
+			// PROJECTS
+			// =================================================================================
+			$("#save-btn").click(function() {
+				window.location.replace("structure.jsp");
+			});
+			$("#cancel-btn-2").click(function() {
+				window.location.replace("structure.jsp");
+			});
+			$("#back-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			$("#add-btn").click(function() {
+				window.location.replace("add.jsp");
+			});
+			$("#save-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+			$("#cancel-btn").click(function() {
+				window.location.replace("index.jsp");
+			});
+
 		});
