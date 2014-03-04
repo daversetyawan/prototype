@@ -6,35 +6,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="../css/metro-bootstrap.css">
-<link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
-<link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/selectize.css">
-<script src="../js/jquery/jquery.min.js"></script>
-<script src="../js/jquery/jquery.widget.min.js"></script>
-<script src="../js/metro/metro.min.js"></script>
-<script src="../js/selectize/selectize.js"></script>
-<script src="../js/selectize/index.js"></script>
-<script src="../js/other/selectize.js"></script>
-<script>
-	$(document).ready(function() {
-		$("#1month").hide();
-		$("#6month").show();
-		$("input[name='period_type']").change(function() {
-			if ($(this).val() == "6 Months") {
-				$("#6month").show();
-				$("#1month").hide();
-			} else {
-				$("#6month").hide();
-				$("#1month").show();
-			}
-		});
-		$("#generate-btn").click(function() {
-			window.location.replace("view.jsp");
-		});
-	});
-</script>
-
+<script src="../js/import.js"></script>
 <title>Taps</title>
 </head>
 <body class="metro">

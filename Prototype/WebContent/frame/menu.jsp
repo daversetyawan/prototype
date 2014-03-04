@@ -1,10 +1,3 @@
-<script type="text/javascript">
-	$(document).ready(function() {
-		$("#dashboard").click(function() {
-			window.location.replace("../main/dashboard.jsp");
-		});
-	});
-</script>
 <div class="span-menu-taps" id="menu">
 	<div class="sidebar menu-taps">
 		<div class="accordion" data-role="accordion">
