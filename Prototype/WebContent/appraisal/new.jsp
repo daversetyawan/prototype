@@ -53,8 +53,13 @@
 								<td>
 									<div class="rating" id="rating">
 										<ul>
-											<li class="rated"></li>
-											<li class="rated"></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
 											<li></li>
 											<li></li>
 											<li></li>
@@ -65,7 +70,7 @@
 							</tr>
 							<tr>
 								<td colspan="3" class="text-right">
-									<button id="appraisal" onclick="" class="success">Appraisal</button>
+									<button id="appraisal-btn" onclick="" class="success">Appraisal</button>
 									<button id="cancel-btn" onclick="">Cancel</button>
 								</td>
 							</tr>
@@ -80,8 +85,8 @@
 	<jsp:include page="../frame/footer.jsp" />
 	<div id="popup_employee" class="hide"><jsp:include
 			page="../lookup/_employee.jsp" /></div>
-	<div id="popup_appraisal" class="hide"><jsp:include
-			page="../lookup/_appraisal.jsp" /></div>
+<%-- 	<div id="popup_appraisal" class="hide"><jsp:include --%>
+<%-- 			page="../lookup/_appraisal.jsp" /></div> --%>
 </body>
 
 </html>
