@@ -94,3 +94,7 @@ textarea {
 	font-style: normal;
 	cursor: text;
 }
+
+.float-right {
+	float: right;
+}
