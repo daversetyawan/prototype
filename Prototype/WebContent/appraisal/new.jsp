@@ -42,30 +42,30 @@
 										<button class="btn-search" id="employee"></button>
 									</div></td>
 							</tr>
-							<tr>
-								<td class="size3">Appraisal Description</td>
-								<td>:</td>
-								<td><textarea rows="3" cols="80"></textarea></td>
-							</tr>
-							<tr>
-								<td class="size3">Appraisal Star</td>
-								<td>:</td>
-								<td>
-									<div class="rating" id="rating">
-										<ul>
-											<li class="rated"></li>
-											<li class="rated"></li>
-											<li></li>
-											<li></li>
-											<li></li>
-										</ul>
-										<span class="score-hint"></span>
-									</div>
-								</td>
-							</tr>
+<!-- 							<tr> -->
+<!-- 								<td class="size3">Appraisal Description</td> -->
+<!-- 								<td>:</td> -->
+<!-- 								<td><textarea rows="3" cols="80"></textarea></td> -->
+<!-- 							</tr> -->
+<!-- 							<tr> -->
+<!-- 								<td class="size3">Appraisal Star</td> -->
+<!-- 								<td>:</td> -->
+<!-- 								<td> -->
+<!-- 									<div class="rating" id="rating"> -->
+<!-- 										<ul> -->
+<!-- 											<li class="rated"></li> -->
+<!-- 											<li class="rated"></li> -->
+<!-- 											<li></li> -->
+<!-- 											<li></li> -->
+<!-- 											<li></li> -->
+<!-- 										</ul> -->
+<!-- 										<span class="score-hint"></span> -->
+<!-- 									</div> -->
+<!-- 								</td> -->
+<!-- 							</tr> -->
 							<tr>
 								<td colspan="3" class="text-right">
-									<button id="appraisal-btn" onclick="" class="success">Appraisal</button>
+									<button id="appraisal" onclick="" class="success">Appraisal</button>
 									<button id="cancel-btn" onclick="">Cancel</button>
 								</td>
 							</tr>
@@ -80,6 +80,8 @@
 	<jsp:include page="../frame/footer.jsp" />
 	<div id="popup_employee" class="hide"><jsp:include
 			page="../lookup/_employee.jsp" /></div>
+	<div id="popup_appraisal" class="hide"><jsp:include
+			page="../lookup/_appraisal.jsp" /></div>
 </body>
 
 </html>

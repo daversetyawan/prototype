@@ -83,4 +83,21 @@ $(document).ready(function() {
 			}
 		});
 	});
+	
+	$("#appraisal").on('click', function() {
+		$.Dialog({
+			overlay : true,
+			shadow : true,
+			flat : true,
+			icon : '<img src="../images/LOGO_Taps6.png">',
+			title : 'Flat window',
+			content : '',
+			padding : 10,
+			onShow : function(_dialog) {
+				$.Dialog.title("Appraisal");
+				$.Dialog.content($("#popup_appraisal").html());
+				$.Metro.initInputs();
+			}
+		});
+	});
 });
