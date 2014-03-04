@@ -49,9 +49,9 @@
 											<select id="select-search" required
 												class="demo-default size2-5">
 												<option value="">All</option>
-												<option value="taskCode">Task Code</option>
-												<option value="taskType">Task Type</option>
-												<option value="employee">Employee</option>
+												<option value="taskCode">Assignment Code</option>
+												<option value="taskType">Assignment Type</option>
+												<option value="employee">Employee Name</option>
 											</select>
 										</div>
 									</div>
@@ -209,9 +209,9 @@
 											<select id="select-search" required
 												class="demo-default size2-5">
 												<option value="">All</option>
-												<option value="taskCode">Task Code</option>
-												<option value="taskType">Task Type</option>
-												<option value="employee">Employee</option>
+												<option value="taskCode">Assignment Code</option>
+												<option value="taskType">Assignment Type</option>
+												<option value="employee">Employee Name</option>
 											</select>
 										</div>
 									</div>
@@ -360,9 +360,9 @@
 											<select id="select-search" required
 												class="demo-default size2-5">
 												<option value="">All</option>
-												<option value="taskCode">Task Code</option>
-												<option value="taskType">Task Type</option>
-												<option value="employee">Employee</option>
+												<option value="taskCode">Assignment Code</option>
+												<option value="taskType">Assignment Type</option>
+												<option value="employee">Employee Name</option>
 											</select>
 										</div>
 									</div>

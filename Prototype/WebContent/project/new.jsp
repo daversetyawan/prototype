@@ -59,6 +59,7 @@
 												<option value="development">Development</option>
 												<option value="UAT">UAT</option>
 												<option value="live">Live</option>
+												<option value="close">Close</option>
 											</select>
 										</div>
 									</div></td>
