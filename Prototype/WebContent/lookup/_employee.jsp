@@ -6,19 +6,23 @@
 			</tr>
 			<tr>
 				<td colspan=2 class="text-center">
-					<div class="auto-complete">
-						<div class="control-group">
-							<select id="select-search" required class="demo-default size3">
-								<option value=''>All</option>
-								<option value='employeeCode'>Employee Code</option>
-								<option value='employeeName'>Employee Name</option>
-								<option value='employeeAddress'>Employee Address</option>
-							</select>
-						</div>
-					</div>
+
+					<div class="input-control select size2">
+						<select>
+							<option value=''>All</option>
+							<option value='employeeCode'>Employee Code</option>
+							<option value='employeeName'>Employee Name</option>
+							<option value='employeeAddress'>Employee Address</option>
+						</select>
+					</div> <!-- 					<div class="auto-complete"> --> <!-- 						<div class="control-group"> -->
+					<!-- 							<select id="select-search" required class="demo-default size3"> -->
+					<!-- 								<option value=''>All</option> --> <!-- 								<option value='employeeCode'>Employee Code</option> -->
+					<!-- 								<option value='employeeName'>Employee Name</option> -->
+					<!-- 								<option value='employeeAddress'>Employee Address</option> -->
+					<!-- 							</select> --> <!-- 						</div> --> <!-- 					</div> -->
 				</td>
 				<td colspan=4 class="text-center">
-					<div class="input-control text size6">
+					<div class="input-control text size8">
 						<input type='text' placeholder='Keyword of Employee' />
 						<button class='btn-search'></button>
 					</div>
