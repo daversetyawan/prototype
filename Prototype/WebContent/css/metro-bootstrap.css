@@ -32,27 +32,87 @@ audio,canvas,video {
 audio
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 [
 controls
 ]
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 display
 
 
+
+
+
+
+
+
+
+
+
+
 :
+
+
+
+
+
 
  
 
+
+
+
+
+
 none
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1110,12 +1170,13 @@ a {
 	font-size: 11pt;
 }
 
-.metro a,.metro .link {
-	color: #2e92cf;
+.metro a,.metro .link { /* 	color: #2e92cf; */
+	color: white;
 }
 
 .metro a:hover,.metro .link:hover {
 	color: rgba(45, 173, 237, 0.8);
+	/* 	color: red; */
 }
 
 .metro a:focus,.metro .link:focus,.metro a:active,.metro .link:active {
@@ -1569,36 +1630,116 @@ a {
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset1
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 100
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1609,36 +1750,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset2
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 180
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1649,36 +1870,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset3
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 260
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1689,36 +1990,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset4
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 340
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1729,36 +2110,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset5
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 420
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1769,36 +2230,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset6
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 500
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1809,36 +2350,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset7
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 580
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1849,36 +2470,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset8
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 660
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1889,36 +2590,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset9
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 740
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1929,36 +2710,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset10
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 820
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -1969,36 +2830,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset11
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 900
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2009,36 +2950,116 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset12
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 980
 px
 
+
+
+
+
+
  
+
+
+
+
+
 
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2137,47 +3158,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset1
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 10
 .638296
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2188,47 +3319,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset2
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 19
 .148933
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2239,47 +3480,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset3
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 27
 .65957
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2290,47 +3641,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset4
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 36
 .170207
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2341,47 +3802,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset5
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 44
 .680844
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2392,47 +3963,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset6
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 53
 .191481
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2443,47 +4124,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset7
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 61
 .702118
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2494,47 +4285,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset8
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 70
 .212755
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2545,47 +4446,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset9
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 78
 .723392
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2596,47 +4607,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset10
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 87
 .234029
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2647,47 +4768,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset11
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 95
 .744666
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -2698,47 +4929,157 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .grid
 
 
+
+
+
+
+
+
+
+
+
+
 .fluid
 
+
+
+
+
+
  
+
+
+
+
+
 
 .row
 
+
+
+
+
+
  
+
+
+
+
+
 
 .offset12
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-left
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 104
 .255303
 
 
+
+
+
+
+
+
+
+
+
+
 %
 !
 important
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -3870,10 +6211,11 @@ important
 	height: 1px;
 }
 
-.metro .input-control.checkbox input[type="checkbox"]:focus    ~ .check,.metro .input-control.radio input[type="checkbox"]:focus 
-	  ~ .check,.metro .input-control.checkbox input[type="radio"]:focus   
-	~ .check,.metro .input-control.radio input[type="radio"]:focus    ~
-	.check {
+.metro .input-control.checkbox input[type="checkbox"]:focus         ~
+	.check,.metro .input-control.radio input[type="checkbox"]:focus 
+	       ~ .check,.metro .input-control.checkbox input[type="radio"]:focus   
+	     ~ .check,.metro .input-control.radio input[type="radio"]:focus      
+	  ~ .check {
 	outline: 1px #999999 dotted !important;
 }
 
@@ -3923,39 +6265,39 @@ important
 	line-height: 9pt;
 }
 
-.metro .input-control.checkbox input[type="checkbox"]:checked    ~
+.metro .input-control.checkbox input[type="checkbox"]:checked         ~
 	.check:after,.metro .input-control.radio input[type="checkbox"]:checked 
-	  ~ .check:after,.metro .input-control.checkbox input[type="radio"]:checked 
-	  ~ .check:after,.metro .input-control.radio input[type="radio"]:checked 
-	  ~ .check:after {
+	       ~ .check:after,.metro .input-control.checkbox input[type="radio"]:checked 
+	       ~ .check:after,.metro .input-control.radio input[type="radio"]:checked 
+	       ~ .check:after {
 	content: "\e08a";
 	margin: 2px;
 	top: 0;
 	color: #1d1d1d;
 }
 
-.metro .input-control.checkbox input[type="checkbox"]:disabled    ~
+.metro .input-control.checkbox input[type="checkbox"]:disabled         ~
 	.check,.metro .input-control.radio input[type="checkbox"]:disabled 
-	  ~ .check,.metro .input-control.checkbox input[type="radio"]:disabled  
-	 ~ .check,.metro .input-control.radio input[type="radio"]:disabled    ~
-	.check {
+	       ~ .check,.metro .input-control.checkbox input[type="radio"]:disabled  
+	      ~ .check,.metro .input-control.radio input[type="radio"]:disabled    
+	    ~ .check {
 	border-color: #d9d9d9;
 	background-color: #e6e6e6;
 }
 
-.metro .input-control.checkbox input[type="checkbox"]:disabled    ~
+.metro .input-control.checkbox input[type="checkbox"]:disabled         ~
 	.check:after,.metro .input-control.radio input[type="checkbox"]:disabled 
-	  ~ .check:after,.metro .input-control.checkbox input[type="radio"]:disabled 
-	  ~ .check:after,.metro .input-control.radio input[type="radio"]:disabled 
-	  ~ .check:after {
+	       ~ .check:after,.metro .input-control.checkbox input[type="radio"]:disabled 
+	       ~ .check:after,.metro .input-control.radio input[type="radio"]:disabled 
+	       ~ .check:after {
 	color: #8a8a8a;
 }
 
-.metro .input-control.checkbox input[data-show="intermediate"]    ~
+.metro .input-control.checkbox input[data-show="intermediate"]         ~
 	.check:after,.metro .input-control.radio input[data-show="intermediate"] 
-	  ~ .check:after,.metro .input-control.checkbox input[data-show="intermediate"]:checked 
-	  ~ .check:after,.metro .input-control.radio input[data-show="intermediate"]:checked 
-	  ~ .check:after {
+	       ~ .check:after,.metro .input-control.checkbox input[data-show="intermediate"]:checked 
+	       ~ .check:after,.metro .input-control.radio input[data-show="intermediate"]:checked 
+	       ~ .check:after {
 	display: block;
 	content: "" !important;
 	width: 10px;
@@ -3965,8 +6307,8 @@ important
 }
 
 .metro .input-control.checkbox input[data-show="intermediate"]:disabled 
-	  ~ .check:after,.metro .input-control.radio input[data-show="intermediate"]:disabled 
-	  ~ .check:after {
+	       ~ .check:after,.metro .input-control.radio input[data-show="intermediate"]:disabled 
+	       ~ .check:after {
 	background-color: #8a8a8a;
 }
 
@@ -3975,7 +6317,7 @@ important
 }
 
 .metro .input-control.radio.default-style input[type="radio"]:checked  
-	 ~ .check:after {
+	      ~ .check:after {
 	display: block;
 	content: "" !important;
 	width: 10px;
@@ -3986,7 +6328,7 @@ important
 }
 
 .metro .input-control.radio.default-style input[type="radio"]:checked:disabled 
-	  ~ .check:after {
+	       ~ .check:after {
 	background-color: #8a8a8a;
 }
 
@@ -4029,30 +6371,31 @@ important
 	z-index: 2;
 }
 
-.metro .input-control.switch input[type="checkbox"]:focus    ~ .check,.metro .input-control.switch input[type="radio"]:focus 
-	  ~ .check {
+.metro .input-control.switch input[type="checkbox"]:focus         ~
+	.check,.metro .input-control.switch input[type="radio"]:focus 
+	       ~ .check {
 	outline: 1px #999999 dotted !important;
 }
 
-.metro .input-control.switch input[type="checkbox"]:checked    ~ .check
-	{
+.metro .input-control.switch input[type="checkbox"]:checked         ~
+	.check {
 	background: #008287;
 }
 
-.metro .input-control.switch input[type="checkbox"]:checked    ~ .check:after
-	{
+.metro .input-control.switch input[type="checkbox"]:checked         ~
+	.check:after {
 	left: auto;
 	right: -1px;
 }
 
-.metro .input-control.switch input[type="checkbox"]:disabled    ~ .check
-	{
+.metro .input-control.switch input[type="checkbox"]:disabled         ~
+	.check {
 	background-color: #e6e6e6;
 	border-color: #ffffff;
 }
 
-.metro .input-control.switch input[type="checkbox"]:disabled    ~ .check:after
-	{
+.metro .input-control.switch input[type="checkbox"]:disabled         ~
+	.check:after {
 	background-color: #8a8a8a;
 	outline-color: #8a8a8a;
 	border-color: #8a8a8a;
@@ -4092,27 +6435,39 @@ important
 	font-size: 10pt;
 }
 
-.metro .input-control.text .btn-clear:not   (:disabled   ):active,.metro .input-control.password .btn-clear:not
-	  (:disabled   ):active,.metro .input-control.file .btn-clear:not   (:disabled
-	  ):active,.metro .input-control.email .btn-clear:not   (:disabled   ):active,.metro .input-control.tel .btn-clear:not
-	  (:disabled   ):active,.metro .input-control.text .btn-reveal:not   (:disabled
-	  ):active,.metro .input-control.password .btn-reveal:not   (:disabled  
-	):active,.metro .input-control.file .btn-reveal:not
-	  (:disabled   ):active,.metro .input-control.email .btn-reveal:not   (:disabled
-	  ):active,.metro .input-control.tel .btn-reveal:not   (:disabled   ):active,.metro .input-control.text .btn-date:not
-	  (:disabled   ):active,.metro .input-control.password .btn-date:not  
-	(:disabled
-	  ):active,.metro .input-control.file .btn-date:not   (:disabled   ):active,.metro .input-control.email .btn-date:not
-	  (:disabled   ):active,.metro .input-control.tel .btn-date:not   (:disabled
-	  ):active,.metro .input-control.text .btn-file:not   (:disabled   ):active,.metro .input-control.password .btn-file:not
-	  (:disabled   ):active,.metro .input-control.file .btn-file:not   (:disabled
-	  ):active,.metro .input-control.email .btn-file:not   (:disabled   ):active,.metro .input-control.tel .btn-file:not
-	  (:disabled   ):active,.metro .input-control.text .btn-search:not   (:disabled
-	  ):active,.metro .input-control.password .btn-search:not   (:disabled  
-	):active,.metro .input-control.file .btn-search:not
-	  (:disabled   ):active,.metro .input-control.email .btn-search:not   (:disabled
-	  ):active,.metro .input-control.tel .btn-search:not   (:disabled   ):active
-	{
+.metro .input-control.text .btn-clear:not        (:disabled        ):active,.metro .input-control.password .btn-clear:not
+	       (:disabled        ):active,.metro .input-control.file .btn-clear:not   
+	    (:disabled
+	       ):active,.metro .input-control.email .btn-clear:not        (:disabled   
+	    ):active,.metro .input-control.tel .btn-clear:not
+	       (:disabled        ):active,.metro .input-control.text .btn-reveal:not   
+	    (:disabled
+	       ):active,.metro .input-control.password .btn-reveal:not        (:disabled  
+	     ):active,.metro .input-control.file .btn-reveal:not
+	       (:disabled        ):active,.metro .input-control.email .btn-reveal:not   
+	    (:disabled
+	       ):active,.metro .input-control.tel .btn-reveal:not        (:disabled   
+	    ):active,.metro .input-control.text .btn-date:not
+	       (:disabled        ):active,.metro .input-control.password .btn-date:not  
+	     (:disabled
+	       ):active,.metro .input-control.file .btn-date:not        (:disabled    
+	   ):active,.metro .input-control.email .btn-date:not
+	       (:disabled        ):active,.metro .input-control.tel .btn-date:not    
+	   (:disabled
+	       ):active,.metro .input-control.text .btn-file:not        (:disabled    
+	   ):active,.metro .input-control.password .btn-file:not
+	       (:disabled        ):active,.metro .input-control.file .btn-file:not    
+	   (:disabled
+	       ):active,.metro .input-control.email .btn-file:not        (:disabled   
+	    ):active,.metro .input-control.tel .btn-file:not
+	       (:disabled        ):active,.metro .input-control.text .btn-search:not   
+	    (:disabled
+	       ):active,.metro .input-control.password .btn-search:not        (:disabled  
+	     ):active,.metro .input-control.file .btn-search:not
+	       (:disabled        ):active,.metro .input-control.email .btn-search:not   
+	    (:disabled
+	       ):active,.metro .input-control.tel .btn-search:not        (:disabled   
+	    ):active {
 	background-color: #1d1d1d;
 	color: #ffffff;
 }
@@ -4127,28 +6482,38 @@ important
 	outline: 1px #ccc dotted;
 }
 
-.metro .input-control.text input:focus    ~ .btn-clear,.metro .input-control.password input:focus 
-	  ~ .btn-clear,.metro .input-control.file input:focus    ~ .btn-clear,.metro .input-control.email input:focus 
-	  ~ .btn-clear,.metro .input-control.tel input:focus    ~ .btn-clear,.metro .input-control.text input:focus 
-	  ~ .btn-reveal,.metro .input-control.password input:focus    ~
-	.btn-reveal,.metro .input-control.file input:focus 
-	  ~ .btn-reveal,.metro .input-control.email input:focus    ~
+.metro .input-control.text input:focus         ~ .btn-clear,.metro .input-control.password input:focus 
+	       ~ .btn-clear,.metro .input-control.file input:focus         ~
+	.btn-clear,.metro .input-control.email input:focus 
+	       ~ .btn-clear,.metro .input-control.tel input:focus         ~
+	.btn-clear,.metro .input-control.text input:focus 
+	       ~ .btn-reveal,.metro .input-control.password input:focus        
+	~ .btn-reveal,.metro .input-control.file input:focus 
+	       ~ .btn-reveal,.metro .input-control.email input:focus         ~
 	.btn-reveal,.metro .input-control.tel input:focus 
-	  ~ .btn-reveal {
+	       ~ .btn-reveal {
 	display: block;
 }
 
-.metro .input-control.text input:not   (:focus   ) ~ .btn-clear:active,.metro .input-control.password input:not
-	  (:focus   ) ~ .btn-clear:active,.metro .input-control.file input:not  
-	(:focus
-	  ) ~ .btn-clear:active,.metro .input-control.email input:not   (:focus 
-	 ) ~ .btn-clear:active,.metro .input-control.tel input:not   (:focus  
-	) ~ .btn-clear:active,.metro .input-control.text input:not   (:focus  
-	) ~ .btn-reveal:active,.metro .input-control.password input:not   (:focus  
-	) ~ .btn-reveal:active,.metro .input-control.file input:not   (:focus  
-	) ~ .btn-reveal:active,.metro .input-control.email input:not   (:focus  
-	) ~ .btn-reveal:active,.metro .input-control.tel input:not   (:focus  
-	) ~ .btn-reveal:active {
+.metro .input-control.text input:not        (:focus        ) ~
+	.btn-clear:active,.metro .input-control.password input:not
+	       (:focus        ) ~ .btn-clear:active,.metro .input-control.file input:not  
+	     (:focus
+	       ) ~ .btn-clear:active,.metro .input-control.email input:not      
+	 (:focus 
+	      ) ~ .btn-clear:active,.metro .input-control.tel input:not       
+	(:focus  
+	     ) ~ .btn-clear:active,.metro .input-control.text input:not       
+	(:focus  
+	     ) ~ .btn-reveal:active,.metro .input-control.password input:not     
+	  (:focus  
+	     ) ~ .btn-reveal:active,.metro .input-control.file input:not       
+	(:focus  
+	     ) ~ .btn-reveal:active,.metro .input-control.email input:not      
+	 (:focus  
+	     ) ~ .btn-reveal:active,.metro .input-control.tel input:not       
+	(:focus  
+	     ) ~ .btn-reveal:active {
 	display: block;
 }
 
@@ -4223,13 +6588,15 @@ important
 	padding-right: 5px;
 }
 
-.metro .input-control.text input:disabled    ~ .btn-clear,.metro .input-control.password input:disabled 
-	  ~ .btn-clear,.metro .input-control.file input:disabled    ~
+.metro .input-control.text input:disabled         ~ .btn-clear,.metro .input-control.password input:disabled 
+	       ~ .btn-clear,.metro .input-control.file input:disabled         ~
 	.btn-clear,.metro .input-control.email input:disabled 
-	  ~ .btn-clear,.metro .input-control.tel input:disabled    ~ .btn-clear,.metro .input-control.text input:disabled 
-	  ~ .btn-reveal,.metro .input-control.password input:disabled    ~
-	.btn-reveal,.metro .input-control.file input:disabled    ~ .btn-reveal,.metro .input-control.email input:disabled 
-	  ~ .btn-reveal,.metro .input-control.tel input:disabled    ~
+	       ~ .btn-clear,.metro .input-control.tel input:disabled         ~
+	.btn-clear,.metro .input-control.text input:disabled 
+	       ~ .btn-reveal,.metro .input-control.password input:disabled      
+	  ~ .btn-reveal,.metro .input-control.file input:disabled         ~
+	.btn-reveal,.metro .input-control.email input:disabled 
+	       ~ .btn-reveal,.metro .input-control.tel input:disabled         ~
 	.btn-reveal {
 	display: none;
 }
@@ -6887,7 +9254,7 @@ important
 	content: '\e07e';
 }
 
-.metro .rating.active ul li:hover    ~ li:before {
+.metro .rating.active ul li:hover         ~ li:before {
 	content: '\e07c' !important;
 }
 
@@ -7752,8 +10119,7 @@ important
 	color: #ffffff;
 }
 
-.metro .accordion>.accordion-frame {
-/* 	border: 1px #eaeaea solid; */
+.metro .accordion>.accordion-frame { /* 	border: 1px #eaeaea solid; */
 	margin-bottom: 2px;
 }
 
@@ -8755,32 +11121,102 @@ important
 
 .metro
 
+
+
+
+
+
  
+
+
+
+
+
 
 .treeview
 
+
+
+
+
+
  
+
+
+
+
+
 
 .node
 
 
+
+
+
+
+
+
+
+
+
+
 :not
 
+
+
+
+
+
  
+
+
+
+
+
 
 (
 :first-child
 
+
+
+
+
+
  
+
+
+
+
+
 
 )
 {
 margin-top
 
 
+
+
+
+
+
+
+
+
+
+
 :
 
+
+
+
+
+
  
+
+
+
+
+
 
 0;
 }
