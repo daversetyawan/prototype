@@ -20,7 +20,7 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<td colspan=3 class="text-center text-bold">Approval Self
+								<td colspan=4 class="text-center text-bold">Approval Self
 									Assignment</td>
 							</tr>
 						</thead>
@@ -28,34 +28,36 @@
 							<tr>
 								<td>Assignment Date</td>
 								<td>:</td>
-								<td>15-11-2013 <b>Assignee </b> : Hizkia Purba
+								<td>15-11-2013 </td>
+								<td><b>Assignee </b> : Hizkia Purba
 								</td>
 							</tr>
 							<tr>
 								<td>Assignment Type</td>
 								<td>:</td>
-								<td>Project</td>
+								<td colspan=2>Project</td>
 							</tr>
 							<tr>
 								<td>Assign By</td>
 								<td>:</td>
-								<td>TAPS <b>Report to </b> : Toto hugo
+								<td>TAPS </td>
+								<td><b>Report to </b> : Toto hugo
 								</td>
 							</tr>
 							<tr>
 								<td>Activty Type</td>
 								<td>:</td>
-								<td>Routine</td>
+								<td colspan=2>Routine</td>
 							</tr>
 							<tr>
 								<td>Reff Task Code</td>
 								<td>:</td>
-								<td>PRJ131100002</td>
+								<td colspan=2>PRJ131100002</td>
 							</tr>
 							<tr>
 								<td>Manhours</td>
 								<td>:</td>
-								<td>
+								<td colspan=2>
 									<div class="auto-complete">
 										<div class="control-group">
 											<select id="select-mh" required class="demo-default size-mh">
@@ -116,13 +118,13 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home
+								<td colspan=2>- Membuat tampilan Task<br />- Membuat Tampilan Home
 								</td>
 							</tr>
 							<tr>
 								<td>Assignment Star</td>
 								<td>:</td>
-								<td>
+								<td colspan=2>
 									<div class="rating" id="rating">
 										<ul>
 											<li></li>
@@ -143,10 +145,10 @@
 							<tr>
 								<td>Comment</td>
 								<td>:</td>
-								<td><textarea rows="3" class="input-control textarea"></textarea></td>
+								<td colspan=2><textarea rows="3" class="input-control textarea"></textarea></td>
 							</tr>
 							<tr>
-								<td colspan=3 class="text-right">
+								<td colspan=4 class="text-right">
 									<button id="approve-btn" class="button success">Approve</button>
 									<button id="correction-btn" class="button warning">Correction</button>
 									<button id="reject-btn" class="button danger">Reject</button>

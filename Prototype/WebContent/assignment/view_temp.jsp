@@ -22,40 +22,41 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<td colspan=3 class="text-center text-bold">Assignment</td>
+								<td colspan=4 class="text-center text-bold">Assignment</td>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>Assignment Due Date</td>
 								<td>:</td>
-								<td>15-11-2013</td>
+								<td colspan=2>15-11-2013</td>
 							</tr>
 							<tr>
 								<td>Assignment Type</td>
 								<td>:</td>
-								<td>Business Unit</td>
+								<td colspan=2>Business Unit</td>
 							</tr>
 							<tr>
 								<td>Assign By</td>
 								<td>:</td>
-								<td>TAPS <b>Report to </b> : Toto hugo
+								<td>TAPS </td>
+								<td><b>Report to </b> : Toto hugo
 								</td>
 							</tr>
 							<tr>
 								<td>Reff Assignment</td>
 								<td>:</td>
-								<td>PRJ131100002</td>
+								<td colspan=2>PRJ131100002</td>
 							</tr>
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
+								<td colspan=2>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
 							</tr>
 							<tr>
 								<td>Detail Claim</td>
 								<td>:</td>
-								<td>
+								<td colspan=2>
 									<table class="table striped bordered hovered">
 										<thead>
 											<tr>
@@ -80,7 +81,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td colspan=3 class="text-right">
+								<td colspan=4 class="text-right">
 									<button id="back-btn" class="button info">Back</button>
 								</td>
 							</tr>

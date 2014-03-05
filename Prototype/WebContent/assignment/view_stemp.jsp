@@ -22,7 +22,7 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<td colspan=3 class="text-center text-bold">View Self
+								<td colspan=4 class="text-center text-bold">View Self
 										Assignment</td>
 							</tr>
 						</thead>
@@ -30,42 +30,44 @@
 							<tr>
 								<td>Assignment Date</td>
 								<td>:</td>
-								<td>15-11-2013 <b>Assignee </b> : Hizkia Purba
+								<td>15-11-2013 </td>
+								<td><b>Assignee </b> : Hizkia Purba
 								</td>
 							</tr>
 							<tr>
 								<td>Assignment Type</td>
 								<td>:</td>
-								<td>Project</td>
+								<td colspan=2>Project</td>
 							</tr>
 							<tr>
 								<td>Assign By</td>
 								<td>:</td>
-								<td>TAPS <b>Report to </b> : Toto hugo
+								<td>TAPS </td>
+								<td><b>Report to </b> : Toto hugo
 								</td>
 							</tr>
 							<tr>
 								<td>Activty Type</td>
 								<td>:</td>
-								<td>Routine</td>
+								<td colspan=2>Routine</td>
 							</tr>
 							<tr>
 								<td>Reff Task Code</td>
 								<td>:</td>
-								<td>PRJ131100002</td>
+								<td colspan=2>PRJ131100002</td>
 							</tr>
 							<tr>
 								<td>Manhours</td>
 								<td>:</td>
-								<td>00:30</td>
+								<td colspan=2>00:30</td>
 							</tr>
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
+								<td colspan=2>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
 							</tr>
 							<tr>
-								<td colspan=3 class="text-right">
+								<td colspan=4 class="text-right">
 									<button id="back-btn" class="button info">Back</button>
 								</td>
 							</tr>

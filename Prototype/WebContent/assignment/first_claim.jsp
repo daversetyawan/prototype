@@ -22,7 +22,7 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<td colspan=3 class="text-center text-bold">Claim
+								<td colspan=4 class="text-center text-bold">Claim
 									Assignment</td>
 							</tr>
 						</thead>
@@ -30,34 +30,34 @@
 							<tr>
 								<td>Assignment Date</td>
 								<td>:</td>
-								<td>15-11-2013</td>
+								<td colspan=2>15-11-2013</td>
 							</tr>
 							<tr>
 								<td>Assignment Type</td>
 								<td>:</td>
-								<td>Business Unit</td>
+								<td colspan=2>Business Unit</td>
 							</tr>
 							<tr>
 								<td>Assign To</td>
 								<td>:</td>
-								<td>Devri <b>Assignment From </b> : Kartiko
-								</td>
+								<td>Devri </td>
+								<td><b>Assignment From </b> : Kartiko</td>
 							</tr>
 							<tr>
 								<td>Reff Assignment</td>
 								<td>:</td>
-								<td>PRJ131100002</td>
+								<td colspan=2>PRJ131100002</td>
 							</tr>
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td>- Membuat tampilan Task<br />- Membuat Tampilan Home
+								<td colspan=2>- Membuat tampilan Task<br />- Membuat Tampilan Home
 								</td>
 							</tr>
 							<tr>
 								<td class="size3">Assignment Date</td>
 								<td>:</td>
-								<td><div class="input-control text size2" id="datepicker">
+								<td colspan=2><div class="input-control text size2" id="datepicker">
 										<input type="text">
 										<button class="btn-date"></button>
 									</div></td>
@@ -65,7 +65,7 @@
 							<tr>
 								<td class="size3">Manhours</td>
 								<td>:</td>
-								<td><div class="auto-complete">
+								<td colspan=2><div class="auto-complete">
 										<div class="control-group">
 											<select required class="demo-default size-mh">
 												<option value="">00:00</option>
@@ -124,10 +124,10 @@
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td><textarea rows="3" class="input-control textarea">- Membuat tampilan Task dan Tampilan Home</textarea></td>
+								<td colspan=2><textarea rows="3" class="input-control textarea">- Membuat tampilan Task dan Tampilan Home</textarea></td>
 							</tr>
 							<tr>
-								<td colspan=3 class="text-right">
+								<td colspan=4 class="text-right">
 									<button id="firstclaim-btn" class="button success">Claim</button>
 									<button id="firstclaimclose-btn" class="button success">RFA</button>
 									<button id="firstcancel-btn" class="button info">Cancel</button>
