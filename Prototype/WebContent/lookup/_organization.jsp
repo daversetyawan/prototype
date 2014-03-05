@@ -10,9 +10,9 @@
 						<div class="control-group">
 							<select id="select-search" required class="demo-default size2-5">
 								<option value=''>All</option>
-							<option value='organizationCode'>Organization Code</option>
-							<option value='organizationName'>Organization Name</option>
-							<option value='headName'>Head Name</option>
+								<option value='organizationCode'>Organization Code</option>
+								<option value='organizationName'>Organization Name</option>
+								<option value='headName'>Head Name</option>
 							</select>
 						</div>
 					</div>
@@ -92,12 +92,25 @@
 				<td class='text-center'>CDD Description</td>
 			</tr>
 			<tr>
-				<td colspan=3 class='text-center'><button
-						class='button success'>Paging</button></td>
+				<td colspan=3 class='text-center'><div class="pagination">
+						<ul>
+							<li class="first"><a><i class="icon-first-2"></i></a></li>
+							<li class="prev"><a><i class="icon-previous"></i></a></li>
+							<li><a>1</a></li>
+							<li><a>2</a></li>
+							<li class="active"><a>3</a></li>
+							<li class="spaces"><a>...</a></li>
+							<li class="disabled"><a>4</a></li>
+							<li><a>500</a></li>
+							<li class="next"><a><i class="icon-next"></i></a></li>
+							<li class="last"><a><i class="icon-last-2"></i></a></li>
+						</ul>
+					</div></td>
 			</tr>
 
 			<tr>
-				<td colspan=3 class='text-right'><button class='button success' onclick="javascript:chooseBussinessUnit()">Add</button></td>
+				<td colspan=3 class='text-right'><button class='button success'
+						onclick="javascript:chooseBussinessUnit()">Add</button></td>
 			</tr>
 		</tbody>
 	</table>
