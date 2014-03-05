@@ -104,7 +104,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="claim.jsp">Correction</a></td>
+								<td class="text-center"><a href="correction.jsp">Correction</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
@@ -140,7 +140,7 @@
 								<td>Hizkia Purba</td>
 								<td class="text-center">2013-11-20</td>
 								<td class="text-center">2013-11-14</td>
-								<td class="text-center"><a href="claim.jsp">Correction</a></td>
+								<td class="text-center"><a href="correction.jsp">Correction</a></td>
 							</tr>
 							<tr>
 								<td class="text-center">2013-11-14</td>
