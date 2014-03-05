@@ -20,8 +20,37 @@ function appraisalBtn() {
 }
 
 function chooseBussinessUnit() {
-	var nilai = $("input[name='organization_choose']:checked").val();
-	alert(nilai.split('@')[0]);
-	$("#parent_organization").val(nilai.split('@')[1]);
+	var choosen = $("input[name='organization_choose']:checked").val();
+	$("#parent_organization_id").val(choosen.split('@')[0]);
+	$("#parent_organization").val(choosen.split('@')[1]);
+	$("#organization_id").val(choosen.split('@')[0]);
+	$("#parent_organization").val(choosen.split('@')[1]);
+	$.Dialog.close();
+}
+
+function chooseEmployee() {
+	var choosen = $("input[name='employee_choose']:checked").val();
+	$("#employee_id").val(choosen.split('@')[0]);
+	$("#employee_name").val(choosen.split('@')[1]);
+	$.Dialog.close();
+}
+
+function chooseEmployee2() {
+	var choosen = $("input[name='employee_choose']:checked").val();
+	$("#employee_id-2").val(choosen.split('@')[0]);
+	$("#employee_name-2").val(choosen.split('@')[1]);
+	$.Dialog.close();
+}
+
+function chooseProject() {
+	var choosen = $("input[name='employee_choose']:checked").val();
+	$("#project_code").val(choosen.split('@')[0]);
+	$("#project_name").val(choosen.split('@')[1]);
+	$.Dialog.close();
+}
+
+function chooseTask() {
+	var choosen = $("input[name='task_choose']:checked").val();
+	$("#task_code").val(choosen);
 	$.Dialog.close();
 }
