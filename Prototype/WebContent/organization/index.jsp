@@ -67,7 +67,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td class="text-center">MAN</td>
+								<td>MAN</td>
 								<td class="text-center">Manajemen</td>
 								<td>Guntur Gozali</td>
 								<td class="text-center"><a href="structure.jsp"
@@ -81,7 +81,7 @@
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
-								<td class="text-center">CSD</td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSD</td>
 								<td class="text-center">Custom Solution Division</td>
 								<td>Ricky Suryo Utomo</td>
 								<td class="text-center"><a href="structure.jsp"
@@ -95,7 +95,7 @@
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
-								<td class="text-center">CDD</td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDD</td>
 								<td class="text-center">Custom Development Department</td>
 								<td>Toto Hugo</td>
 								<td class="text-center"><a href="structure.jsp"
@@ -109,7 +109,7 @@
 										alt="" src="../images/DELETE.png"></a></td>
 							</tr>
 							<tr>
-								<td class="text-center">MAD</td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MAD</td>
 								<td class="text-center">Mobile Application Department</td>
 								<td>Rolensa Mandeno</td>
 								<td class="text-center"><a href="structure.jsp"
