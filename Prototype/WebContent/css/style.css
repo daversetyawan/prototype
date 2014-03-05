@@ -68,12 +68,10 @@ body {
 
 .menu-accordion {
 	background-color: #262626;
-	color: white;
 }
 
 .menu-accordion-choosen {
-	background-color: white;
-	color: #262626;
+	background-color: #888;
 }
 
 .mini-padding {

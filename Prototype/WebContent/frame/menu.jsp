@@ -13,7 +13,7 @@
 			<div class="accordion-frame dropdown-toggle">
 				<a href="#" class="heading menu-accordion">Employee</a>
 				<div class="content choose">
-					<a href="../assignment/index.jsp"><span
+					<a href="../assignment/index.jsp" class="menu"><span
 						class="icon-clipboard-2 mini-padding"></span>&nbsp;&nbsp;Employee
 						Report</a>
 				</div>
@@ -22,12 +22,12 @@
 			<div class="accordion-frame">
 				<a href="#" class="heading">Supervisor</a>
 				<div class="content choose">
-					<a href="../assignment/index.jsp"><span
+					<a href="../assignment/index.jsp" class="menu"><span
 						class="icon-clipboard-2 mini-padding"></span>&nbsp;&nbsp;Employee
 						Report</a>
 				</div>
 				<div class="content choose">
-					<a href="../assignment/index.jsp"><span
+					<a href="../assignment/index.jsp" class="menu"><span
 						class="icon-list mini-padding"></span>&nbsp;&nbsp;Assignment</a>
 				</div>
 			</div>
@@ -35,12 +35,12 @@
 			<div class="accordion-frame dropdown-toggle">
 				<a href="#" class="heading">Head BU</a>
 				<div class="content choose">
-					<a href="../report/index.jsp"><span
+					<a href="../report/index.jsp" class="menu"><span
 						class="icon-clipboard-2 mini-padding"></span>&nbsp;&nbsp;Employee
 						Report</a>
 				</div>
 				<div class="content choose">
-					<a href="../appraisal/index.jsp"><span
+					<a href="../appraisal/index.jsp" class="menu"><span
 						class="icon-trophy mini-padding"></span>&nbsp;&nbsp;Special
 						Appraisal</a>
 				</div>
@@ -49,15 +49,15 @@
 			<div class="accordion-frame">
 				<a href="#" class="heading">Administrator</a>
 				<div class="content choose">
-					<a href="../employee/index.jsp"><span
+					<a href="../employee/index.jsp" class="menu"><span
 						class="icon-user mini-padding"></span>&nbsp;&nbsp;Employee</a>
 				</div>
 				<div class="content choose">
-					<a href="../organization/index.jsp"><span
+					<a href="../organization/index.jsp" class="menu"><span
 						class="icon-briefcase-2 mini-padding"></span>&nbsp;&nbsp;Organization</a>
 				</div>
 				<div class="content choose">
-					<a href="../project/index.jsp"><span
+					<a href="../project/index.jsp" class="menu"><span
 						class="icon-puzzle mini-padding"></span>&nbsp;&nbsp;Project</a>
 				</div>
 			</div>
