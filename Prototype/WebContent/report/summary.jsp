@@ -38,7 +38,27 @@
 			"employee" : table.rows[5].cells[0].innerHTML,
 			"manhour" : table.rows[5].cells[3].innerHTML,
 			"star" : table.rows[5].cells[4].innerHTML
-		} ];
+		}, {
+			"employee" : table.rows[6].cells[0].innerHTML,
+			"manhour" : table.rows[6].cells[3].innerHTML,
+			"star" : table.rows[6].cells[4].innerHTML
+		} , {
+			"employee" : table.rows[7].cells[0].innerHTML,
+			"manhour" : table.rows[7].cells[3].innerHTML,
+			"star" : table.rows[7].cells[4].innerHTML
+		} , {
+			"employee" : table.rows[8].cells[0].innerHTML,
+			"manhour" : table.rows[8].cells[3].innerHTML,
+			"star" : table.rows[8].cells[4].innerHTML
+		} , {
+			"employee" : table.rows[9].cells[0].innerHTML,
+			"manhour" : table.rows[9].cells[3].innerHTML,
+			"star" : table.rows[9].cells[4].innerHTML
+		} , {
+			"employee" : table.rows[10].cells[0].innerHTML,
+			"manhour" : table.rows[10].cells[3].innerHTML,
+			"star" : table.rows[10].cells[4].innerHTML
+		}  ];
 
 		// SERIAL CHART
 		chart = new AmCharts.AmSerialChart();
@@ -158,6 +178,46 @@
 								<td class="text-center">30</td>
 								<td class="text-center">100</td>
 								<td class="text-center">77</td>
+								<td class="text-center">CDD</td>
+							</tr>
+							<tr>
+								<td class="text-center">Gerilya</td>
+								<td class="text-center">20</td>
+								<td class="text-center">30</td>
+								<td class="text-center">100</td>
+								<td class="text-center">77</td>
+								<td class="text-center">CDD</td>
+							</tr>
+							<tr>
+								<td class="text-center">Yousuck</td>
+								<td class="text-center">18</td>
+								<td class="text-center">24</td>
+								<td class="text-center">86</td>
+								<td class="text-center">70</td>
+								<td class="text-center">MSD</td>
+							</tr>
+							<tr>
+								<td class="text-center">Meytan</td>
+								<td class="text-center">24</td>
+								<td class="text-center">34</td>
+								<td class="text-center">104</td>
+								<td class="text-center">80</td>
+								<td class="text-center">CDD</td>
+							</tr>
+							<tr>
+								<td class="text-center">Risa</td>
+								<td class="text-center">28</td>
+								<td class="text-center">34</td>
+								<td class="text-center">110</td>
+								<td class="text-center">86</td>
+								<td class="text-center">BAD</td>
+							</tr>
+							<tr>
+								<td class="text-center">Cik Sanny</td>
+								<td class="text-center">40</td>
+								<td class="text-center">40</td>
+								<td class="text-center">120</td>
+								<td class="text-center">100</td>
 								<td class="text-center">CDD</td>
 							</tr>
 						</tbody>
