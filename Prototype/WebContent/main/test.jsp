@@ -15,11 +15,11 @@
 <body class="metro">
 <jsp:include page="../frame/test-header.jsp" />
 
-<div class="container" style="margin-top: 50px;">
+<div class="container container-taps">
 <div class="grid">
-		<div class="row row-taps">
+		<div class="row row-taps shadow-taps">
 		<h2 class="fg-steel">Things To Do</h2>
-						<div class="span9" style="float: none; margin-left: auto; margin-right: auto;">
+						<div class="span9 center-taps">
 							<a href="#" data-hint="Approval Assignment"
 								data-hint-position="left" class="tile bg-cyan"> <span
 								class="tile-content icon"> <img alt=""
@@ -53,11 +53,11 @@
 							</a>
 						</div>
 						</div>
+						
 						<div class="row row-taps">
-						
-						<div class="span6">
+						<div class="span7 left-taps">
 						<h2 class="fg-steel">Top Ten Business Unit</h2>
-							<table class="table bordered">
+							<table class="table bordered shadow-taps">
 								<thead>
 									<tr>
 										<th>Employee</th>
@@ -119,9 +119,9 @@
 							</table>
 						</div>
 						
-						<div class="span6">
+						<div class="span7 right-taps">
 						<h2 class="fg-steel">Top Ten All</h2>
-							<table class="table bordered" border="5">
+							<table class="table bordered shadow-taps">
 								<thead>
 									<tr>
 										<th>Employee</th>
@@ -182,7 +182,6 @@
 								</tbody>
 							</table>
 						</div>
-						
 					</div>
 					</div>
 	</div>
