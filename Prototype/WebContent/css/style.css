@@ -87,7 +87,8 @@ body {
 }
 
 textarea {
-	font-family: 'Segoe UI_','Open Sans',Verdana,Arial,Helvetica,sans-serif;
+	font-family: 'Segoe UI_', 'Open Sans', Verdana, Arial, Helvetica,
+		sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	cursor: text;
@@ -95,4 +96,10 @@ textarea {
 
 .float-right {
 	float: right;
+}
+
+.chart-report {
+	width: 640px;
+	height: 480px;
+	background-color: white;
 }

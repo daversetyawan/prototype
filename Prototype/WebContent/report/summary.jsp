@@ -12,10 +12,8 @@
 <link rel="stylesheet" href="../css/style-amchart.css" type="text/css">
 <script src="../js/amchart/amcharts.js" type="text/javascript"></script>
 <script src="../js/amchart/serial.js" type="text/javascript"></script>
-<script src="../js/amchart/exporting/amexport.js"
-	type="text/javascript"></script>
-<script src="../js/amchart/exporting/rgbcolor.js"
-	type="text/javascript"></script>
+<script src="../js/amchart/exporting/amexport.js" type="text/javascript"></script>
+<script src="../js/amchart/exporting/rgbcolor.js" type="text/javascript"></script>
 <script src="../js/amchart/exporting/canvg.js" type="text/javascript"></script>
 <script src="../js/amchart/exporting/jspdf.js" type="text/javascript"></script>
 <script src="../js/amchart/exporting/filesaver.js"
@@ -31,43 +29,53 @@
 		var chartData = [ {
 			"employee" : table.rows[1].cells[0].innerHTML,
 			"manhour" : table.rows[1].cells[3].innerHTML,
-			"star" : table.rows[1].cells[4].innerHTML
+			"star" : table.rows[1].cells[4].innerHTML,
+			"color" : "#FF0F00"
 		}, {
 			"employee" : table.rows[2].cells[0].innerHTML,
 			"manhour" : table.rows[2].cells[3].innerHTML,
-			"star" : table.rows[2].cells[4].innerHTML
+			"star" : table.rows[2].cells[4].innerHTML,
+			"color" : "#FF6600"
 		}, {
 			"employee" : table.rows[3].cells[0].innerHTML,
 			"manhour" : table.rows[3].cells[3].innerHTML,
-			"star" : table.rows[3].cells[4].innerHTML
+			"star" : table.rows[3].cells[4].innerHTML,
+			"color" : "#FF9E01"
 		}, {
 			"employee" : table.rows[4].cells[0].innerHTML,
 			"manhour" : table.rows[4].cells[3].innerHTML,
-			"star" : table.rows[4].cells[4].innerHTML
+			"star" : table.rows[4].cells[4].innerHTML,
+			"color" : "#FCD202"
 		}, {
 			"employee" : table.rows[5].cells[0].innerHTML,
 			"manhour" : table.rows[5].cells[3].innerHTML,
-			"star" : table.rows[5].cells[4].innerHTML
+			"star" : table.rows[5].cells[4].innerHTML,
+			"color" : "#F8FF01"
 		}, {
 			"employee" : table.rows[6].cells[0].innerHTML,
 			"manhour" : table.rows[6].cells[3].innerHTML,
-			"star" : table.rows[6].cells[4].innerHTML
+			"star" : table.rows[6].cells[4].innerHTML,
+			"color" : "#B0DE09"
 		}, {
 			"employee" : table.rows[7].cells[0].innerHTML,
 			"manhour" : table.rows[7].cells[3].innerHTML,
-			"star" : table.rows[7].cells[4].innerHTML
+			"star" : table.rows[7].cells[4].innerHTML,
+			"color" : "#04D215"
 		}, {
 			"employee" : table.rows[8].cells[0].innerHTML,
 			"manhour" : table.rows[8].cells[3].innerHTML,
-			"star" : table.rows[8].cells[4].innerHTML
+			"star" : table.rows[8].cells[4].innerHTML,
+			"color" : "#0D8ECF"
 		}, {
 			"employee" : table.rows[9].cells[0].innerHTML,
 			"manhour" : table.rows[9].cells[3].innerHTML,
-			"star" : table.rows[9].cells[4].innerHTML
+			"star" : table.rows[9].cells[4].innerHTML,
+			"color" : "#0D52D1"
 		}, {
 			"employee" : table.rows[10].cells[0].innerHTML,
 			"manhour" : table.rows[10].cells[3].innerHTML,
-			"star" : table.rows[10].cells[4].innerHTML
+			"star" : table.rows[10].cells[4].innerHTML,
+			"color" : "#2A0CD0"
 		} ];
 
 		AmCharts.makeChart("chartdiv", {
@@ -76,40 +84,33 @@
 			categoryField : "employee",
 			depth3D : 0,
 			angle : 30,
-
 			categoryAxis : {
 				labelRotation : 90,
 				gridPosition : "start"
 			},
-
 			valueAxes : [ {
 				title : "Manhour"
 			} ],
-
 			graphs : [ {
-
 				valueField : "manhour",
-				//                 colorField: "color",
+				colorField : "color",
 				type : "column",
 				balloonText : "Manhour:[[value]]",
 				lineAlpha : 0,
 				fillAlphas : 1
 			}, {
-
 				valueField : "star",
-				//                 colorField: "color",
+				colorField : "color",
 				type : "column",
 				balloonText : "Star:[[value]]",
 				lineAlpha : 0,
 				fillAlphas : 1
 			} ],
-
 			chartCursor : {
 				cursorAlpha : 0,
 				zoomable : false,
 				categoryBalloonEnabled : false
 			},
-
 			exportConfig : {
 				menuTop : "21px",
 				menuBottom : "auto",
@@ -143,6 +144,87 @@
 			}
 		});
 
+		AmCharts.makeChart("chartdiv2", {
+			type : "serial",
+			dataProvider : chartData,
+			categoryField : "employee",
+			depth3D : 0,
+			angle : 10,
+			startDuration : 1,
+			plotAreaBorderColor : "#DADADA",
+			plotAreaBorderAlpha : 1,
+			rotate : true,
+			creditsPosition : "bottom-right",
+			categoryAxis : {
+				labelRotation : 90,
+				gridPosition : "start",
+				gridAlpha : 0.1,
+				axisAlpha : 0
+			},
+			valueAxes : [ {
+				title : "Manhour & Star",
+				gridAlpha : 0.1,
+				axisAlpha : 0,
+				position : "top"
+			} ],
+			graphs : [ {
+				valueField : "manhour",
+				colorField : "color",
+				type : "column",
+				title : "Manhour",
+				balloonText : "Manhour:[[value]]",
+				labelText : "[[value]] hours",
+				lineAlpha : 0,
+				fillColors : "#ADD981",
+				fillAlphas : 1
+			}, {
+				valueField : "star",
+				colorField : "color",
+				type : "column",
+				title : "Star",
+				balloonText : "Star:[[value]]",
+				labelText : "[[value]] star",
+				lineAlpha : 0,
+				fillColors : "#81acd9",
+				fillAlphas : 1
+			} ],
+			chartCursor : {
+				cursorAlpha : 0,
+				zoomable : false,
+				categoryBalloonEnabled : false
+			},
+			exportConfig : {
+				menuTop : "56px",
+				menuBottom : "auto",
+				menuRight : "21px",
+				backgroundColor : "#efefef",
+
+				menuItemStyle : {
+					backgroundColor : '#EFEFEF',
+					rollOverBackgroundColor : '#DDDDDD'
+				},
+
+				menuItems : [ {
+					textAlign : 'center',
+					icon : '../images/export.png',
+					onclick : function() {
+					},
+					items : [ {
+						title : 'JPG',
+						format : 'jpg'
+					}, {
+						title : 'PNG',
+						format : 'png'
+					}, {
+						title : 'SVG',
+						format : 'svg'
+					}, {
+						title : 'PDF',
+						format : 'pdf'
+					} ]
+				} ]
+			}
+		});
 		// SERIAL CHART
 		chart = new AmCharts.AmSerialChart();
 		chart.dataProvider = chartData;
@@ -196,8 +278,7 @@
 
 		chart.creditsPosition = "bottom-right";
 
-		// WRITE
-		chart.write("chartdiv2");
+		chart.write("chartdiv3");
 	});
 </script>
 <title>Summary</title>
@@ -210,8 +291,9 @@
 		<div class="row">
 			<div class="span12">
 				<div class="content-taps">
-					<div id="chartdiv" style="width: 640px; height: 480px;"></div>
-					<div id="chartdiv2" style="width: 640px; height: 480px;"></div>
+					<div id="chartdiv" class="chart-report"></div>
+					<div id="chartdiv2" class="chart-report"></div>
+					<div id="chartdiv3" class="chart-report"></div>
 					<table id="summary" class="table">
 						<thead>
 							<tr>
