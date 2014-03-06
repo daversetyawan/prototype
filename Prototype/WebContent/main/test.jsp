@@ -18,7 +18,7 @@
 <div class="container">
 <div class="grid">
 		<div class="row row-taps">
-		<h2 class="fg-steel">Things to do</h2>
+		<h2 class="fg-steel">Things To Do</h2>
 						<div class="span9" style="float: none; margin-left: auto; margin-right: auto;">
 							<a href="#" data-hint="Approval Assignment"
 								data-hint-position="left" class="tile bg-cyan"> <span
@@ -54,8 +54,9 @@
 						</div>
 						</div>
 						<div class="row row-taps">
-						<h2 class="fg-steel">Most Wanted Employees</h2>
-						<div class="span8">
+						
+						<div class="span6">
+						<h2 class="fg-steel">Top Ten Business Unit</h2>
 							<table class="table bordered">
 								<thead>
 									<tr>
@@ -117,6 +118,71 @@
 								</tbody>
 							</table>
 						</div>
+						
+						<div class="span6">
+						<h2 class="fg-steel">Top Ten All</h2>
+							<table class="table bordered">
+								<thead>
+									<tr>
+										<th>Employee</th>
+										<th>Total Star</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="text-center"><img src="../images/test-ava.jpg"
+											style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
+										<td class="text-center">77</td>
+									</tr>
+									<tr>
+										<td class="text-center"><img src="../images/test-ava.jpg"
+											style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
+										<td class="text-center">77</td>
+									</tr>
+									<tr>
+										<td class="text-center"><img src="../images/test-ava.jpg"
+											style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
+										<td class="text-center">77</td>
+									</tr>
+									<tr>
+										<td class="text-center"><img src="../images/test-ava.jpg"
+											style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
+										<td class="text-center">77</td>
+									</tr>
+									<tr>
+										<td class="text-center"><img src="../images/test-ava.jpg"
+											style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
+										<td class="text-center">77</td>
+									</tr>
+									<tr>
+										<td class="text-center"><img src="../images/test-ava.jpg"
+											style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
+										<td class="text-center">77</td>
+									</tr>
+									<tr>
+										<td class="text-center"><img src="../images/test-ava.jpg"
+											style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
+										<td class="text-center">77</td>
+									</tr>
+									<tr>
+										<td class="text-center"><img src="../images/test-ava.jpg"
+											style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
+										<td class="text-center">77</td>
+									</tr>
+									<tr>
+										<td class="text-center"><img src="../images/test-ava.jpg"
+											style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
+										<td class="text-center">77</td>
+									</tr>
+									<tr>
+										<td class="text-center"><img src="../images/test-ava.jpg"
+											style="width: 30px; height: 45px;"> Kamashwanee (DRS)</td>
+										<td class="text-center">77</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						
 					</div>
 					</div>
 	</div>
