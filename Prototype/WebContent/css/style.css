@@ -1,8 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 body {
-	background: #e5e5e5 url('../images/bg.jpg') center center no-repeat
-		fixed;
+	background-color: #e3e3e3;
 }
 
 .content-taps {
@@ -53,10 +52,9 @@ body {
 }
 
 .footer-taps {
-	margin-right: 15px;
-	margin-bottom: 10px;
-	text-align: right;
-	color: #c3c3c3;
+	margin: 10px auto;
+	text-align: center;
+	color: #444;
 	font-family: Calibri;
 	font-size: 0.8em;
 }
@@ -93,6 +91,17 @@ textarea {
 	cursor: text;
 }
 
-.float-right {
-	float: right;
+.row-taps {
+	padding: 20px;
+	padding-top: 0px;
+	background-color: #fff;
+	-webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    2px 2px 3px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         2px 2px 3px 0px rgba(50, 50, 50, 0.5);
+}
+
+.notif-taps {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
 }
