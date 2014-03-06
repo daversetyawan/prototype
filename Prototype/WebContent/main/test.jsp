@@ -15,7 +15,7 @@
 <body class="metro">
 <jsp:include page="../frame/test-header.jsp" />
 
-<div class="container">
+<div class="container" style="margin-top: 50px;">
 <div class="grid">
 		<div class="row row-taps">
 		<h2 class="fg-steel">Things To Do</h2>
@@ -121,7 +121,7 @@
 						
 						<div class="span6">
 						<h2 class="fg-steel">Top Ten All</h2>
-							<table class="table bordered">
+							<table class="table bordered" border="5">
 								<thead>
 									<tr>
 										<th>Employee</th>
