@@ -54,7 +54,7 @@
 						</div>
 						</div>
 						
-						<div class="row row-taps">
+						<div class="row row-taps shadow-taps">
 						<div class="span7 left-taps">
 						<h2 class="fg-steel">Top Ten Business Unit</h2>
 							<table class="table bordered shadow-taps">
