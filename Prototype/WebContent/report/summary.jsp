@@ -12,6 +12,16 @@
 <link rel="stylesheet" href="../css/style-amchart.css" type="text/css">
 <script src="../js/amchart/amcharts.js" type="text/javascript"></script>
 <script src="../js/amchart/serial.js" type="text/javascript"></script>
+<script src="../js/amchart/exporting/amexport.js"
+	type="text/javascript"></script>
+<script src="../js/amchart/exporting/rgbcolor.js"
+	type="text/javascript"></script>
+<script src="../js/amchart/exporting/canvg.js" type="text/javascript"></script>
+<script src="../js/amchart/exporting/jspdf.js" type="text/javascript"></script>
+<script src="../js/amchart/exporting/filesaver.js"
+	type="text/javascript"></script>
+<script src="../js/amchart/exporting/jspdf.plugin.addimage.js"
+	type="text/javascript"></script>
 
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -42,23 +52,96 @@
 			"employee" : table.rows[6].cells[0].innerHTML,
 			"manhour" : table.rows[6].cells[3].innerHTML,
 			"star" : table.rows[6].cells[4].innerHTML
-		} , {
+		}, {
 			"employee" : table.rows[7].cells[0].innerHTML,
 			"manhour" : table.rows[7].cells[3].innerHTML,
 			"star" : table.rows[7].cells[4].innerHTML
-		} , {
+		}, {
 			"employee" : table.rows[8].cells[0].innerHTML,
 			"manhour" : table.rows[8].cells[3].innerHTML,
 			"star" : table.rows[8].cells[4].innerHTML
-		} , {
+		}, {
 			"employee" : table.rows[9].cells[0].innerHTML,
 			"manhour" : table.rows[9].cells[3].innerHTML,
 			"star" : table.rows[9].cells[4].innerHTML
-		} , {
+		}, {
 			"employee" : table.rows[10].cells[0].innerHTML,
 			"manhour" : table.rows[10].cells[3].innerHTML,
 			"star" : table.rows[10].cells[4].innerHTML
-		}  ];
+		} ];
+
+		AmCharts.makeChart("chartdiv", {
+			type : "serial",
+			dataProvider : chartData,
+			categoryField : "employee",
+			depth3D : 0,
+			angle : 30,
+
+			categoryAxis : {
+				labelRotation : 90,
+				gridPosition : "start"
+			},
+
+			valueAxes : [ {
+				title : "Manhour"
+			} ],
+
+			graphs : [ {
+
+				valueField : "manhour",
+				//                 colorField: "color",
+				type : "column",
+				balloonText : "Manhour:[[value]]",
+				lineAlpha : 0,
+				fillAlphas : 1
+			}, {
+
+				valueField : "star",
+				//                 colorField: "color",
+				type : "column",
+				balloonText : "Star:[[value]]",
+				lineAlpha : 0,
+				fillAlphas : 1
+			} ],
+
+			chartCursor : {
+				cursorAlpha : 0,
+				zoomable : false,
+				categoryBalloonEnabled : false
+			},
+
+			exportConfig : {
+				menuTop : "21px",
+				menuBottom : "auto",
+				menuRight : "21px",
+				backgroundColor : "#efefef",
+
+				menuItemStyle : {
+					backgroundColor : '#EFEFEF',
+					rollOverBackgroundColor : '#DDDDDD'
+				},
+
+				menuItems : [ {
+					textAlign : 'center',
+					icon : '../images/export.png',
+					onclick : function() {
+					},
+					items : [ {
+						title : 'JPG',
+						format : 'jpg'
+					}, {
+						title : 'PNG',
+						format : 'png'
+					}, {
+						title : 'SVG',
+						format : 'svg'
+					}, {
+						title : 'PDF',
+						format : 'pdf'
+					} ]
+				} ]
+			}
+		});
 
 		// SERIAL CHART
 		chart = new AmCharts.AmSerialChart();
@@ -114,7 +197,7 @@
 		chart.creditsPosition = "bottom-right";
 
 		// WRITE
-		chart.write("chartdiv");
+		chart.write("chartdiv2");
 	});
 </script>
 <title>Summary</title>
@@ -128,6 +211,7 @@
 			<div class="span12">
 				<div class="content-taps">
 					<div id="chartdiv" style="width: 640px; height: 480px;"></div>
+					<div id="chartdiv2" style="width: 640px; height: 480px;"></div>
 					<table id="summary" class="table">
 						<thead>
 							<tr>
