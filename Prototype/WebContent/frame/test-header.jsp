@@ -1,5 +1,5 @@
-<div class="bg-light">
-	<div class="navigation-bar header-taps">
+<div class="bg-dark">
+	<div class="navigation-bar dark header-taps">
 		<div class="navigation-bar-content container">
 			<a href="#" class="element"> <img alt="logo" class="logo" src="../images/LOGO_PANJANG2.png"></a>
 			<a class="pull-menu" href="#"></a>
