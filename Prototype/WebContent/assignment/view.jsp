@@ -19,7 +19,7 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<td colspan=4 class="text-center text-bold">View Assignment</td>
+								<td colspan=4 class="text-center text-bold"><h3>View Assignment</h3></td>
 							</tr>
 						</thead>
 						<tbody>

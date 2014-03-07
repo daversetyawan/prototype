@@ -117,23 +117,23 @@ $(document).ready(
 				window.location.replace("index_claim.jsp");
 			});
 
-			$("#pr").hide();
+			$(".pr").hide();
 			$("#bu").show();
-			$("#adhoc").hide();
+			$(".adhoc").hide();
 			$("input[name='assignment_type']").change(function() {
 				if ($(this).val() == "Project") {
-					$("#pr").show();
+					$(".pr").show();
 					$("#bu").hide();
 				} else {
-					$("#pr").hide();
+					$(".pr").hide();
 					$("#bu").show();
 				}
 			});
 			$("input[name='activity_type']").change(function() {
 				if ($(this).val() == "AdHoc") {
-					$("#adhoc").show();
+					$(".adhoc").show();
 				} else {
-					$("#adhoc").hide();
+					$(".adhoc").hide();
 				}
 			});
 			$("#save-btn").click(function() {

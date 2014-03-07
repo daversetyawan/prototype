@@ -17,28 +17,28 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th colspan=3 class="text-center">New Assignment</th>
+								<th colspan=3 class="text-center"><h3>New Assignment</h3></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="size3">Assignment Date</td>
+								<td>Assignment Date</td>
 								<td>:</td>
-								<td><div class="input-control text size2" id="datepicker-begin">
+								<td><div class="input-control text " id="datepicker-begin">
 										<input type="text">
 										<button class="btn-date"></button>
 									</div></td>
 							</tr>
 							<tr>
-								<td class="size3">Assignment Due Date</td>
+								<td>Assignment Due Date</td>
 								<td>:</td>
-								<td><div class="input-control text size2" id="datepicker-end">
+								<td><div class="input-control text" id="datepicker-end">
 										<input type="text">
 										<button class="btn-date"></button>
 									</div></td>
 							</tr>
 							<tr>
-								<td class="size3">Assignment Type</td>
+								<td>Assignment Type</td>
 								<td>:</td>
 								<td>
 									<div class="input-control radio margin10">
@@ -55,30 +55,31 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="size3">Assign To</td>
+								<td>Assign To</td>
 								<td>:</td>
-								<td><div id="pr" class="in-bl">
-										<div class="input-control text size3">
+								<td><div class="pr" class="in-bl">
+										<div class="input-control text">
 											<input type="text" placeholder="Project" readonly="readonly" />
 											<button class="btn-search" id="project"></button>
 										</div>
 									</div>
-									<div class="input-control text size3">
+									<br/>
+									<div class="input-control text">
 										<input type="text" placeholder="Employee" readonly="readonly" />
 										<button class="btn-search" id="employee"></button>
 									</div></td>
 							</tr>
 							<tr>
-								<td class="size3">Reff Task Code</td>
+								<td>Reff Task Code</td>
 								<td>:</td>
-								<td><div class="input-control text size3">
+								<td><div class="input-control text">
 										<input type="text" placeholder="Reff Task Code"
 											readonly="readonly" />
 										<button class="btn-search" id="task"></button>
 									</div></td>
 							</tr>
 							<tr>
-								<td class="size3">Description</td>
+								<td>Description</td>
 								<td>:</td>
 								<td><textarea rows="3" class="input-control textarea"></textarea></td>
 							</tr>
