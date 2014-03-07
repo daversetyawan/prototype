@@ -20,27 +20,27 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th colspan=3 class="text-center">Special Appraisal</th>
+								<th colspan=3 class="text-center"><h3>Special Appraisal</h3></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="size3">Appraisal Date</td>
+								<td>Appraisal Date</td>
 								<td>:</td>
 								<td>25/02/2014</td>
 							</tr>
 							<tr>
-								<td class="size3">Appraisal To</td>
+								<td>Appraisal To</td>
 								<td>:</td>
 								<td>Devri</td>
 							</tr>
 							<tr>
-								<td class="size3">Appraisal Description</td>
+								<td>Appraisal Description</td>
 								<td>:</td>
 								<td>UI UI UI</td>
 							</tr>
 							<tr>
-								<td class="size3">Appraisal Star</td>
+								<td>Appraisal Star</td>
 								<td>:</td>
 								<td>
 									<div class="rating" id="rating">

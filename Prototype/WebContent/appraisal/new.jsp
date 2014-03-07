@@ -19,33 +19,35 @@
 				<table class="table">
 					<thead>
 						<tr>
-							<th colspan=3 class="text-center">Special Appraisal</th>
+							<th colspan=3 class="text-center"><h3>Special Appraisal</h3></th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td class="size3">Appraisal Date</td>
+							<td>Appraisal Date</td>
 							<td>:</td>
-							<td><div class="input-control text size2" id="datepicker">
+							<td><div class="input-control text" id="datepicker">
 									<input type="text">
 									<button class="btn-date"></button>
 								</div></td>
 						</tr>
 						<tr>
-							<td class="size3">Appraisal To</td>
+							<td>Appraisal To</td>
 							<td>:</td>
-							<td><div class="input-control text size3">
+							<td><div class="input-control text">
 									<input type="text" placeholder="Employee" readonly="readonly" />
 									<button class="btn-search" id="employee"></button>
 								</div></td>
 						</tr>
 						<tr>
-							<td class="size3">Appraisal Description</td>
+							<td>Appraisal Description</td>
 							<td>:</td>
-							<td><textarea rows="3" cols="80"></textarea></td>
+							<td><div class="input-control textarea">
+									<textarea></textarea>
+								</div></td>
 						</tr>
 						<tr>
-							<td class="size3">Appraisal Star edit</td>
+							<td>Appraisal Star edit</td>
 							<td>:</td>
 							<td>
 								<div class="rating fg-yellow" id="rating">
