@@ -24,9 +24,9 @@
 						data-hint-position="left" class="tile bg-cyan"> <span
 						class="tile-content icon"> <img alt=""
 							src="../images/APPROVAL_ASSIGNMENT.png">
-					</span> <span class="brand"> <span class="badge bg-red">0</span>
+					</span> <span class="brand"> <span class="badge bg-gray">0</span>
 					</span>
-					</a> <a href="../assignment/index_claim.jsp" id="shake"
+					</a> <a href="../assignment/index_claim.jsp" id="_edit_this"
 						data-hint="Claim Assignment" data-hint-position="left"
 						class="tile bg-cyan"> <span class="tile-content icon">
 							<img alt="" src="../images/CLAIM_ASSIGNMENT.png">
@@ -36,19 +36,19 @@
 						data-hint-position="left" class="tile bg-cyan"> <span
 						class="tile-content icon"> <img alt=""
 							src="../images/CLAIM_NEW_ASSIGNMENT.png">
-					</span> <span class="brand"> <span class="badge bg-red">0</span>
+					</span> <span class="brand"> <span class="badge bg-gray">0</span>
 					</span>
 					</a> <a href="#" data-hint="Correction Assignment"
 						data-hint-position="left" class="tile bg-cyan"> <span
 						class="tile-content icon"> <img alt=""
 							src="../images/CORRECTION_ASSIGNMENT.png">
-					</span> <span class="brand"> <span class="badge bg-red">0</span>
+					</span> <span class="brand"> <span class="badge bg-gray">0</span>
 					</span>
 					</a> <a href="#" data-hint="Correction Self Assignment"
 						data-hint-position="left" class="tile bg-cyan"> <span
 						class="tile-content icon"> <img alt=""
 							src="../images/CORRECTION_NEW_ASSIGNMENT.png">
-					</span> <span class="brand"> <span class="badge bg-red">0</span>
+					</span> <span class="brand"> <span class="badge bg-gray">0</span>
 					</span>
 					</a>
 				</div>

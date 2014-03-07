@@ -10,13 +10,6 @@ $(document).ready(
 				effect : "none",
 				position : "bottom"
 			});
-			$('#shake').jrumble({
-				x : 0,
-				y : 3,
-				rotation : 0,
-				speed : 150
-			});
-			$('#shake').trigger('startRumble');
 
 			$(".choose").click(
 					function(e) {

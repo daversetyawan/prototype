@@ -1,28 +1,13 @@
 @CHARSET "ISO-8859-1";
 
 body {
-	margin-top: -60px;
 	background-color: #e3e3e3;
 	background-image: url('../images/bg.jpg');
 	background-attachment: fixed;
 }
 
-.content-taps {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
 .clear {
 	clear: both;
-}
-
-.dashboard {
-	margin-top: 45px;
-	position: relative;
-	left: 300px;
-	width: 1000px;
-	min-height: 660px;
 }
 
 .logo {
@@ -39,14 +24,6 @@ body {
 	float: right;
 }
 
-.header-menu-taps {
-	height: 65px;
-}
-
-.menu-taps {
-	min-height: 1000px;
-}
-
 .header-taps {
 	position: fixed;
 	top: 0;
@@ -59,19 +36,6 @@ body {
 	color: #666;
 	font-family: Calibri;
 	font-size: 0.8em;
-}
-
-.span-menu-taps {
-	width: 250px;
-	position: fixed;
-}
-
-.menu-accordion {
-	background-color: #262626;
-}
-
-.menu-accordion-choosen {
-	background-color: #888;
 }
 
 .mini-padding {
@@ -127,7 +91,7 @@ textarea {
 }
 
 .container-taps {
-	padding-top: 100px;
+	padding-top: 40px;
 }
 
 .span-ranking-taps {
