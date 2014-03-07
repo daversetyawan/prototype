@@ -20,12 +20,12 @@
 				<table class="table">
 					<thead>
 						<tr>
-							<th colspan=3 class="text-center">Employee Report</th>
+							<th colspan=3 class="text-center">Employee Report (employee)</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td class="size3">Assignment Due Date</td>
+							<td class="size3 text-right">Assignment Due Date</td>
 							<td>:</td>
 							<td><div class="input-control text size3"
 									id="datepicker-begin">
