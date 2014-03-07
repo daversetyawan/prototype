@@ -20,15 +20,6 @@
 	<div class="container container-taps">
 		<div class="grid">
 			<div class="row row-taps shadow-taps">
-				<table class="table">
-					<thead>
-
-					</thead>
-					<tbody>
-
-					</tbody>
-				</table>
-
 				<table class="table striped bordered hovered">
 					<thead>
 						<tr>

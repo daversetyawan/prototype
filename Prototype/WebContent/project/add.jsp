@@ -20,24 +20,24 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th colspan="3">Add Project Structure</th>
+								<th colspan="3"><h3>Add Project Structure</h3></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="size3">Role</td>
+								<td>Role</td>
 								<td>:</td>
 								<td>
-									<div class="input-control text size3">
+									<div class="input-control text">
 										<input type="text" placeholder="Organization Name" />
 									</div>
 								</td>
 							</tr>
 							<tr>
-								<td class="size3">Assignee</td>
+								<td>Assignee</td>
 								<td>:</td>
 								<td>
-									<div class="input-control text size3">
+									<div class="input-control text">
 										<input type="text" placeholder="Assignee To"
 											readonly="readonly" />
 										<button class="btn-search" id="employee"></button>
@@ -45,10 +45,10 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="size3">Direct Report</td>
+								<td>Direct Report</td>
 								<td>:</td>
 								<td>
-									<div class="input-control text size3">
+									<div class="input-control text">
 										<input type="text" placeholder="Report To" readonly="readonly" />
 										<button class="btn-search" id="employee-2"></button>
 									</div>
