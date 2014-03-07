@@ -14,12 +14,7 @@
 							<option value='employeeName'>Employee Name</option>
 							<option value='employeeAddress'>Employee Address</option>
 						</select>
-					</div> <!-- 					<div class="auto-complete"> --> <!-- 						<div class="control-group"> -->
-					<!-- 							<select id="select-search" required class="demo-default size3"> -->
-					<!-- 								<option value=''>All</option> --> <!-- 								<option value='employeeCode'>Employee Code</option> -->
-					<!-- 								<option value='employeeName'>Employee Name</option> -->
-					<!-- 								<option value='employeeAddress'>Employee Address</option> -->
-					<!-- 							</select> --> <!-- 						</div> --> <!-- 					</div> -->
+					</div>
 				</td>
 				<td colspan=4 class="text-center">
 					<div class="input-control text size8">
