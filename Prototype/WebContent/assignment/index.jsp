@@ -17,51 +17,47 @@
 	<div class="container container-taps">
 		<div class="grid">
 			<div class="row row-taps shadow-taps">
-				<table class="table">
+				<table class="table striped bordered hovered">
 					<thead>
 						<tr>
-							<th colspan=3 class="text-center">Employee Report (employee)</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="size3 text-right">Assignment Due Date</td>
-							<td>:</td>
-							<td><div class="input-control text size3"
-									id="datepicker-begin">
-									<input type="text" class="text-center">
-									<button class="btn-date"></button>
-								</div> -
-								<div class="input-control text size3" id="datepicker-end">
-									<input type="text" class="text-center">
-									<button class="btn-date"></button>
-								</div></td>
+							<th colspan=7 class="text-center"><h3>Employee Report</h3></th>
 						</tr>
 						<tr>
-							<td class="text-center">
-								<div class="auto-complete">
-									<div class="control-group">
-										<select id="select-search" required class="demo-default size3">
-											<option value="">All</option>
-											<option value="taskCode">Assignment Code</option>
-											<option value="taskType">Assignment Type</option>
-											<option value="employee">Employee Name</option>
-										</select>
-									</div>
+							<th colspan=2 class="text-center">Assignment Deadline From</th>
+							<th colspan=5>
+								<div class="input-control text" id="datepicker-begin">
+									<input type="text" class="text-center">
+									<button class="btn-date"></button>
 								</div>
-							</td>
-							<td colspan=2 class="text-center">
-								<div class="input-control text size11">
+							</th>
+						</tr>
+						<tr>
+							<th colspan=2 class="text-center">Assignment Deadline To</th>
+							<th colspan=5>
+								<div class="input-control text" id="datepicker-end">
+									<input type="text" class="text-center">
+									<button class="btn-date"></button>
+								</div>
+							</th>
+						</tr>
+						<tr>
+							<th colspan=2 class="text-center">
+								<div class="input-control select">
+									<select>
+										<option value="">All</option>
+										<option value="taskCode">Assignment Code</option>
+										<option value="taskType">Assignment Type</option>
+										<option value="employee">Employee Name</option>
+									</select>
+								</div>
+							</th>
+							<th colspan=5 class="text-center">
+								<div class="input-control text">
 									<input type="text" placeholder="Keyword of Assignment" />
 									<button class="btn-search"></button>
 								</div>
-							</td>
+							</th>
 						</tr>
-					</tbody>
-				</table>
-
-				<table class="table striped bordered hovered">
-					<thead>
 						<tr>
 							<th class="text-center">Assignment Date</th>
 							<th class="text-center">Assignment Code</th>
