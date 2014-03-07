@@ -18,29 +18,12 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th colspan=3 class="text-center">Generate Report</th>
+								<th colspan=3 class="text-center"><h3>Generate Report</h3></th>
 							</tr>
 						</thead>
 						<tbody>
-<!-- 							<tr> -->
-<!-- 								<td class="size3">Report Type</td> -->
-<!-- 								<td>:</td> -->
-<!-- 								<td> -->
-<!-- 									<div class="input-control radio margin10"> -->
-<!-- 										<label> <input type="radio" name="report_type" -->
-<!-- 											checked="checked" /> <span class="check"></span> Project -->
-<!-- 										</label> -->
-<!-- 									</div> -->
-<!-- 									<div class="input-control radio margin10"> -->
-
-<!-- 										<label> <input type="radio" name="report_type" /> <span -->
-<!-- 											class="check"></span> Employee -->
-<!-- 										</label> -->
-<!-- 									</div> -->
-<!-- 								</td> -->
-<!-- 							</tr> -->
 							<tr>
-								<td class="size3">Period</td>
+								<td>Period</td>
 								<td>:</td>
 								<td>
 									<div class="input-control radio margin10">
@@ -57,7 +40,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="size3">Choose</td>
+								<td>Choose</td>
 								<td>:</td>
 								<td>
 									<div id="6month" class="auto-complete">
@@ -71,7 +54,7 @@
 										</div>
 									</div>
 
-									<div id="1month" class="auto-complete">
+									<div id="1month" class="auto-complete">	
 										<div class="control-group">
 											<select id="select-month" required class="demo-default size2">
 												<option value="">Month</option>
