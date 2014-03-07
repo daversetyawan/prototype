@@ -6,26 +6,21 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="icon" type="image/png" href="../images/LOGO_TITLE.png"><jsp:include page="../js/import.jsp" />
+<jsp:include page="../js/import.jsp" />
 
 <title>Appraisal</title>
 </head>
 
 <body class="metro">
 	<jsp:include page="../frame/header.jsp" />
-	<jsp:include page="../frame/menu.jsp" />
 
-	<div class="grid dashboard">
-		<div class="row">
-			<div class="span12">
-				<div class="content-taps">
-					<div class="row">
+	<div class="container container-taps">
+		<div class="grid">
+			<div class="row row-taps shadow-taps">
+				<h2 class="fg-steel">Special Appraisal</h2>
 
 						<table class="table striped bordered hovered">
 							<thead>
-								<tr>
-									<th colspan=4 class="text-center">Special Appraisal</th>
-								</tr>
 								<tr>
 									<th class="text-center">Appraisal Date</th>
 									<th class="text-center">Appraisal To</th>
@@ -141,9 +136,6 @@
 
 				</div>
 			</div>
-		</div>
-	</div>
-
 	<jsp:include page="../frame/footer.jsp" />
 </body>
 

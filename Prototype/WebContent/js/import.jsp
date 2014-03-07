@@ -1,3 +1,5 @@
+<link rel="icon" type="image/png" href="../images/LOGO_TITLE.png">
+
 <link rel="stylesheet" href="../css/metro-bootstrap.css">
 <link rel="stylesheet" href="../css/metro-bootstrap-responsive.css">
 <link rel="stylesheet" href="../css/style.css">

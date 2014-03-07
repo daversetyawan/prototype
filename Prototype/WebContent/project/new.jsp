@@ -7,19 +7,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="icon" type="image/png" href="../images/LOGO_TITLE.png"><jsp:include page="../js/import.jsp" />
+<jsp:include page="../js/import.jsp" />
 
 <title>Project</title>
 </head>
 
 <body class="metro">
-	<jsp:include page="../frame/header.jsp" />
-	<jsp:include page="../frame/menu.jsp" />
+<jsp:include page="../frame/header.jsp" />
 
-	<div class="grid dashboard">
-		<div class="row">
-			<div class="span12">
-				<div class="content-taps">
+	<div class="container container-taps">
+		<div class="grid">
+			<div class="row row-taps shadow-taps">
 					<table class="table">
 						<thead>
 							<tr>
@@ -149,7 +147,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 	<jsp:include page="../frame/footer.jsp" />
 	<div id="popup_organization" class="hide"><jsp:include
 			page="../lookup/_organization.jsp" /></div>

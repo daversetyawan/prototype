@@ -6,8 +6,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="icon" type="image/png" href="../images/LOGO_TITLE.png"><jsp:include
-	page="../js/import.jsp" />
+<jsp:include page="../js/import.jsp" />
 
 <link rel="stylesheet" href="../css/style-amchart.css" type="text/css">
 <script src="../js/amchart/amcharts.js" type="text/javascript"></script>
@@ -296,13 +295,11 @@
 <title>Summary</title>
 </head>
 <body class="metro">
-	<jsp:include page="../frame/header.jsp" />
-	<jsp:include page="../frame/menu.jsp" />
+<jsp:include page="../frame/header.jsp" />
 
-	<div class="grid dashboard">
-		<div class="row">
-			<div class="span12">
-				<div class="content-taps">
+	<div class="container container-taps">
+		<div class="grid">
+			<div class="row row-taps shadow-taps">
 					<div id="chartdiv" class="chart-report"></div>
 					<div id="chartdiv2" class="chart-report"></div>
 					<div id="chartdiv3" class="chart-report"></div>
@@ -408,7 +405,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 	<jsp:include page="../frame/footer.jsp" />
 
 

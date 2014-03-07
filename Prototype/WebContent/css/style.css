@@ -1,6 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 body {
+	margin-top: -60px;
 	background-color: #e3e3e3;
 }
 
@@ -53,7 +54,7 @@ body {
 .footer-taps {
 	margin: 10px auto;
 	text-align: center;
-	color: #444;
+	color: #666;
 	font-family: Calibri;
 	font-size: 0.8em;
 }
@@ -124,5 +125,11 @@ textarea {
 }
 
 .container-taps {
-	margin-top: 50px !important;
+	padding-top: 100px;
+}
+
+.span-ranking-taps {
+	width: 540px;
+	margin-left: 0px !important;
+	margin-right: 10px;
 }
