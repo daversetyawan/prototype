@@ -27,18 +27,18 @@
 						<tbody>
 							<tr>
 								<td>Business Unit</td>
-								<td colspan="2">???</td>
+								<td colspan="2">CDD</td>
 							</tr>
 							<tr>
 								<td>Business Unit Head</td>
-								<td colspan="2">???</td>
+								<td colspan="2">Toto Hugo</td>
 							</tr>
 							<tr>
 								<td class="text-center">
 									<div class="auto-complete">
 										<div class="control-group">
 											<select id="select-search" required
-												class="demo-default size2-5">
+												class="demo-default size3">
 												<option value="">All</option>
 												<option value="employeeCode">Employee Code</option>
 												<option value="employeeName">Employee Name</option>
@@ -47,7 +47,7 @@
 									</div>
 								</td>
 								<td class="text-center">
-									<div class="input-control text size9">
+									<div class="input-control text size11">
 										<input type="text"
 											placeholder="Keyword of Member in Organization" />
 										<button class="btn-search"></button>
