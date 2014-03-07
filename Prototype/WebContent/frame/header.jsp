@@ -41,7 +41,7 @@
     
     <ul class="element-menu place-right">
 				<li><button class="element image-button image-left"><img src="../images/ava.jpg" />Wirya Jaya</button></li>			
-				<li><a title="Logout" href="#" class="element"><span class="icon-exit"></span> Logout</a></li>
+				<li><a title="Logout" href="#" class="element"><span class="icon-exit"></span> Sign out</a></li>
 			</ul>
 			
 		</div>
