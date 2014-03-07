@@ -32,7 +32,7 @@
 									<div class="auto-complete">
 										<div class="control-group">
 											<select id="select-search" required
-												class="demo-default size2-5">
+												class="demo-default size3">
 												<option value="">All</option>
 												<option value="employeeDomain">Employee Domain</option>
 												<option value="employeeCode">Employee Code</option>
@@ -43,7 +43,7 @@
 									</div>
 								</td>
 								<td class="text-center">
-									<div class="input-control text size9">
+									<div class="input-control text size11">
 										<input type="text" placeholder="Keyword of Employee" />
 										<button class="btn-search"></button>
 									</div>

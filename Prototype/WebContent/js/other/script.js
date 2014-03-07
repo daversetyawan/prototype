@@ -67,10 +67,11 @@ $(document).ready(
 			// APPRAISAL
 			// =================================================================================
 			$("#rating").rating({
-				stars : 10,
-//                showScore: true,
-                scoreHint: "",
-                static:false,
+				stars : 11,
+				score : 6,
+				// showScore : true,
+				// scoreHint: "",
+				static : false,
 				click : function(value, rating) {
 					rating.rate(value);
 				}
@@ -115,7 +116,7 @@ $(document).ready(
 			$("#firstcancel-btn").click(function() {
 				window.location.replace("index_claim.jsp");
 			});
-			
+
 			$("#pr").hide();
 			$("#bu").show();
 			$("#adhoc").hide();

@@ -10,31 +10,31 @@
 					class="icon-home"></span> Dashboard</a>
 				</li>
 			<li>
-    <a class="dropdown-toggle element" href="#"><i class="icon-tree-view"></i> Employee</a>
+    <a class="dropdown-toggle element" href="#"><i class="icon-user-3"></i> Employee</a>
     <ul class="dropdown-menu" data-role="dropdown">
-    <li><a href="../assignment/index.jsp">Employee Report</a></li>
+    <li><a href="../assignment/index.jsp"><span class="icon-clipboard-2"></span> Employee Report</a></li>
     </ul>
     </li>
     <li>
-    <a class="dropdown-toggle element" href="#"><i class="icon-tree-view"></i> Supervisor</a>
+    <a class="dropdown-toggle element" href="#"><i class="icon-user-3"></i> Supervisor</a>
     <ul class="dropdown-menu" data-role="dropdown">
-    <li><a href="../assignment/index.jsp">Employee Report</a></li>
-    <li><a href="../assignment/index.jsp">Assignment</a></li>
+    <li><a href="../assignment/index.jsp"><span class="icon-clipboard-2"></span> Employee Report</a></li>
+    <li><a href="../assignment/index.jsp"><span class="icon-list"></span> Assignment</a></li>
     </ul>
     </li>
     <li>
-    <a class="dropdown-toggle element" href="#"><i class="icon-tree-view"></i> Head BU</a>
+    <a class="dropdown-toggle element" href="#"><i class="icon-user-3"></i> Head BU</a>
     <ul class="dropdown-menu" data-role="dropdown">
-    <li><a href="../report/index.jsp">Employee Report</a></li>
-    <li><a href="../appraisal/index.jsp">Special Appraisal</a></li>
+    <li><a href="../report/index.jsp"><span class="icon-clipboard-2"></span> Employee Report</a></li>
+    <li><a href="../appraisal/index.jsp"><span class="icon-trophy"></span> Special Appraisal</a></li>
     </ul>
     </li>
     <li>
-    <a class="dropdown-toggle element" href="#"><i class="icon-tree-view"></i> Administrator</a>
+    <a class="dropdown-toggle element" href="#"><i class="icon-user-3"></i> Administrator</a>
     <ul class="dropdown-menu" data-role="dropdown">
-    <li><a href="../employee/index.jsp">Employee</a></li>
-    <li><a href="../organization/index.jsp">Organization</a></li>
-    <li><a href="../project/index.jsp">Project</a></li>
+    <li><a href="../employee/index.jsp"><span class="icon-user"></span> Employee</a></li>
+    <li><a href="../organization/index.jsp"><span class="icon-briefcase-2"></span> Organization</a></li>
+    <li><a href="../project/index.jsp"><span class="icon-puzzle"></span> Project</a></li>
     </ul>
     </li>
     </ul>
