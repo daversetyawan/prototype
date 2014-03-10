@@ -11,7 +11,6 @@
 <link href="css/style-login.css" rel="stylesheet">
 <script src="js/jquery/jquery.min.js"></script>
 <script type="text/javascript">
-	// coba push 
 	function enablingLogin() {
 		$("#login-btn").removeAttr('disabled');
 		$("#login-btn").attr('style', 'cursor: pointer;');
