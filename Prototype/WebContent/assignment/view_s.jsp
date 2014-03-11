@@ -1,6 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 
+<%@taglib uri="/WEB-INF/tld/struts-html.tld" prefix="html"%>
+<%@taglib uri="/WEB-INF/tld/struts-logic.tld" prefix="logic"%>
+<%@taglib uri="/WEB-INF/tld/struts-nested.tld" prefix="bean"%>
+
 <!doctype html>
 <html>
 <head>
@@ -12,7 +16,7 @@
 </head>
 <body class="metro">
 <jsp:include page="../frame/header.jsp" />
-
+<html:form action="" method="">
 	<div class="container container-taps">
 		<div class="grid">
 			<div class="row row-taps shadow-taps">
@@ -27,41 +31,41 @@
 							<tr>
 								<td>Assignment Date</td>
 								<td>:</td>
-								<td>15-11-2013 </td>
-								<td><b>Assignee </b> : Hizkia Purba
+								<td><bean:write property=""	name="" /> </td>
+								<td><b>Assignee </b> : <bean:write property=""	name="" />
 								</td>
 							</tr>
 							<tr>
 								<td>Assignment Type</td>
 								<td>:</td>
-								<td colspan=2>Project</td>
+								<td colspan=2><bean:write property=""	name="" /></td>
 							</tr>
 							<tr>
 								<td>Assign By</td>
 								<td>:</td>
-								<td>TAPS </td>
-								<td><b>Report to </b> : Toto hugo
+								<td><bean:write property=""	name="" /></td>
+								<td><b>Report to </b> : <bean:write property=""	name="" />
 								</td>
 							</tr>
 							<tr>
 								<td>Activty Type</td>
 								<td>:</td>
-								<td colspan=2>Routine</td>
+								<td colspan=2><bean:write property=""	name="" /></td>
 							</tr>
 							<tr>
 								<td>Reff Task Code</td>
 								<td>:</td>
-								<td colspan=2>PRJ131100002</td>
+								<td colspan=2><bean:write property=""	name="" /></td>
 							</tr>
 							<tr>
 								<td>Manhours</td>
 								<td>:</td>
-								<td colspan=2>00:30</td>
+								<td colspan=2><bean:write property=""	name="" /></td>
 							</tr>
 							<tr>
 								<td>Description</td>
 								<td>:</td>
-								<td colspan=2>- Membuat tampilan Task<br />- Membuat Tampilan Home</td>
+								<td colspan=2><bean:write property=""	name="" /></td>
 							</tr>
 							<tr>
 								<td>Update Assignment Star</td>
@@ -107,22 +111,17 @@
 								<td class="text-center text-bold">Status</td>
 							</tr>
 							<tr>
-								<td class="text-center">2013-11-15</td>
-								<td class="text-center">Ganti sesuatu</td>
-								<td class="text-center">Ricky Suryo Utomo</td>
-								<td class="text-center">Correction</td>
-							</tr>
-							<tr>
-								<td class="text-center">2013-11-15</td>
-								<td class="text-center">done bro</td>
-								<td class="text-center">Hizkia Purba</td>
-								<td class="text-center">Claim</td>
+								<td class="text-center"><bean:write property=""	name="" /></td>
+								<td class="text-center"><bean:write property=""	name="" /></td>
+								<td class="text-center"><bean:write property=""	name="" /></td>
+								<td class="text-center"><bean:write property=""	name="" /></td>
 							</tr>
 						</tbody>
 					</table>
 			</div>
 		</div>
-	
+	</div>
+</html:form>
 	<jsp:include page="../frame/footer.jsp"/>
 <%-- 	<div id="popup_updatestar" class="hide"><jsp:include --%>
 <%-- 			page="../lookup/_approve.jsp" /></div> --%>
